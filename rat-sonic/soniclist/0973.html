@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="US-ASCII
+"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII
+" />
+<meta name="generator" content="hypermail 2.3.0, see http://www.hypermail-project.org/" />
+<title>How to access ftpmail from Erich Schulman (KTN4CA) -- Team OS/2 on 1995-05-28 (sonicmail.txt)</title>
+<meta name="Author" content="Erich Schulman (KTN4CA) -- Team OS/2 ("Erich)" />
+<meta name="Subject" content="How to access ftpmail" />
+<meta name="Date" content="1995-05-28" />
+<style type="text/css">
+/*<![CDATA[*/
+/* To be incorporated in the main stylesheet, don't code it in hypermail! */
+body {color: black; background: #ffffff}
+dfn {font-weight: bold;}
+pre { background-color:inherit;}
+.head { border-bottom:1px solid black;}
+.foot { border-top:1px solid black;}
+th {font-style:italic;}
+table { margin-left:2em;}map ul {list-style:none;}
+#mid { font-size:0.9em;}
+#received { float:right;}
+address { font-style:inherit ;}
+/*]]>*/
+.quotelev1 {color : #990099}
+.quotelev2 {color : #ff7700}
+.quotelev3 {color : #007799}
+.quotelev4 {color : #95c500}
+.period {font-weight: bold}
+</style>
+</head>
+<body>
+<div class="head">
+<h1>How to access ftpmail</h1>
+<!-- received="Sun May 28 15:00:21 1995
+" -->
+<!-- isoreceived="19950528220021" -->
+<!-- sent="Sun, 28 May 1995 14:53:19 -0400 (EDT)
+" -->
+<!-- isosent="19950528185319" -->
+<!-- name="Erich Schulman (KTN4CA) &ndash;&ndash; Team OS/2" -->
+<!-- email=""Erich" -->
+<!-- subject="How to access ftpmail" -->
+<!-- id="Pine.SOL.3.91.950528142324.19536E-100000_at_use.usit.net" -->
+<!-- charset="US-ASCII
+" -->
+<!-- expires="-1" -->
+<map id="navbar" name="navbar">
+<ul class="links">
+<li>
+<dfn>This message</dfn>:
+[ <a href="#start973" name="options1" id="options1" tabindex="1">Message body</a> ]
+ [ More options (<a href="#options2">top</a>, <a href="#options3">bottom</a>) ]
+</li>
+<li>
+<dfn>Related messages</dfn>:
+<!-- unext="start" -->
+[ <a href="0974.html" accesskey="d" title="Robin Hood: &quot;Re: Is Manak IMproving?&quot;">Next message</a> ]
+[ <a href="0972.html" title="Erich Schulman (KTN4CA) -- Team OS/2: &quot;Welcome to sonic and sonic-digest&quot;">Previous message</a> ]
+<!-- unextthread="start" -->
+<!-- ureply="end" -->
+</li>
+</ul>
+</map>
+<ul class="links">
+<li><a name="options2" id="options2"></a><dfn>Contemporary messages sorted</dfn>: [ <a href="date.html#msg973" title="Contemporary messages by date">by date</a> ] [ <a href="index.html#msg973" title="Contemporary discussion threads">by thread</a> ] [ <a href="subject.html#msg973" title="Contemporary messages by subject">by subject</a> ] [ <a href="author.html#msg973" title="Contemporary messages by author">by author</a> ] [ <a href="attachment.html" title="Contemporary messages by attachment">by messages with attachments</a> ]</li>
+</ul>
+</div>
+<!-- body="start" -->
+<div class="mail">
+<address class="headers">
+<span id="from">
+<dfn>From</dfn>: Erich Schulman (KTN4CA) -- Team OS/2 &lt;<a href="mailto:%22Erich?Subject=Re%3A%20How%20to%20access%20ftpmail">"Erich</a>&gt;
+</span><br />
+<span id="date"><dfn>Date</dfn>: Sun, 28 May 1995 14:53:19 -0400 (EDT)
+</span><br />
+</address>
+<br />
+ftpmail is a service users without access to regular ftp can use to 
+<br />
+obtain files from the sonic list's ftp site.
+<br />
+
+<br />
+There are two ftpmail servers.  For fastest results, you should probably 
+<br />
+use the decwrl site if you live in North or South America, or the UK site 
+<br />
+if you live in Europe, Asia, or Australia.
+<br />
+
+<br />
+The address for the decwrl site is:  ftpmail_at_decwrl.dec.com
+<br />
+The address for the UK site is:  ftpmail_at_doc.ic.ac.uk 
+<br />
+
+<br />
+It would be a good idea to request the help text from the server of your 
+<br />
+choice before you try to use ftpmail to obtain files.  For both servers, 
+<br />
+send the command &quot;help&quot; (but without the quote marks) in the body of a 
+<br />
+mail message to the ftpmail server.
+<br />
+
+<br />
+Both servers use commands similar to regular ftp, but the commands used 
+<br />
+by one server generally cannot be used when working with the other server.
+<br />
+Because most of the Sonic list subscribers live in the Americas, the 
+<br />
+remainder of this text concerns the decwrl server only.
+<br />
+
+<br />
+Here are some tips to make it easier to use the decwrl server.
+<br />
+
+<br />
+1. You must always include the command &quot;connect hff.mv.com&quot;.
+<br />
+2. Get a listing of files with the &quot;dir&quot; command.
+<br />
+3. Use &quot;chdir&quot; to change directory.  You are allowed to change directory
+<br />
+&nbsp;&nbsp;&nbsp;only ONE TIME per message.  If you want to get files in multiple
+<br />
+&nbsp;&nbsp;&nbsp;directories, you must send multiple mail messages.  The directory
+<br />
+&nbsp;&nbsp;&nbsp;pathlist always starts /pub/sonic.
+<br />
+4. It is a good idea to place a &quot;reply&quot; command at the top of your message.
+<br />
+&nbsp;&nbsp;&nbsp;This will help ensure your files are sent to you correctly.  It's also a
+<br />
+&nbsp;&nbsp;&nbsp;good idea to use the &quot;quit&quot; command at the end so that the server will
+<br />
+&nbsp;&nbsp;&nbsp;ignore your signature.
+<br />
+5. When retrieving binary files, don't forget to use the &quot;binary&quot; command!
+<br />
+&nbsp;&nbsp;&nbsp;You will probably want to use the &quot;uuencode&quot; command after the &quot;binary&quot;
+<br />
+&nbsp;&nbsp;&nbsp;command.  The &quot;uuencode&quot; command is always used AFTER the &quot;binary&quot;
+<br />
+&nbsp;&nbsp;&nbsp;command!  If you do not specify &quot;uuencode&quot;, your files will be sent in
+<br />
+&nbsp;&nbsp;&nbsp;btoa format.  Contact your system administrator, your BBS SysOp, or a user
+<br />
+&nbsp;&nbsp;&nbsp;group in your community if you need help with uudecoding.
+<br />
+
+<br />
+Here are a few sample messages with valid commands for the decwrl server.
+<br />
+
+<br />
+
+<br />
+
+<br />
+help
+<br />
+
+<br />
+
+<br />
+reply larvae_at_butterfly.net
+<br />
+help
+<br />
+quit
+<br />
+
+<br />
+
+<br />
+reply larvae_at_butterfly.net
+<br />
+connect hff.mv.com
+<br />
+chdir /pub/sonic/list
+<br />
+get episode-summary
+<br />
+dir
+<br />
+quit
+<br />
+
+<br />
+
+<br />
+reply larvae_at_butterfly.net
+<br />
+connect hff.mv.com
+<br />
+chdir /pub/sonic/sounds
+<br />
+binary
+<br />
+uuencode
+<br />
+get waypastn.zip
+<br />
+quit
+<br />
+
+<br />
+
+<br />
+|-- Erich Schulman (KTN4CA) + Team OS/2 ---- acme_at_use.usit.net -----|
+<br />
+| A! JW2 WAR++ PI~ BR+i SL++++i SK+++ RI++^ RU+ GDF BU+ MI- MM KK-- |
+<br />
+| P++ D $++ E59 Ee5 Eee35 TRita Ay68 M                              |
+<br />
+|   &quot;Freedom Fighters are #1!&quot; -- Sonic the Hedgehog                |
+<br />
+|-- A net.freedom-fighter for Mobius! ------------------------------|
+<br />
+
+<br />
+
+<br />
+
+<br />
+<span id="received"><dfn>Received on</dfn> Sun May 28 1995 - 15:00:21 PDT</span>
+</div>
+<!-- body="end" -->
+<div class="foot">
+<map id="navbarfoot" name="navbarfoot" title="Related messages">
+<ul class="links">
+<li><dfn>This message</dfn>: [ <a href="#start973">Message body</a> ]</li>
+<!-- lnext="start" -->
+<li><dfn>Next message</dfn>: <a href="0974.html" title="Next message in the list">Robin Hood: "Re: Is Manak IMproving?"</a></li>
+<li><dfn>Previous message</dfn>: <a href="0972.html" title="Previous message in the list">Erich Schulman (KTN4CA) -- Team OS/2: "Welcome to sonic and sonic-digest"</a></li>
+<!-- lnextthread="start" -->
+<!-- lreply="end" -->
+</ul>
+<ul class="links">
+<li><a name="options3" id="options3"></a><dfn>Contemporary messages sorted</dfn>: [ <a href="date.html#msg973" title="Contemporary messages by date">by date</a> ] [ <a href="index.html#msg973" title="Contemporary discussion threads">by thread</a> ] [ <a href="subject.html#msg973" title="Contemporary messages by subject">by subject</a> ] [ <a href="author.html#msg973" title="Contemporary messages by author">by author</a> ] [ <a href="attachment.html" title="Contemporary messages by attachment">by messages with attachments</a> ]</li>
+</ul>
+</map>
+</div>
+<!-- trailer="footer" -->
+<p><small><em>
+This archive was generated by <a href="http://www.hypermail-project.org/">hypermail 2.3.0</a>
+: Thu Mar 19 2015 - 12:17:03 PDT
+</em></small></p>
+</body>
+</html>
