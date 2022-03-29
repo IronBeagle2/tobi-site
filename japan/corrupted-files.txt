@@ -19,3 +19,9 @@ snd/graphic/top_snd.jpg
 
 SONICADV2
 mov/adv2_trailer_sample.mpg
+
+MINITOY
+swf/04clock_win.zip
+swf/05fortunes.zip
+swf/mt1_chao.zip
+swf/mt3_humar.zip
