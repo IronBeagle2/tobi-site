@@ -1,0 +1,419 @@
+<HTML>
+<HEAD>
+<TITLE>Welcome to Netscape Navigator Version 1.2 Beta 1</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+
+
+<CENTER>
+<A HREF="/index.html">
+<IMG SRC="/home/help-on-version/images/release_notes.gif" WIDTH=468 HEIGHT=32 BORDER=0></A>
+<P>
+
+<H2>
+<FONT SIZE="+3">N</FONT>ETSCAPE
+<FONT SIZE="+3">N</FONT>AVIGATOR 1.2 BETA 1 FOR
+<FONT SIZE="+3">W</FONT>INDOWS
+</H2>
+
+</CENTER>
+
+You are using Netscape Navigator 1.2 Beta 1 for Windows. These release notes
+cover 
+<UL>
+<LI>Requirements
+<LI>What's New?
+<LI>Known Problems and Bugs
+<LI>Notes, Tips and Information
+</UL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>R</FONT>EQUIREMENTS
+</H3>
+</CENTER>
+
+<UL><LI>If you are running Windows 3.1 or WFW, you must use the 16-bit
+	Navigator even if you have Win32s installed.
+	<P>
+	<LI>If you are running Windows 95 or Windows NT, use the 32-bit
+	Navigator.
+</UL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>W</FONT>HAT'S
+<FONT SIZE=+2>N</FONT>EW?
+</H3>
+</CENTER>
+
+<UL>
+<LI><B>Windows 95 features:</B> Beta 1 of the Navigator includes support for the following Windows 95 requirements:
+	<UL><LI>Windows 95 look, including tabbed dialogs and proportional scrollbars.
+	<LI>Long filename support.
+	<LI>Uses the system colors.
+	</UL>
+<P>
+Internet shortucts will be available in beta 3 of the Navigator.
+<P>
+<LI><B>Registry instead of <tt>NETSCAPE.INI</tt> for the 32-bit version:</B>
+There is no <tt>NETSCAPE.INI</tt> file for the 32-bit version.  
+<P>
+The 32-bit version now uses the system registry.  The purpose of the 
+registry is to incorporate all the configuration information into
+a registration database file for controlled access.
+<P>
+To manually edit the Preferences, run <tt>regedit.exe</tt> .
+Preferences are stored under 
+<tt>HKEY_CURRENT_USER\Software\Netscape\Netscape Navigator</tt> .
+<P>
+
+<LI><B>Multi-user Preferences in Windows 95 and Windows NT:</B>
+If you share your computer with other users, you can personalize
+your Netscape Preferences settings so that your own settings will
+be restored when you log on. The next person who logs on to 
+Windows can modify his/her own settings without affecting yours.
+<P>
+In order to enable this multi-user settings feature
+in Windows 95, you need to
+modify your Win95's User Profile option, which locates in the
+Control Panel Passwords property.  Make sure the second option
+in your User Profile, which allows users to customize preferences
+and desktop settings, is checked.
+<P>
+For Windows NT, you don't have to do anything.  Each user automatically
+gets their own Netscape Preferences setting.
+<P>
+The default values for the Netscape Preferences will be the same for
+each user.  Initially, all users will be set up to share the same
+bookmarks, cache, cookie, global history, newsrc and temporary directories.
+If you do not wish to share these files, change the Preference settings
+to point to your own private copies of the
+files.  To change the location of cookie and global history files,
+you need to edit the Registry directly.  The other files and directories
+can be set under the Options Menu - Preferences.
+<P>
+<LI><B>Preferences window:</B>
+The Preferences window has been enhanced with tabbed dialogs.
+<P>
+<LI><B>New Bookmark Interface:</B>  By popular request, the interface to the
+bookmark file has been rewritten.  
+<P>
+In the main browser window, the
+View Bookmarks menu item brings up a new Netscape Bookmarks window.
+New pulldown menus in the Netscape Bookmarks window let you insert
+headers and separators to produce a hierarchical bookmark file, 
+change the name and other properties of existing bookmark items,
+import existing bookmark files, search
+forward through the titles and URLs in your bookmark file, load
+the URL of a bookmark in the main browser window, and edit
+the file using standard cut/copy/paste/delete functions.
+<P>
+Bookmark drag and drop was implemented.
+You can drag and drop items within the Netscape Bookmarks window
+to rearrange them.  Dragging a link from the main browser window to
+the Netscape Bookmarks window will add it to the bookmark file.
+Dragging a bookmark from the Netscape Bookmarks window to the
+main browser window will load a URL in that window.
+<P>
+<LI><B>Download in a Separate Context:</B>  Saving a file to disk via a user
+request, or downloading a file in order to launch a viewer is now
+done in a separate context.  A modeless dialog box pops up to let 
+you know which URL you are saving, and the destination or viewer.
+  There is a progress bar and cancel button, too.
+You can continue to surf the net from the window that created the
+modeless dialog box while downloading.
+<P>
+<LI><B>FTP Featurette: </B>Now Netscape is smarter when the protocol
+ identifier is not specified when entering a URL into the location field.  If the hostname
+is ftp or gopher, Netscape will use those particular protocols.  Otherwise
+Netscape will default to http.  Examples:<BR>
+Entering: <TT>ftp.netscape.com</TT><BR>
+Will give: <TT>ftp://ftp.netscape.com</TT>
+<P>
+When logging in to your ftp account, Netscape will now automatically go
+to your home directory; instead of the root directory.
+<P>
+<LI><B>Bug fixes:</B>
+    <P>
+    <UL>
+    <LI>Many printing bugs are fixed
+	<UL>
+	<LI>Epson Color Stylus problems 
+    <LI>Problems printing pages with horizontal rules 
+            on Postscript printers
+	<LI>Images print better
+	<LI>Bullets print (Not the exact same shape)
+	<LI>Tables longer than one page now print
+	<LI>Borders on tables are centered correctly
+	<LI>Newsgroup printing fixed 
+	</UL>
+    <P>
+    <LI>NAPLAYER nows works with Windows 95
+    <P>
+    <LI>Changes to Helper Applications Preferences are now
+        persistent between sessions.
+    <P>
+    <LI>Cache Bug:
+    A bug in the disk cache was fixed which would sometimes cause Netscape to
+    present out-of-date documents.  
+    <P>
+    <B>IMPORTANT:  </B>After upgrading to 1.2 it is recommended
+    that you flush your disk cache to remove any incorrect information 
+    that may have been
+    saved by an earlier release of the Netscape Navigator.
+    <P>
+	<LI>Window Icon:
+	Netscape now only has one icon per window
+	<P>
+	<LI>Table Fixes:
+	Lots of bug fixes with table layout
+	<P>
+	<LI>You can now start printing while downloading a page
+	<P>
+    <LI>And many more fixes since Netscape Navigator Version 1.1
+    </UL>
+<P>
+</UL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>K</FONT>NOWN
+<FONT SIZE=+2>P</FONT>ROBLEMS/<FONT SIZE=+2>B</FONT>UGS
+</H3>
+</CENTER>
+
+<DL>
+<DT><B> Tables </B>
+<DD>In rare cases, selecting text across multiple cells of a table
+can cause Netscape to go into an infinite loop.  
+<P>
+
+<DT><B>Backgrounds and Transparency</B>
+<DD>In 16 color VGA mode, images with transparent backgrounds do not show
+properly over other background images. Instead of transparent, the
+background is opaque, usually black. 
+<P>
+
+<DT><B>Image Display Bugs</B>
+
+<DD> For video boards with Cirrus Logic video chip sets on them, and
+possibly for
+other makers, an image can be displayed that may occasionally cause the
+program to "freeze" or GP Fault in the video driver.  If this happens,
+ensure you are using the latest versions of drivers for your video board.
+You can 
+download the latest version of the Cirrus Logic video driver from their ftp site
+<A HREF="ftp://ftp.cirrus.com">ftp://ftp.cirrus.com</a><p>
+
+<DD>When a page (with an image on it) is re-sized so that the horizontal scroll
+bar appears, sometimes the right edge of the image does not draw all the way
+to the right edge of the window.  The width of the vertical blank area on
+the right is about the width of the left margin, and is the color of the
+background.<p>
+
+<DD>When the video driver is in 4, 16, or 24 bits per pixel mode, drawing
+transparent images over backdrop images has black flicker during drawing.
+This does not happen when video mode is 8 bits per pixel.<p>
+
+<DT><B>Asynchronous DNS</B>
+<DD>
+If you think your winsock is not handling Async DNS correctly, try
+setting the Async option in the Windows 95 Registry or NETSCAPE.INI file to "no,"
+<pre>
+    [Network]
+    Use Async DNS=no
+</pre>
+The default is to use Async DNS, not using it will result in lower
+performance and can cause problems when multiple simultaneous
+connections are attempted.  You can also set
+<pre>
+    [Network]
+    Max Connections=1
+</pre>
+which will prevent problems when not using Async DNS but will also
+result in much slower performance.
+<P>
+PC-NFS from Sun and Spry's newly updated stack are the only winsocks we
+know of that require setting the "Async DNS" flag to "no".
+<P>
+
+<DT><B>Printing</B>
+<DD>An extra blank page is printed at the end of each file.
+<P>
+<DT><B>Bookmarks</B>
+<DD>If you have 3 folders in a row, you can't shuffle them
+using drag and drop or cut/copy/paste.
+Moving an item immediately after a folder/header
+will put the item IN the folder instead of AFTER it.
+You can, however, highlight the folder and INSERT
+items after it.  Then you
+can drag other folders and bookmarks after that item you INSERT-ed.
+<P>
+Moving an empty header up past a separator temporarily removes it from the
+menu.  It will reappear in the menu if you put something in it,
+or move it again.
+<P>
+Using the Properties window to remove the Name of a Bookmark or Header
+will remove it from the menu.  Restoring the Name will restore the item
+to the bookmark menu.
+<P>
+If you use the Options Preferences Applications and Directories menu to change from
+one bookmark file to another one, the second file will be overwritten
+by the contents of the first file.  If you want to change bookmark files,
+either import the second file, or manually update the Windows Registry
+or <tt>NETSCAPE.INI</tt> file.
+<P>
+The unsupported Mozilize utility doesn't convert hierarchical NCSA Mosaic
+hotlists.
+</DL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>N</FONT>OTES,
+<FONT SIZE=+2>T</FONT>IPS, AND
+<FONT SIZE=+2>I</FONT>NFORMATION
+</H3>
+</CENTER>
+
+<DL>
+<DL>
+<DT><B>Export Only</B>
+<DD>This release is exportable, and you will not be able to connect to using high-grade encryption keys.
+<P>
+<DT><B>Norton Desktop 3.0</B>
+<DD>Turn FileAssist OFF if you are having problems using Netscape's Find
+function.
+<P>
+<DT><B>Highlighting more than one Screen</B>
+<DD>To highlight more than one screen of text in a document, 
+position the mouse where you want to start selecting text.
+Hold the mouse button down while pressing the down arrow key
+<P>
+<DT><B>Importing Hotlists as Bookmarks</B>
+<DD>Netscape has an import command on the Bookmarks window that
+will read any HTML file containing links and convert those links into
+bookmarks. If you would like to import your NCSA Hotlist into
+Netscape, you can use the <A
+HREF="ftp://ftp.netscape.com/unsupported/windows/">Mozilize</A>
+utility to convert your hotlist to a Netscape style bookmark list.  This
+program is unsupported so your results may vary.
+<P>
+<DT><B>Helper Applications</B>
+<DD>For telnet, ftp, and for displaying audio and video,
+Netscape uses "Helper Applications". These applications are configured
+in your Preferences window. For
+help configuring this window, check out our documentation:
+<a href="http://home.netscape.com/assist/helper_apps/index.html">
+Helper Applications</A>
+<P>
+On Windows, LVIEW31.EXE (for JPEG images),
+MPEGPLAY.EXE (for MPEG movies), and  WHAM.EXE (for audio files) are
+all useful applications. One site where these can be found is <A
+HREF="ftp://ftp.cica.indiana.edu">ftp://ftp.cica.indiana.edu</A>, but
+that site is often difficult to reach. You can also try the mirror
+site on 
+<A HREF="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/</A>.
+
+<P>
+The files you want are:
+<PRE>
+Gif/Jpeg:
+---------
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip</A>
+
+
+MPEG:
+-----
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip</A>
+
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip</A>
+
+
+Video for Windows (AVI)
+-----------------------
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe</A>
+
+
+Audio
+-----
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham133.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham133.zip</A>
+
+</PRE>
+
+<P>
+<DT><B>How do I use Netscape without a network connection?</B>
+<DD>If you do not have a network connection but still want to user
+Netscape to browse local files you should get the file
+<A HREF="ftp://ftp.netscape.com/unsupported/windows/mozock.dll">mozock.dll</A>.
+If you install this file as winsock.dll Netscape will work fine with
+local file reads.  Be sure to shift-click on the above link or else
+Netscape will treat it as a text document.  Doh!
+If you want to get out to the rest of the net
+mozock.dll is not for you.
+</DL>
+</DL>
+
+
+<HR SIZE=4>
+
+<P>
+<CENTER>
+
+
+<!-- footer -->
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD WIDTH=600 HEIGHT=8><HR SIZE=1 NOSHADE></TD></TR>
+<TR><TD ALIGN=LEFT VALIGN=TOP><FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/help.html" TARGET="_top">Help</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/site_map.html" TARGET="_top">Site&nbsp;Map</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/howtoget.html" TARGET="_top">How&nbsp;to&nbsp;Get&nbsp;Netscape&nbsp;Products</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/ad.html" TARGET="_top">Advertise&nbsp;With&nbsp;Us</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/addsite.html" TARGET="_top">Add Site</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/custom_browser.html" TARGET="_top">Custom Browser Program</A></FONT></TD></TR>
+<TR>
+<TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP>
+<!-- Channels -->
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/channels/autos.html" TARGET="_top">Autos</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/business.html" TARGET="_top">Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/computers_internet.html" TARGET="_top">Computing&nbsp;&amp;&nbsp;Internet</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/entertainment.html" TARGET="_top">Entertainment</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/kids_family.html" TARGET="_top">Family</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/games.html" TARGET="_top">Games</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/health.html" TARGET="_top">Health</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/lifestyles.html" TARGET="_top">Lifestyles</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/local.html" TARGET="_top">Local</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/netscape.html" TARGET="_top">Netscape</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/open_directory.html">Netscape&nbsp;Open&nbsp;Directory</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/news.html" TARGET="_top">News</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/personalize_finance.html" TARGET="_top">Personal&nbsp;Finance</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/real_estate.html" TARGET="_top">Real Estate</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/education.html" TARGET="_top">Research&nbsp;&amp;&nbsp;Learn</A>&nbsp;&nbsp;&nbsp;|&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/shopping.html" TARGET="_top">Shopping</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/smallbiz.html" TARGET="_top">Small Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/sports.html" TARGET="_top">Sports</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/travel.html" TARGET="_top">Travel</A></FONT></TD></TR> 
+</TABLE>
+
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD></TR>
+<TR>
+<TD WIDTH=600 COLSPAN=5 VALIGN=TOP ALIGN=LEFT>
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2>
+&copy; 1999 Netscape, All Rights Reserved. <A HREF="http://home.netscape.com/legal_notices/index.html">Legal & Privacy Notices</A><BR>This site powered by <A HREF="http://home.netscape.com/comprod/server_central/index.html" TARGET="_top">Netscape SuiteSpot servers</A>.</FONT></TD>
+</TR>
+</TABLE>
+<!-- end footer -->
+
+
+
+
+</CENTER>
+
+</BODY>
+</HTML>

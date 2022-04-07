@@ -1,0 +1,620 @@
+<HTML>
+<HEAD>
+<TITLE>Welcome to Netscape Navigator Atlas Preview Release 1</TITLE>
+</HEAD>
+
+
+
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+
+<CENTER>
+
+<A HREF="/index.html">
+<IMG SRC="/assist/images/release_notes.gif" WIDTH=468 HEIGHT=32
+BORDER=0></A>
+
+<H2>
+<FONT SIZE="+3">N</FONT><FONT SIZE="+2">ETSCAPE </FONT>
+<FONT SIZE="+3">N</FONT><FONT SIZE="+2">AVIGATOR FOR </FONT>
+<FONT SIZE="+3">W</FONT><FONT SIZE="+2">INDOWS</FONT>
+<BR>
+<FONT SIZE="+2">A</FONT><FONT SIZE="+1">TLAS </FONT>
+<FONT SIZE="+2">P</FONT><FONT SIZE="+1">REVIEW </FONT>
+<FONT SIZE="+2">R</FONT><FONT SIZE="+1">ELEASE </FONT>
+<FONT SIZE="+2">1</FONT>
+</H2>
+<P>
+</CENTER>
+
+
+<HR SIZE=3>
+The Atlas Preview Release 1 is an early beta of a future version of
+Netscape Navigator. Customers can download and try this beta version,
+however, we cannot comment on product availability and price. As with
+all pre-release or beta versions of software, we recommend that you
+only use the software for evaluation purposes.
+<HR SIZE=3>
+
+<!-- Begin Timebomb -->
+
+<CENTER>
+<FONT COLOR="red">
+<B>*** Netscape Navigator Atlas Preview Release 1 ***
+<BR>*** expires July 15, 1996 ***</B>
+<P>
+<B>*** CoolTalk expires July 15, 1996 ***</B>
+<BR>
+<B>*** Live3D expires July 15, 1996 ***</B>
+</FONT>
+</CENTER>
+
+<!-- End Timebomb -->
+
+<HR SIZE=3>
+
+<P>
+These release notes cover:
+<UL>
+<LI><A HREF="#Features">New Features</A>
+<LI><A HREF="#Configuration">Configuration and Migration</A>
+<LI><A HREF="#Problems">Known Problems and Bugs</A>
+<LI><A TARGET="_top" HREF="http://cgi.netscape.com/cgi-bin/auto_bug.cgi">
+Unknown Problems and Bugs -- Please tell us about bugs you find.</A>
+</UL>
+<P>
+Other Information:
+<UL>
+<LI>Look in the Help Menu under Handbook
+<LI>Look in the Help Menu under Frequently Asked Questions
+<LI><A HREF="http://home.netscape.com/comprod/products/navigator/version_3.0/cooltalk/index.html">CoolTalk by InSoft</A>
+<LI><A HREF="/assist/helper_apps/">Helper Applications</A>
+<LI><A HREF="index.html">
+    Release notes for earlier betas and other releases.</A>
+</UL>
+<P>
+<HR SIZE=3>
+
+<A NAME="Features">
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>W</FONT>HAT'S
+<FONT SIZE=+2>N</FONT>EW?
+</H3>
+</CENTER>
+
+<P>
+
+<!-- New Features -->
+
+<H3>General Features</H3>
+<ul>
+<li><b>New Navigation for Frames and the <b>Back</b> button:</b> Now,
+when you click on a link that updates a frame, pressing the
+<b>Back</b> button returns you to the previous state of the frame.
+Previously, pressing the <b>Back</b> button ignored updates within a
+page's frames and always returned you to the previous whole
+page (further back than you probably wanted). In short, navigating
+among frames now works on a per frame basis: pressing <b>Back</b>
+revisits the previous frame and pressing <b>Forward</b> revisits the
+frame ahead.
+<P>
+<li><b>Three-pane configurability:</b> A pane layout option has been
+added to the <b>Mail and News|Appearance</b> panel (choose the
+<b>Options|Mail and News Preferences|Appearance</b> menu item). The
+panel offers radio buttons to designate the layout of the three panes
+in the Mail and News windows. Choose <b>Split Horizontal</b>
+(<b>Articles on top</b> on Macintosh) to align the message content
+pane to the right of the two split panes. Choose <b>Split
+Vertical</b> (<b>Articles on left</b> on Macintosh) to align the
+message content pane below the two split panes. Choose <b>Stack</b>
+(<b>Stacked</b> on Macintosh) to align the message content pane below
+the two stacked panes (layered in rows atop one another).
+<P>
+<li><b>Show recipient in Sent Folder and Outbox:</b> When you select
+a mail folder by clicking on it, the message heading pane displays
+the titles of messages contained in that folder. In previous
+versions, you'd always see the title <b>Sender</b> above a column
+that shows the name of the sender of the mail message. Now, in the
+Outbox and Sent Mail folders, you'll see the title <b>Recipient</b>
+instead of </b>Sender</b>, and the column shows the email address of
+the mail recipient. For sent mail, the recipient info is much more
+useful than the sender info (typically yourself).
+<P>
+<li><b>Compressed headers:</b> When viewing either the Mail or
+News window, the <b>Options</b> menu now offers a cascading
+(hierarchical) menu items called <b>Show Headers</b> that replaces
+the <b>Show All Headers</b> item. The new menu item gives you more
+options to control the number of header information fields displayed
+when viewing messages. <b>All</b> displays all possible header
+fields. <b>Normal</b> displays the primary address fields.
+<b>Compressed</b> displays only subject and recipient fields.
+<P>
+<li><b>Support table cell background colors:</b> You can specify a
+background color to be used when displaying table cells. To specify a
+table background color use the <b>bgcolor</b> attribute. Nested
+tables inherit background colors.
+<TABLE ALIGN=RIGHT BORDER=1 WIDTH=20%>
+ <CAPTION CENTER Valign=BOTTOM>Color Cells</CAPTION>
+ <TR><TD BGCOLOR=#ffdddd>One Color</TD></TR>
+ <TR><TD BGCOLOR=#ccffff>Another Color</TD></TR>
+</TABLE>
+<p>
+The <b>bgcolor</b> tag specifies one of the supported color names and
+can be used with the following tags: <b>table</b>, <b>td</b>,
+<b>th</b>, and <b>tr</b>.
+<P>
+Here's the HTML that produced the table on
+the right.
+<br clear=all>
+<XMP>
+<TABLE ALIGN=RIGHT BORDER=1 WIDTH=20%>
+ <CAPTION CENTER Valign=BOTTOM>Color Cells</CAPTION>
+ <TR><TD BGCOLOR=#ffdddd>One Color</TD></TR>
+ <TR><TD BGCOLOR=#ccffff>Another Color</TD></TR>
+</TABLE>
+</XMP>
+</ul>
+
+<H3>Audio Playback</H3>
+<ul>
+<li><B>Plug-in:</B>  This plug-in is an asynchronous sound-playing
+application, capable of playing AIFF, MIDI, WAV, and AU sound
+formats. The plug-in can be controlled using various views.
+<P>
+<li><B>Supported Platforms:</B> Win 16, Win 32, Mac 68K and PPC 
+<P>
+<li><B>System Requirements:</B> 
+<ul>
+<li>Win 16: (Minimum) 386 Processor with Windows 3.1, and a compatible
+sound card installed.
+<P>
+<li>Win 32: (Minimum) 386 Processor with Windows 95 or Windows
+NT, and a compatible sound card installed.
+<P>
+<li>Macintosh (68K): (Minimum) Macintosh 68030, with System 7.1, QuickTime
+2.1 (with Musical Instrument Plug-in), and Sound Manager 3.1.
+<P>
+<li>Macintosh (PPC): (Minimum) Macintosh with a PPC 601 (66MHz), System
+7.1.2, QuickTime 2.1 (with Musical Instrument Plug-in), and Sound Manager
+3.1.
+</ul>
+</ul>
+
+<H3>Live3D</H3>
+<ul>
+<li><B>Plug-in:</B>  This plug-in extends Netscape Navigator so
+that you can experience distributed, interactive 3D spaces rich with
+text, images, animation, sound, music, and video. In addition to
+providing a high-performance VRML viewer, Live3D extends Netscape's
+Java, JavaScript, and plug-in interfaces to make it easy to develop
+distributed 3D applications on the Netscape Navigator platform.
+<P>
+<li><B>Supported Platforms:</B> Win 32, (Win 16 with manual installation)
+<P>
+<li><B>System Requirements:</B> Windows 95, Windows NT, or Windows
+3.1
+</ul>
+
+<H3>Video Playback</H3>
+<ul>
+<li><B>Plug-in:</B> This plug-in will play AVI movies. AVI is a common
+video format on Windows.
+<P>
+<li><B>Supported Platforms:</B> Win 16, Win 32
+<P>
+<li><B>System Requirements:</B> 
+<ul>
+<li>Win 16: (Minimum) 386 Processor with Windows 3.1, and a compatible
+sound card installed. Will require "Video for Windows."
+<P>
+<li>Win 32: (Minimum) 386 Processor with Windows 95 or Windows
+NT, and a compatible sound card installed.
+</ul>
+</ul>
+
+<H3>CoolTalk</H3>
+<ul>
+<li><B>Helper Application:</B> This helper application is a real-time
+audio and data collaboration tool specifically designed for the
+Internet. CoolTalk provides full-duplex audio conferencing, allowing both users
+to speak and be heard simultaneously. Unlike audio-only Internet
+products, CoolTalk includes a Chat Tool and Shared Whiteboard for
+textual and graphical data conferencing.
+<P>
+<LI><B>IS411 Server:</B>
+An interactive version of the IS411 server is available at
+<A HREF=http://live.netscape.com/>live.netscape.com</A>.
+The IS411 server may be used to interactively search for and connect to
+other registered CoolTalk users.
+<P>
+<li><B>Supported Platforms:</B> Win 32, Unix (hpux, irix, osf1, sol23,
+sol24, sun4)
+<P>
+<li><B>System Requirements:</B> 
+<UL>
+<LI>
+Win 32:
+<br>486, 50 MHZ or higher 8 MB RAM
+<br>Internet Winsock 1.1 compatible TCP/IP connection
+<br>14.4 Kbps or higher network connection
+<br>MS Windows 95, MS Windows 3.1 or MS Windows NT 3.51
+<br>MS Windows compatible sound card
+<br>Microphone which can be connected to the sound card for audio input
+<br>Multimedia speakers for audio output.
+<p>
+<LI>
+UNIX: (Note that all UNIX configurations require a minimum of 24 MB of RAM and a
+microphone for voice input.)
+<br>
+ SunOS 4.1.3 or higher
+<br> 
+ Solaris 2.3, 2.4
+<br> 
+ Digital UNIX 3.2 with MME 2.0 (Multimedia Services)
+<br> 
+ HP-UX 9.0[357] with patches PHKL_6050 and PHSS_6213
+ These patches are required for driver/kernel changes and the correct Aserver
+<br> 
+ SGI 5.2
+<br>
+</UL>
+</ul>
+
+<H3>Java</H3>
+<ul>
+<li><B>Mac Support:</B> Java support has been added to the Macintosh
+Power PC platform (support for 68K is in progress) allowing users to
+run Java applets. Applets are software programs written in the Java
+language that can be integrated within HTML pages.
+<P>
+<li><B>UNIX Support:</B> Java support has been added to the IBM AIX 
+and BSDI platforms.
+<P>
+<li><B>Security:</B> A security problem relating to DNS has been fixed.
+</ul>
+
+<H3>JavaScript</H3>
+<ul>
+<LI><B>Javascript reflection of plug-ins:</B> Allows developers to
+dynamically determine what plug-ins are installed on the client. By
+making the list of installed plug-ins accessible through Javascript,
+content developers can write simple scripts to display embedded
+plug-in data if the appropriate plug-in is installed, or display some
+alternative information (image, text, etc.) if not.
+<P>
+Javascript currently has a global "navigator" object which contains
+properties for information not associated with any particular
+document. This object now has two additional properties: a
+"mimeTypes" object and a "plugins" object.
+<P>
+The mimeTypes object is an array of all MIME types supported by the
+client (either internally, via helper apps, or by plug-ins). Each
+element of the array is a mimeType object, which has properties for
+its type, description, and file extensions.
+<P>
+The plugins object is an array of all plug-ins currently installed on
+the client. Each element of the array is a plugin object, which has
+properties for its name and description, as well as a subarray of
+mimetype objects for the types supported by that plugin.
+<P>
+<LI><B>JavaScript fixes:</B> Incremental improvements.
+</ul>
+
+<H3>Security</H3>
+<ul>
+<LI><b>Note:</b> The security features described here are not yet fully
+implemented and do not offer any current functionality. Though
+elements of the user interface can be viewed in the preference
+panels, they should not be used. Certain buttons might cause crashes.
+<P>
+<li><b>Security Preferences: </b> Two new security preference panels
+have been added to enable forthcoming security features. A short
+summary of the forthcoming features are described below. 
+<P>
+<li><b>Personal Certificate panel:</b> Personal certificates identify
+you to others on the Internet. For example, when you submit
+information in a form, your personal certificate allows the recipient
+of the form to know the information came from you and no one else.
+<P>
+You may wish to obtain more than one personal certificate. Some web
+sites may request (and issue to you) a personal certificate for
+specific use with their site. You may also obtain more generic
+personal certificates that represent you for credit card transactions
+or other nonspecific, secure communications.
+<P>
+<li><b>Passwords panel:</b> A Netscape password protects you if your
+computer can be physically accessed by other people or remotely
+accessed through a network. Your password protects your security
+certificates.
+</ul>
+
+<H3>Expanded support</H3>
+<ul>
+<li><b>POP3 servers:</b> The <b>Keep Mail on Server</b> and <b>Maximum
+Message Size</b> options now work even with POP3 servers that do not
+implement the UIDL command.
+<P>
+<li><b>Special characters:</b> Additional entity names such as
+&pound are now implemented.
+</ul>
+
+<H3>Macintosh-only Changes</H3>
+<ul>
+<li><B>Open Transport native:</B> Native support for Apple Open Transport.
+<P>
+<li><B>Internet Config:</B>  Basic Internet Config features are
+supported. Internet Config is a public domain system extension that
+lets you configure Internet information such as email address and
+server names in a single source location. This is useful if you are
+using multiple Internet applications. Supporting applications can
+find this information, making it unnecessary for you to enter the
+same information in each of your Internet applications.
+<P>
+<li><B>Tooltips:</B> An item in the Options|General
+Preferences|Appearance panel lets you turn on tooltips so that when
+the mouse stays over a toolbar button, tooltip text appears.
+<P>
+<li><B>Unread mail and news messages:</B> Are now marked in bold.
+<P>
+<li><B>Helpers panel:</B> The Options|General Preferences|Helpers
+panel has been redesigned to simplify editing, adding, and deleting
+helper applications and, ultimately, plug-ins.
+<P>
+<li><B>User-interface improvements:</B> Several minor changes
+regarding fonts, spacing, and tabs.
+</ul>
+
+<H3>Windows-only Changes</H3>
+<ul>
+<li><B>Forms Printing:</B> The printing of forms has been improved.
+</ul>
+
+
+<H3>UNIX-only Changes</H3>
+<ul>
+<li><B>Plug-in support on UNIX platforms:</B> SGI IRIX, SunOS, Solaris
+2.3, Solaris 2.4, DEC OSF/1, HP/UX.
+<P>
+<li><B>Frame Source and Frame Info:</B> The View menu has items for
+Frame Source and Frame Info, available when a frame is selected.
+<P>
+<li><B>Quoted text color:</B> The Mail and News Preferences|Appearance
+panel has a field that lets you enter the color of your quoted text.
+<P>
+<li><B>Hide menu bar:</B> The Options menu has an item to let you hide
+the menu bar. Use the right mouse button to display the pop-up menu
+containing an item to show the menu bar again.
+<P>
+<li><B>Hide status bar:</B> The Options menu has an item to let you hide
+or show the bottom status bar.
+<P>
+<li><B>Drag-and-drop attachments:</B> To create an attachment, you can
+drag a mail message item from the message pane to the attachment
+field of the Composition window.
+</ul>
+
+<!-- End New Features -->
+
+<HR SIZE=3>
+
+<!-- Configuration and Known Problems -->
+<A NAME="Configuration">
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>C</FONT>ONFIGURATION AND
+<FONT SIZE=+2>M</FONT>IGRATION
+</H3>
+</CENTER>
+
+<UL>
+<LI><B>Configuring Live3D for 16 bit Windows:</B>
+Move the <tt>3DNS16A.EXE</tt> file from your <tt>plugins</tt>
+directory to a temporary directory.  Double click on the file to launch
+the Live3D installer.
+</UL>
+
+<P>
+<HR SIZE=3>
+<P>
+
+<A NAME="Problems">
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>K</FONT>NOWN
+<FONT SIZE=+2>P</FONT>ROBLEMS
+</H3>
+</CENTER>
+
+<UL>
+<LI><B>CoolTalk:</B>
+<UL>
+<LI>During installation of CoolTalk, the command line argument for
+the Watchdog is incorrect.  It should read as follows:
+<blockquote>
+<tt>wdog.exe /v </tt><i>"path to CoolTalk executable"</i><tt>\cooltalk.exe</tt>
+</blockquote>
+<P>
+<LI>If your connection to the Internet is behind a firewall,
+you may have problems connecting to other CoolTalk users outside your
+firewall.  See your system administrator for details.
+</UL>
+<P>
+<LI><B>Live3D:</B>
+	<UL>
+        <LI> You may get an error dialog box mentioning that Netscape         
+         cannot decode x-gzip files when the VRML worlds are 
+         loaded with Live3D. You should ignore this error dialog and
+         click OK.
+	<P>
+        <LI> You may experience a GPF when quitting the Navigator after 
+         having viewed certain VRML worlds with the Live3D plugin.
+	<P>
+	</UL>
+
+
+<LI><B>Navigator Problems:</B>
+<UL>
+     
+    <LI> After setting any  preferences in Mail (or News) , you need 
+           to quit the Mail (or News) application and run it again         
+         for the value to take effect.
+
+    <LI> Pressing Spacebar will unsubscribe a newsgroup from the List, in
+         the News Window.
+     
+    <LI> When you use the right mouse to view a single GIF image (in 256 color
+         mode), you might experience a "screen flash" when the custom colormap
+         is installed.
+
+    <LI> If you are running in 256 color mode and have a Windows
+         background (wallpaper) image present, minimizing then
+         restoring Netscape, might cause images and the Netscape logo
+         to appear in strange colors. <B>Workarounds:</B> 1) Open
+         a new Netscape window (then close it if you wish). 2) Remove
+         the Windows background image.
+
+    <LI> When Un-installing Netscape, you might get a File Error Dialog
+         that says "Cannot find CTL3D.DLL"; click on the Close button
+         and the Un-installation will continue.
+
+    <LI> If Netscape is crashing in the video driver, ensure that you
+         are using the latest drivers for your Video card.
+         You can obtain the latest drivers on-line or by contacting
+         your Video Card's manufacturer.
+
+    <LI> The Up/Down direction box in the Find dialog in Mail & News 
+         are not implemented yet.
+
+    <LI> You will not receive a warning dialog when sending a 
+         message when your disk is out of space. An empty message will
+         be sent to the recipient(s).
+
+    <LI> The 32bit install does not currently remove obsolete DLLs if you
+         install Atlas Preview Release 1 on top of previous version of the
+         Navigator.
+         
+    <LI> Documents in a frame won't reload.  The frameset will reload, 
+         but the individual frames won't reload.
+
+</UL>
+
+<A NAME=JavaScriptBugs>
+<P>
+<LI><B>JavaScript Bugs:</B>
+<UL>
+	<LI>The click method of buttons and other form elements does not work.
+        <LI>The onLoad event handler may be called early for non-frameset 
+            documents that contain images.  Workaround: use window.setTimeout() 
+            to poll for the reflection of form elements that your 
+            onLoad handler wants to see.
+        <LI>An IMG tag without HEIGHT and WIDTH attributes may cause 
+            JavaScript event handlers on subsequent form elements to be ignored. 
+            Workarounds: add HEIGHT and WIDTH attributes to all IMG tags, 
+            or add one empty SCRIPT tag after the last form
+            element that has a JavaScript event handler. 
+
+
+        <LI> The lastIndexOf method should search a string backwards starting
+          at the fromIndex position. In this release, it starts one character
+          before the fromIndex position.
+
+        <LI> You should be able to set the form object's method 
+          property at any time. It is read-only in this release.
+
+        <LI> The documentation for the name property states 
+          "If multiple objects on the same form have the same NAME attribute, 
+          an array of the given name is created automatically... 
+          Elements are indexed in source order starting at 0." 
+          In Altas Preview Release 1, elements are indexed in source order if the object
+          contains an event handler. If the object does not contain an event
+          handler, they are indexed in reverse order.
+
+        <LI> Radio buttons in the same radio object should be indexed 
+          in source order starting at 0. In Altas Preview Release 1, 
+          they are indexed in reverse order.
+
+        <LI> The window.status property always evaluates to the string
+          value of window.defaultStatus.
+
+        <LI> If you do not specify a set of windowFeatures when you call 
+          window.open in a Unix environment, the window is created 
+          without any of the Boolean features.
+
+        <LI> Calling document.close() from top-level code within 
+          a script tag may crash Navigator.  It is safe
+          to close documents that you open; only close on the 
+          currently-loading document is unsafe.
+
+          <LI> Heavy use of JavaScript applets will cause memory leaks on your system, 
+especially on Windows 3.1
+
+</UL>
+<P>
+<LI><B>Java problems with the 32bit Navigator:</B>
+<UL>
+   <LI> Java will not run using the 32bit Trumpet Winsock.  If you want to use
+        Trumpet Winsock with the Navigator, Java must be disabled.
+   <LI> Java requires at least a 256 color video driver.  If you want to use the
+        Navigator with less than 256 colors, Java must be disabled.
+   <LI> The Java Console window has a limit to the amount of text it can display.
+        Once the window fills up, it must be cleared before new text will appear.
+   <LI> java.lang.Math.IEEERemainder(...) returns incorrect results.
+   <LI> In order for a Date object to display the time-zone (ie. PST) the TZ
+        environment variable must be set (for both NT and Win95).
+   <LI> The AWT File Dialog box is not implemented.  An exception is thrown if
+        you try to create a java.awt.FileDialog object.   
+   <LI> The APPLET tag must have WIDTH and HEIGHT attributes.
+   <LI> Heavy use of Java applets will cause memory leaks.
+</UL>
+<P>
+<LI><B>Known bugs in International Support.</B>
+<UL>
+   <LI> If the Navigator is used on a machine using Japanese Windows 
+        locale, the text on several buttons in the Options | General
+        Preferences | Fonts dialog box will mis-display. The names 
+        of the fonts may also mis-display. However, the font functionality
+        is unaffected. They will display correctly when viewing
+        documents, mail, or news (if you map that font to the document
+        encoding you have selected via Options | Document Encoding, 
+        and the document you are viewing was encoded using that character set).
+   <LI> Entering multi-byte characters in forms is not implemented in this release.
+</UL>
+
+</UL>
+<P>
+<!-- End Configuration and Known Problems -->
+
+<HR SIZE=3>
+
+<P>
+<CENTER>
+
+
+<A HREF="/misc/bottom.map" TARGET="_top"><IMG SRC="/images/navigation_bar.gif"
+ISMAP USEMAP="#barmap" BORDER=0 WIDTH=468 HEIGHT=32 ALT="Navigation bar"></A>
+<P>
+
+<MAP NAME="barmap">
+<AREA COORDS="0,7,70,31" HREF="/index.html" TARGET="_top">
+<AREA COORDS="71,7,150,31" HREF="/download/index.html" TARGET="_top">
+<AREA COORDS="151,7,225,31" HREF="/assist/index.html" TARGET="_top">
+<AREA COORDS="226,7,300,31" HREF="http://help.netscape.com/" TARGET="_top">
+<AREA COORDS="301,7,371,31" HREF="/search/index.html" TARGET="_top">
+<AREA COORDS="372,7,467,31" HREF="/ads/index.html" TARGET="_top">
+<AREA COORDS="0,0,467,31" HREF="/index.html" TARGET="_top">
+</MAP>
+
+<FONT SIZE=-1>
+Corporate Sales: 415/937-2555; Personal Sales: 415/937-3777; Government Sales: 415/937-3678<BR>
+If you have any questions, please visit <A HREF="/assist/index.html" TARGET="_top">Customer Service</A>, or contact your nearest <A HREF="/misc/contact_info.html">sales office</A>.<P>
+<A HREF="/misc/trademarks.html">Copyright</A> © 1997 Netscape Communications Corporation<P>
+This site powered by <A HREF="/comprod/server_central/index.html" TARGET="_top">Netscape SuiteSpot</A> servers.</FONT>
+
+
+
+</CENTER>
+</BODY>
+</HTML>

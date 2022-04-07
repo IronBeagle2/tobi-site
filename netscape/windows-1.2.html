@@ -1,0 +1,402 @@
+<HTML>
+<HEAD>
+<TITLE>Welcome to Netscape Navigator Version 1.2</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+
+<CENTER>
+<A HREF="/index.html">
+<IMG SRC="/home/help-on-version/images/release_notes.gif" WIDTH=468 HEIGHT=32 BORDER=0></A><P> 
+<H2> 
+<FONT SIZE="+3">N</FONT>ETSCAPE 
+<FONT SIZE="+3">N</FONT>AVIGATOR 1.2 FOR
+<FONT SIZE="+3">W</FONT>INDOWS 
+</H2> 
+</CENTER>
+
+ 
+You are using Netscape Navigator 1.2 for Windows. These release notes cover  
+<UL> 
+<LI>Requirements 
+<LI>What's New?
+<LI>Bug Fixes 
+<LI>Known Problems
+<LI>Notes, Tips and Information 
+</UL> 
+
+ 
+<HR SIZE=4> 
+<CENTER> 
+                        <H3>    <FONT SIZE=+2>R</FONT>EQUIREMENTS  </H3> 
+</CENTER>
+ 
+<UL>
+   <LI>If you are running Windows 3.1 or WFW, you must use the 16-bit Navigator even if 
+        you have Win32s installed.
+   <LI>If you are running Windows 95 or Windows NT, use the 32-bit Navigator.
+   <LI><B>To run the 32bit Navigator, you must have a 32-bit TCP/IP stack. </B> Both Windows 95
+       and Windows NT provide 32bit TCP/IP stacks that you can setup.  If you need help setting up the
+	 TCP/IP stack in Windows 95, see <A TARGET="_top" HREF="http://www.windows95.com">http://www.windows95.com.</A>
+</UL> 
+
+ 
+<HR SIZE=4> 
+<CENTER> 
+                <H3>    <FONT SIZE=+2>W</FONT>HAT'S <FONT SIZE=+2>N</FONT>EW?  </H3> 
+</CENTER> 
+
+
+
+<UL> 
+   <LI><B>Windows 95 features:</B> The 32bit version of the 1.2 Navigator supports the
+          following Windows 95 features: 
+	<UL>	<LI>Windows 95 UI shell support, including tabbed dialogs and proportional scroll bars.
+		<LI>Preference/settings are stored in system registry.
+		<LI>Internet Shortcuts.
+            <LI>Long filenames.
+		<LI>MAPI using MS Exchange client.
+      </UL>
+<P>
+   <LI><B>Drop-down URL Menu:</B>
+	Drop down URL menu for the Location/Netsite field is New to the 1.2 Navigator.  This list 
+	remembers the most recent URLs typed into the Location/Netsite field.
+<P> 
+   <LI><B>MAPI:</B> 
+        Win95 users (running the 32bit navigator) can use Microsoft Exchange for sending/receiving  
+	mail and posting news.  To enable this feature, you need to go to the Mail and News tab in 
+	Options/Preferences and make sure "Use exchange client for mail and news" is checked.  For 
+      MAPI installation instructions, see the Readme. 
+<P> 
+   <LI><B>Page Headers:</B> 
+        You now have the option to print page headers and footers, which includes the Document
+        Title, Document URL, Page Number, Page Total and the Date Printed.  You can turn these
+        options on/off from File|Page Setup. 
+<P> 
+   <LI><B>New Bookmark Interface:</B>  By popular request, the Bookmarks interface has been 
+          redesigned for 1.2. 
+<P> 
+   <LI><B>Registry instead of <tt>NETSCAPE.INI</tt> for the 32-bit version:</B> 
+        There is no <tt>NETSCAPE.INI</tt> file for the 32-bit version.   
+        <P> 
+        The 32-bit version now uses the system registry.  The purpose of the registry is to
+        incorporate all the configuration information into a registration database file for 
+        controlled access. 
+	<P>
+        To manually edit the Preferences, run <tt>regedit.exe</tt> . 
+        Preferences are stored under 
+        <tt>HKEY_CURRENT_USER\Software\Netscape\Netscape Navigator</tt> . 
+<P> 
+   <LI><B>Multi-user Preferences in Windows 95 and Windows NT:</B> 
+        If you share your computer with other users, you can personalize 
+        your Netscape Preferences settings so that your own settings will 
+        be restored when you log on. The next person who logs on to 
+        Windows can modify his/her own settings without affecting yours. 
+        <P> 
+        In order to enable this multi-user settings feature 
+        in Windows 95, you need to 
+        modify your Win95's User Profile option, which is located in the 
+        Control Panel Passwords property.  Make sure the second option 
+        in your User Profile, which allows users to customize preferences 
+        and desktop settings, is checked. 
+        <P> 
+        For Windows NT, you don't have to do anything.  Each user automatically 
+        gets their own Netscape Preferences setting. 
+        <P> 
+        The default values for the Netscape Preferences will be the same for 
+        each user.  Initially, all users will be set up to share the same 
+        bookmarks, cache, cookie, global history, newsrc and temporary directories. 
+        If you do not wish to share these files, change the Preference settings 
+        to point to your own private copies of the 
+        files.  To change the location of cookie and global history files, 
+        you need to edit the Registry directly.  The other files and directories 
+        can be set under the Options Menu - Preferences. 
+<P> 
+   <LI><B>New FTP and GOPHER protocol features: </B>Now Netscape is smarter when the protocol 
+        identifier is not specified when entering a URL into the location field.  If the hostname 
+        is ftp or gopher, Netscape will use those particular protocols.  Otherwise 
+	Netscape will default to http://. 
+         <BR> Examples:<BR>
+	  <DD>If you type:  <TT>home.netscape.com</TT><BR>
+	  <DD>you'll go to: <TT>http://home.netscape.com</TT><BR>
+	  <P> 
+        <DD>If you type:  <TT>gopher.netscape.com</TT><BR>
+	  <DD>you'll go to: <TT>gopher://gopher.netscape.com</TT><BR>
+
+	  <P>
+	  <DD>If you type:  <TT>ftp.netscape.com</TT><BR> 
+        <DD>you'll go to: <TT>ftp://ftp.netscape.com</TT> 
+        <P>
+
+        Also, When logging in to your ftp account, Netscape will now automatically go 
+        to your home directory; instead of the root directory. 
+<P>
+   <LI><B>Downloading in a Separate Context: </B>Saving a file to disk via a user request, or downloading a
+     file in order to launch a viewer is now done in a separate context. A modeless dialog box pops
+     up to let you know which URL you are saving, and the destination or viewer. There is a
+     progress bar and cancel button, too. You can continue to surf in the same window that
+     created the modeless dialog box; while downloading is in progress. 
+<P>
+   <LI><B>Printing on the fly: </B>You can now start printing while a page is being loaded.
+<P> 
+</UL>
+
+
+<HR SIZE=4>
+<CENTER>
+			<H3>	<FONT SIZE=+2>B</FONT>UG  <FONT SIZE=+2>F</FONT>IXES  </H3>
+</CENTER>
+
+
+ 
+<UL>
+   <LI>Image display: <UL><LI>Transparent GIFs display faster, especially over a background image.  
+        <LI>Scaled transparent GIFs appear transparent. </UL><P> 
+<P> 
+   <LI>Many printing bugs are fixed 
+        <UL> 
+        <LI>Epson and Cannon BJC printers work (make sure you have the latest drivers) 
+        <LI>Printing on PCL printers improved 
+        <LI>Pages with horizontal rules print on Postscript printers 
+        <LI>Bullets print (Not the exact same shape) 
+        <LI>Borders on tables are centered correctly 
+	  <LI>Newsgroup articles print with headers
+        </UL> 
+<P> 
+</UL>
+</UL> 
+
+
+ 
+<HR SIZE=4> 
+<CENTER> 
+<H3> 
+                <FONT SIZE=+2>K</FONT>NOWN <FONT SIZE=+2>P</FONT>ROBLEMS
+</H3> 
+</CENTER>
+ 
+<DL>
+<DT><B>Color Palette Problems</B>
+  <DD>If you are running 256 colors and have a Windows background image, minimizing then
+	restoring Netscape, might cause images and the Netscape logo to appear in strange colors.  To
+	fix the problem, open a new Netscape window or remove the Windows background image.
+<P> 
+ 
+<DT><B>MAPI</B> 
+  <DD>You can't include OLE objects in messages. 
+	<BR> Rich text format is not supported.
+	<BR> You must have mail text if you want to send an attachment.
+	<BR> You can't embed a Microsoft Exchange mail within your e-mail.
+<P> 
+<DT><B> Text Color </B> 
+  <DD>There is still a problem that if the background and text colors are 
+        the same selections will not show up (since we indicate selected 
+        text by flipping the text and background colors).  For this reason 
+        <B>we strongly recommend that authors set both text and background colors</B> 
+   	when using images as page backdrops.
+<P>                                        
+<DT><B>Backgrounds and Transparency</B> 
+  <DD>In 16 color VGA mode, images with transparent backgrounds do not show 
+        properly over other background images. Instead of transparent, the 
+        background is opaque, usually black.  
+<P> 
+<DT><B>Image Display Bugs</B> 
+  <DD> For video boards with Cirrus Logic video chip sets on them, and possibly for 
+        other makers, an image can be displayed that may occasionally cause the 
+        program to "freeze" or GP Fault in the video driver.  If this happens, 
+        ensure you are using the latest versions of drivers for your video board. 
+        You can download the latest version of the Cirrus Logic video driver from their ftp site 
+	<A HREF="ftp://ftp.cirrus.com">ftp://ftp.cirrus.com</a>
+  <P> 
+  <DD>When the video driver is in 4, 16, or 24 bits per pixel mode, drawing 
+        transparent images over backdrop images may have black flicker during drawing. 
+        This does not happen when video mode is 8 bits per pixel. 
+  <P> 
+<DT><B>Asynchronous DNS</B> 
+  <DD>If you think your winsock is not handling Async DNS correctly, try 
+        setting the Async option in the Windows 95 Registry or NETSCAPE.INI file to "no," 
+	<pre>
+    [Network]
+    use Async DNS=no </pre>
+        The default is to use Async DNS, not using it will result in lower 
+        performance and can cause problems when multiple simultaneous 
+        connections are attempted.  You can also set 
+	<pre>
+    [Network]
+    Max Connections=1</pre>which will prevent problems when not using Async DNS but will also 
+        result in much slower performance. 
+        <P> 
+        PC-NFS from Sun and Spry's newly updated stack are the only winsocks we 
+        know of that require setting the "Async DNS" flag to "no". 
+        <P> 
+ 
+ <DT><B>Preferences</B> 
+  <DD>The Apply and Help buttons in Preferences are grayed out and don't work. 
+</DL>
+ 
+ 
+<HR SIZE=4> 
+ 
+<CENTER> 
+                                <H3><FONT SIZE=+2>N</FONT>OTES, 
+                                <FONT SIZE=+2>T</FONT>IPS, AND 
+                                <FONT SIZE=+2>I</FONT>NFORMATION </H3> 
+</CENTER> 
+ 
+<DL>
+   <DT><B>Netscape NUGgies</B>
+	<DD>The Netscape Navigator User Group is a great place to find additional help and tips on 
+	using the navigator. <BR>URL:  <A HREF="snews://secnews.netscape.com/netscape.navigator">
+	snews://secnews.netscape.com/netscape.navigator</A>
+	<BR>(or see: <A HREF="http://home.netscape.com/commun/netscape_user_groups.html">
+	http://home.netscape.com/commun/netscape_user_groups.html</A>)
+<P>
+   <DT><B>Delete Cache Before Upgrading</B>
+	<DD>When upgrading to 1.2 it is recommended that you flush 
+	your disk cache to remove any incorrect information that may have been
+	saved by an earlier release of the Netscape Navigator.
+<P>
+   <DT><B>Right Mouse Pop-up Note</B>
+	<DD>The Bookmarks item no longer appears in the right-mouse pop-up menu.
+<P> 
+   <DT><B>Running the 32-bit version on Win95</B>
+	<DD>If you get an error message "Netscape was unable to create network socket connection
+ 	(Reason 10047)," it is probably because you are trying to run the 32-bit version of Netscape 
+	using a 16-bit winsock application.  To run the 32-bit version of Netscape, you need a 
+	32-bit winsock application.    Win95 comes with a 32-bit TCP/IP stack, but you need to install it.
+<P>
+   <DT><B>Could not open a News RC file Message</B>
+	<DD>If you receive this message when trying to use news, you must specify a valid path for the 
+	NewsRC= line in the netscape.ini (if you're using 16-bit), or registry (32-bit).  This line is in 
+	the [Main] section.  Note: The News RC Directory line in Preferences/Mail and News changes the 
+	NewsDirectory= line in the ini or registry.
+<P> 
+   <DT><B>Audio Player Note</B> 
+	<DD>The Netscape Setup program will not delete your old Netscape audio player (NAPLAYER.EXE).  
+	If you don't have version 1.2 of the audio player, you must delete the old Netscape audio player  
+        (version 1.1) and reinstall Netscape to get the new version. 
+<P> 
+   <DT><B>Export Version Security</B> 
+	<DD>The export version has lower-grade International encryption, and will not connect to sites
+          using high-grade US encryption keys.  You can find out which version you are running by going
+          to Help | About Netscape... 
+<P> 
+   <DT><B>Norton Desktop 3.0</B> 
+        <DD>Turn FileAssist OFF if you are having problems using Netscape's Find function. 
+<P> 
+   <DT><B>Highlighting more than one Screen</B> 
+	<DD>To highlight more than one screen of text in a document, position the mouse where you want 
+        to start selecting text. Hold the mouse button down while pressing the down arrow key. 
+<P>
+   <DT><B>Importing Hotlists as Bookmarks</B> 
+	<DD>Netscape has an import command on the Bookmarks window that will read any HTML file 
+	containing links and convert those links into bookmarks. If you would like to import
+	your NCSA Hotlist into Netscape, you can use the 
+	<AHREF="ftp://ftp.netscape.com/unsupported/windows/">Mozilize</A>
+ 	utility to convert your hotlist to a Netscape style bookmark list.  This program is 
+        unsupported so your results may vary. 
+<P> 
+   <DT><B>Helper Applications</B> 
+	<DD>For telnet, ftp, and for displaying audio and video, Netscape uses "Helper Applications". 
+	These applications are configured in your Preferences window. For help configuring this window, 
+        check out our documentation: 
+        <a href="http://home.netscape.com/assist/helper_apps/index.html">Helper Applications</A> 
+<P> 
+	On Windows, LVIEW31.EXE (for JPEG images), MPEGPLAY.EXE (for MPEG movies), and  WHAM.EXE 
+	(for audio files) are all useful applications. One site where these can be found is
+	<A HREF="ftp://ftp.cica.indiana.edu">ftp://ftp.cica.indiana.edu</A>, but that site is often
+	difficult to reach. You can also try the mirror site on
+        <A HREF="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/"> 
+        ftp://gatekeeper.dec.com/pub/micro/msdos/win3/</A>. 
+ 
+<P> 
+The files you want are: 
+<PRE>
+Gif/Jpeg:
+---------<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip</A>
+
+
+MPEG:
+-----<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip</A>
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip</A>
+
+
+Video for Windows (AVI)
+-----------------------<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe</A>
+
+
+Audio
+-----<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham133.zip">
+ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham133.zip</A>
+
+</PRE> 
+ 
+<P> 
+   <DT><B>How do I use Netscape without a network connection?</B> 
+	<DD>If you do not have a network connection but still want to use Netscape to browse local 
+	files you should get the file <A HREF="ftp://ftp.netscape.com/unsupported/windows/mozock.dll">
+	mozock.dll</A>.  If you install this file as winsock.dll Netscape will work fine with local 
+	file reads.  Be sure to shift-click on the above link or else Netscape will treat it as a text 
+        document.  Doh! If you want to get out to the rest of the net mozock.dll is not for you. 
+<P> 
+   <DT><B>What happened to the Background "Fade-in" and multiple text colors?</B> 
+	<DD>Previous versions of the Navigator would recognize multiple &lt;BODY&gt; tags.  
+	This allowed people to "fade-in" pages or have multiple text colors.  This was a bug in the 
+	Navigator. The &lt;BODY&gt; tag is specifically designed to separate the header and footer 
+	from the body of a page.  It is illegal HTML to have more than one &lt;BODY&gt; tag per page.
+	The newer versions of the Navigator will only recognize the first &lt;BODY&gt; tag. 
+        Later ones will be ignored. 
+</DL> 
+
+
+ 
+<HR SIZE=4> 
+ 
+<P> 
+<CENTER> 
+
+
+<!-- footer -->
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD WIDTH=600 HEIGHT=8><HR SIZE=1 NOSHADE></TD></TR>
+<TR><TD ALIGN=LEFT VALIGN=TOP><FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/help.html" TARGET="_top">Help</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/site_map.html" TARGET="_top">Site&nbsp;Map</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/howtoget.html" TARGET="_top">How&nbsp;to&nbsp;Get&nbsp;Netscape&nbsp;Products</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/ad.html" TARGET="_top">Advertise&nbsp;With&nbsp;Us</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/addsite.html" TARGET="_top">Add Site</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/custom_browser.html" TARGET="_top">Custom Browser Program</A></FONT></TD></TR>
+<TR>
+<TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP>
+<!-- Channels -->
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/channels/autos.html" TARGET="_top">Autos</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/business.html" TARGET="_top">Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/computers_internet.html" TARGET="_top">Computing&nbsp;&amp;&nbsp;Internet</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/entertainment.html" TARGET="_top">Entertainment</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/kids_family.html" TARGET="_top">Family</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/games.html" TARGET="_top">Games</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/health.html" TARGET="_top">Health</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/lifestyles.html" TARGET="_top">Lifestyles</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/local.html" TARGET="_top">Local</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/netscape.html" TARGET="_top">Netscape</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/open_directory.html">Netscape&nbsp;Open&nbsp;Directory</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/news.html" TARGET="_top">News</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/personalize_finance.html" TARGET="_top">Personal&nbsp;Finance</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/real_estate.html" TARGET="_top">Real Estate</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/education.html" TARGET="_top">Research&nbsp;&amp;&nbsp;Learn</A>&nbsp;&nbsp;&nbsp;|&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/shopping.html" TARGET="_top">Shopping</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/smallbiz.html" TARGET="_top">Small Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/sports.html" TARGET="_top">Sports</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/travel.html" TARGET="_top">Travel</A></FONT></TD></TR> 
+</TABLE>
+
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD></TR>
+<TR>
+<TD WIDTH=600 COLSPAN=5 VALIGN=TOP ALIGN=LEFT>
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2>
+&copy; 1999 Netscape, All Rights Reserved. <A HREF="http://home.netscape.com/legal_notices/index.html">Legal & Privacy Notices</A><BR>This site powered by <A HREF="http://home.netscape.com/comprod/server_central/index.html" TARGET="_top">Netscape SuiteSpot servers</A>.</FONT></TD>
+</TR>
+</TABLE>
+<!-- end footer -->
+
+
+
+ 
+</CENTER> 
+</BODY>
+</HTML>

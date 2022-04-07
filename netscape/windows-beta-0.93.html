@@ -1,0 +1,240 @@
+<title>Welcome to Netscape Beta 0.93</title>
+
+<IMG SRC="../images/mozversion.gif" WIDTH=472 HEIGHT=137 ALT="">
+<P>
+
+<H1>
+<FONT SIZE="+3">N</FONT><FONT SIZE="+2">etscape beta 0.93 for </FONT>
+<FONT SIZE="+3">W</FONT><FONT SIZE="+2">indows </FONT>
+</H1>
+<P>
+You are using Netscape version 0.93 beta for Windows. 
+We have tested without problems under the following Winsocks (TCP/IP
+stacks):
+<UL>
+	<LI>Trumpet Winsock (v1.0)
+	<LI>FTP Software's PC/TCP
+	<LI>NetManage
+	<LI>Microsoft WFW (Wolverine)
+	<LI>Microsoft NT
+<LI>The PC-NFS Winsock seems to have major problems with Asynchronous
+DNS lookups, which we rely upon to do multiple connections. 
+There is a patch for Sun's winsock at 
+<a href="ftp://ftp.york.ac.uk/pub/pc-nfs/Patches">
+ftp://ftp.york.ac.uk/pub/pc-nfs/Patches
+</a>
+... but we haven't fully tested it yet. If you run under another winsock,
+please report to us how it works.  We have also noticed that FTP's
+winsock sometimes gives a General Protection Fault when asked to
+lookup a invalid host while on a dial-up connection.
+<P>
+If you think your winsock is not handling Async DNS correctly, try
+setting the Async option in the Netscape INI file to "no,"
+<pre>
+	[Network]
+	Use Async DNS=no
+</pre>
+The default is to use Async DNS, not using it will result in lower
+performance and can cause problems when multiple simultaneous 
+connections are attempted.  You can also set
+<pre>
+	[Network]
+	Max Connections=1
+</pre>
+which will prevent problems when not using Async DNS but will also 
+result in much slower performance.  If you discover that your
+winsock implementation has problems with Async DNS please send
+us complete configuration information so that we may work with the
+winsock vendor to fix the problem.
+</UL>
+
+<!------------------------------------------------------------------>
+<P>
+The following Release Notes cover all of the known problems with this
+release and also answer some frequently asked questions. 
+<P>
+<B>
+<FONT SIZE="+3">R</FONT><FONT SIZE="+1">elease </FONT>
+<FONT SIZE="+3">N</FONT><FONT SIZE="+1">otes </FONT>
+</B>
+<P>
+<DL>
+<DT><B>What's New</B>
+<DD>The following fixes / enhancements have been made since the net release
+of Beta 0.92:
+<UL>
+<LI>Security has now been turned on
+<LI>Fixed some more printing bugs
+<LI>Fixed DNS failure problems introduced in 0.92
+<LI>Transparent GIFs supported in printing
+<LI>Fixed a number of bugs with updating the Bookmarks window
+<LI>Added drag-and-drop into Netscape windows (you can drag a file from
+the File Manager into a Netscape window and Netscape will use it).
+</UL>
+<P>
+<DD>The following fixes / enhancements have been made since the net release
+of Beta 0.91:
+<UL>
+<LI>Scroll to internal anchors rather than reload from cache
+<LI>Animate icon for shift-click operations
+<LI>Supply default filename for unknown type file downloads
+<LI>Changed history accelerators to Alt+arrows to be a better behaved
+	Windows program
+<LI>Fixed extensions when writing temp file for external viewers
+<LI>Fixed newsrc browse button so results are actually used
+<LI>Standardized file name selection code
+<LI>Fixed telnet to non-standard ports
+<LI>Added TN3270 support
+<LI>Changed name of global history file (mosaic.htm -> netscape.hst)
+<LI>Open location / passwd prompt boxes now give focus automatically
+<LI>Fixed GPF when accidentally loading binary files into viewing window
+<LI>Fixed a bunch of printing / print preview GPFs
+<LI>Cleaned up networking code
+<LI>Fixed orphan icon in upper-lefthand corner
+<LI>Added align=center to P and Hx tags
+</UL>
+<P>
+<DD>The following fixes / enhancements have been made since the net release
+of Beta 0.9:
+<UL>
+<LI> Printing has been implemented.
+<LI> The disk cache has been turned on (see the installation section
+about where the disk cache goes).
+<LI>True color support for graphics
+<LI>The "disappearing forms" problem has been fixed
+<LI>The module name has been changed to "netscape" everywhere.
+<LI>Fixed GPF when using the Find command
+</UL>
+<P>
+<DT><B>Installation</B>
+<DD>By default, Netscape expects to live in the directory
+c:\netscape, the easiest way to install Netscape is to
+run the sel-extracting archive in a temporary directory and
+run the setup program.
+<P>
+If you place Netscape in a directory other than c:\netscape you should
+update the following fields in your INI file:
+<pre>
+          [History]
+          History File=c:\netscape\netscape.hst
+
+          [Bookmark List]
+          File Location=c:\netscape\bookmark.htm
+
+	  [Cache]
+	  Cache Dir=c:\netscape\cache
+</pre>
+If Netscape cannot write these files (for example, if the directory doesn't
+exist) Netscape will still run. However global history and bookmarks will not
+be saved between sessions.<P>
+You will also need to create the directory specified by the "Cache Dir"
+option.  If that directory does not exist, Netscape will not be able to
+do disk caching.  It is best to have a directory dedicated to disk caching
+with nothing else.  Netscape periodically house-cleans the disk cache 
+directory and files it doesn't know about (that start with the letter "m")
+will get blown away since it will think they are orphaned disk cache files.
+<P>
+The setup program will update your INI and make sure the cache directory
+exists.
+
+<P>
+<DT><B>Initialization File</B>
+<DD>The zip file for Netscape contains the initialization file netscape.ini,
+which has entries for all of the values you can customize for Netscape.
+Netscape will look in win.ini in the 
+<pre>
+	[Netscape]
+	ini=
+</pre>
+section for the location of the INI file.  If this does not exist, Netscape
+will look in the directory where it was run for the INI file.  <B>IMPORTANT:</B>
+the location of the INI files is different from what it was in Beta 0.9.
+
+
+<P>
+<DT><B>Importing Hotlists as Bookmarks</B>
+<DD>Netscape has an import command on the Bookmarks window that
+will read any HTML file containing links and convert those links into
+bookmarks. If you would like to import your NCSA Hotlist into 
+Netscape, you can use the <A
+HREF="http://www.envmed.rochester.edu/wwwrlp/html/winh2htm.htm">Winh2htm</A>
+(Windows hotlist to html) utility to convert your hotlist to HTML.
+<P>
+<DT><B>Helper Applications</B>
+<DD>For telnet, ftp, and for displaying audio and video, 
+Netscape uses "Helper Applications". These applications are configured
+in your Preferences window. For 
+help configuring this window, check out our documentation: 
+<a href="../manual_docs/answers.html#RTFToC5">Helper Applications</A>
+<P>
+On Windows, LVIEW31.EXE (for JPEG images),
+MPEGPLAY.EXE (for MPEG movies), and  WHAM.EXE (for audio files) are
+all useful applications. One site where these can be found is <A
+HREF="ftp://ftp.cica.indiana.edu">ftp://ftp.cica.indiana.edu</A>, but
+that site is often difficult to reach. You can also try the mirror
+site on <A
+HREF="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/</A>.
+
+The files you want are:
+<PRE>
+Gif/Jpeg:
+---------
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip</a>
+
+
+MPEG:
+-----
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip</a>
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip</a>
+
+
+Video for Windows (AVI)
+-----------------------
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe</a>
+
+
+Audio
+-----
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham131.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham131.zip</a>
+</PRE>
+
+<P>
+<DT><B>Printing</B>
+<DD>The current beta of Netscape supports printing.  
+If you experience problems please let us know.
+<P>
+<DT><B>Dec Alpha problems</B>
+<DD>We have received reports that Netscape does not work with NT 3.5 on
+Dec Alpha machines.  We are looking into this problem.
+<P>
+<DT><B>32-Bit Version</B>
+<DD>We are not shipping a 32-bit version yet.  There are a few problems
+left with Windows95 that we want to fix before releasing a 32-bit Mozilla
+onto the net.
+<P>
+<DT><B>Forms stop displaying</B>
+<DD> We think that this Beta solves the problems where form elements would
+sometimes stop displaying.  If you still see this problem please let us
+know.
+<P>
+</DL>
+<P>
+<B>
+<FONT SIZE="+3">S</FONT><FONT SIZE="+1">ending in </FONT>
+<FONT SIZE="+3">F</FONT><FONT SIZE="+1">eedback </FONT>
+</B>
+<P>
+Thank you for testing Netscape Beta 0.93 (Windows
+version).  If you have any problems, comments, questions, or bug
+reports, please use the <A
+href="../how-to-give-feedback.html">feedback
+form</a>.
+<P>  
+
+
+<HR SIZE=4 >
+
+<a href="mailto:info@netscape.com"><i>info@netscape.com</i></a><br>
+Copyright &copy; 1995 Netscape Communications Corporation.
+
+

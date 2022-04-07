@@ -1,0 +1,546 @@
+<HTML>
+<HEAD>
+<TITLE>Welcome to Netscape Navigator Version 1.1</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+
+<CENTER>
+
+<!-- BANNER:s3 -->
+<A HREF="/maps/banners/documentation_s3.map"><IMG SRC="/images/banners/documentation_s3.gif" ALT="Documentation" BORDER=0 WIDTH=612 HEIGHT=50 ISMAP USEMAP="#banner_nav"></A>
+<MAP NAME="banner_nav">
+<AREA SHAPE=RECT COORDS="62,11,91,40" HREF="/">
+<AREA SHAPE=RECT COORDS="153,41,221,50" HREF="/">
+<AREA SHAPE=RECT COORDS="298,8,374,34" HREF="/support/index.html">
+<AREA SHAPE=RECT COORDS="381,15,586,43" HREF="http://help.netscape.com/browse/index.html">
+<AREA SHAPE=default NOHREF>
+</MAP>
+
+<!-- BANNER:s3 -->
+<P>
+
+<H2>
+<FONT SIZE="+3">N</FONT>ETSCAPE
+<FONT SIZE="+3">N</FONT>AVIGATOR 1.1 FOR
+<FONT SIZE="+3">W</FONT>INDOWS
+</H2>
+
+</CENTER>
+
+You are using Netscape 1.1 for Windows. These release notes
+cover 
+<UL>
+<LI>New Features
+<LI>Netscape Initialization File
+<LI>Japanese Character Set Support
+<LI>Known Problems and Bugs
+<LI>Notes, Tips and Information
+</UL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>W</FONT>HAT'S
+<FONT SIZE=+2>N</FONT>EW?
+</H3>
+</CENTER>
+
+<UL>
+
+<LI><B>New Icon and Animation:</B>
+The throbbing N has breathed its last.  
+Christopher Skinner is the 
+<A HREF="http://home.mcom.com/home/contest/">winner</A> 
+of the No Throbbing, Breathing, Pulsing N
+contest.  Our new icon and animation is based on his design.  
+Click on the new icon for a short cut to our home page.
+<P>
+<LI><B>Window's 32-Bit Version!</B>
+<P>
+We are now shipping both a 16-bit version and a
+32-bit version.
+<P>The 32-bit version will only run on 32-bit platforms (Windows NT & Windows 95 final beta release).
+<P>
+<LI><B>An External Audio Viewer on 16-bit and 32-bit:</B>
+We now provide an external application to "view" audio files from the
+network in the Windows versions of Netscape 1.1. Read the <A
+HREF="/newsref/ref/winaudio.html">Netscape Audio Player</A> for more
+information.
+<P>
+<P>
+<LI><B>Remote Control Mechanism:</B>
+You can control Netscape from outside of the application. For more
+information, read <A HREF="/newsref/std/index.html#client_api">Netscape Client
+APIs</A>.
+<P>
+<LI><B>Support for &lt;EMBED&gt; tag:</B>
+You can now embed documents inside an HTML document on the Windows
+version of Netscape using OLE. For more information, read <A
+HREF="/assist/net_sites/embed_tag.html">Embed Tag Demonstration</A>.
+<P>
+
+<LI><B>Cache Preferences:</B>
+There are several Preferences available that refer to the 
+Memory cache and the Disk cache. You can set the size of these caches
+through the Preferences window. A larger Disk cache means that as you
+browse, files will be saved on your disk so that when you re-visit
+them, they are brought up from disk rather than from the network. The cache
+files have a MOZ extension and normally reside in the \netscape\cache 
+directory.
+
+<P>
+In Netscape 1.0, when you asked for a document already in your cache,
+Netscape would always contact the original document server and ask for
+the document's header information, for comparison. This affected the
+performance of the cache. In 1.1, you can control this through the
+Cache preference: Verify Documents. If you set this to "Every Time",
+you will have the same behavior as in Netscape 1.0. "Once per session"
+means that the document is only checked the first time you use it in a
+particular Netscape session. "Never" means that the server
+is contacted only if the document's header information indicates that
+it has expired. For the best cache performance, use "Once per
+session". 
+<P>
+<LI><B>Security:</B>
+The US version of the software now supports numerous cipher choices:
+RC4-40, RC4-128, RC2-40, RC2-128, DES-64, and DES-192. The cipher
+used in any particular document is displayed in the 
+File Menu/Document Information
+dialog box. The export version of the software, including version 1.0,
+supports only RC4-40.
+<P>
+<LI><B>Secure News:</B>
+There is support for secure news servers.  The url for secure news is
+"snews://".  You can see an example of secure news in our
+<A HREF=http://home.netscape.com/commun/netscape_user_groups.html>
+Netscape User Groups</A>.
+<P>
+<LI><B>News and Mail Improvements:</B>
+Improvements to the News and Mail interface, including:
+     <UL>
+     <LI>The Newsgroup button has returned.
+     <LI>Subscribing to groups on multiple news hosts is supported.
+     <LI>A new Mail Message window that also includes News Posting
+     capabilities and file attachments.  Binary files that are
+     mailed or posted use base64 encoding.  Attached files with high bit
+     characters or long lines are encoded using quoted-printable.
+     <LI>Improved presentation of newsgroups and articles.
+     In addition, quoted-printable and base64
+     articles and attachments are
+     decoded correctly.
+     <LI>A new Preference to set the maximum number of articles to
+     download and thread at a time: a low number will give much better
+     performance over a modem line.
+     <LI>A new Preference to allow 8-bit or MIME Compliant Quoted-Printable
+     Content-Transfer-Encoding for mail and news articles that contain
+     high bit characters.  The default is to "Allow 8-bit".
+     <LI>MIME-compliant news articles will be presented according to
+     their content type.  (This means that news articles may contain
+     HTML, or even encoded JPEG or GIF images.  Messages of type
+     multipart/mixed are also understood.)
+     <LI>Signature files are now supported in mail and in news.
+</UL> 
+<P>
+<LI><B>Dynamic Documents:</B>
+You can create documents whose contents are updated dynamically,
+either on a periodic basis or irregularly.  See <A
+HREF="/assist/net_sites/dynamic_docs.html">here</A> for details. <P>
+
+<LI><B>Performance:</B>
+Many operations should be faster. Going back to visited pages is now
+faster, because we've devoted 2/3 of the memory cache to decoded
+images. 
+<P>
+<LI><B>Tables:</B>
+These are as defined in the current <A
+HREF="http://www.w3.org/hypertext/WWW/MarkUp/MarkUp.html" TARGET="_top">HTML 3.0
+draft specification</A>. For a demonstration of tables, click <A
+HREF="/assist/net_sites/tables.html">here</A>.
+We've also improved the appearance of table
+bevels when they're over a background. 
+<P>
+<LI><B>Backgrounds:</B>
+... and the ability to change text colors.  For a 
+demonstration, click <A HREF="/assist/net_sites/bg/index.html">here</A>.
+The demonstration pages will show you the correct HTML tag.
+<P>
+<LI><B>User Defined Backgrounds:</B>
+You can now specify a default background image, as well as background
+colors in the Preferences.
+<P>
+<LI><B>ALT tags &amp; Loading Images:</B>
+We now show ALT text in images and allow you to load individual images
+when Auto Load Images is turned off. To load an image, click on the
+image replacement icon. To follow the image's link, click on the ALT
+text, or use the popup menu.
+<P>
+<LI><B>Save Next Link as... and more in a Popup Menu:</B>
+A Popup menu with some key commands right at your fingertips. 
+Position the mouse in the document area.  
+Hold the right mouse button down.  A popup menu will appear.
+Different menu commands are activated depending on whether the mouse is over
+an image, a link, or document whitespace.
+<P>
+<LI><B>Preference window:</B>
+The preference window has been slightly rearranged.
+<P>
+<LI><B>Bug fixes</B>:
+    <P>
+    <UL>
+    <LI><B>Many fixes since 1.0,</B> 
+    including view source in external viewers,
+    crashing with some video drivers on wide images, etc.
+    <P>
+    <LI><B>Cache Bug:</B>
+    A bug in the disk cache was fixed which would sometimes cause Netscape to
+    present out-of-date documents.  
+    <P>
+    <B>IMPORTANT:  </B>After upgrading to 1.1 it is recommended
+    that you flush your disk cache to remove any incorrect information 
+    that may have been
+    saved by an earlier release of the Netscape Navigator.
+    </UL>
+<P>
+</UL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>I</FONT>NITIALIZATION
+<FONT SIZE=+2>F</FONT>ILE
+</H3>
+</CENTER>
+
+<UL>
+The self extracting executable file for Netscape contains the
+initialization file
+netscape.ini, which has entries for all of the values you can
+customize for Netscape. Netscape will look in win.ini in the
+<pre>
+    [Netscape]
+    ini=
+</pre>
+section for the location of the INI file.  If this does not exist,
+Netscape will look for the INI file in the directory where it was run.
+</UL>
+
+<A NAME="japanese"></A>
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>S</FONT>URFING THE
+<FONT SIZE=+2>N</FONT>ET IN
+<FONT SIZE=+2>J</FONT>APANESE
+</H3>
+</CENTER>
+
+<B>Japanese Character Set Encodings</B>:
+Netscape Navigator 1.1 has built-in support for browsing
+Japanese Web sites.
+Netscape can browse data in any of the three major Japanese
+character set encodings:
+<UL>
+<LI>JIS (ISO-2022-JP),
+<LI>SJIS (Shift-JIS) and
+<LI>EUC-JP (Extended UNIX Code for Japanese)
+</UL>
+<P>
+<uL>
+<li><B>New Japanese Support</B><BR>
+<UL>
+<LI><b>Automatic Selection for Japanese Character Encoding</b><P>
+          A new check box in the "Fonts and Colors" preference dialog enables
+          the automatic selection of the Japanese character encodings
+          supported by Netscape:<p>
+
+                JIS, Shift-JIS and EUC-JP.
+
+          If the default document encoding is Japanese and the "Auto Select"
+          check box is checked, documents will be heuristically scanned to
+          determine which Japanese character encoding is being used in
+          documents being displayed.<p>
+
+<LI><b>   Posting Japanese News Articles and Email</b><p>
+
+          Japanese email and news articles posted from Netscape will be
+          converted to ISO-2022-JP (JIS).  This is compliant with RFC1468
+          which specifies the standard for Japanese Internet messages.<p>
+
+          The MIME header will contain the following:<p>
+
+                Content-Type: text/plain; charset=iso-2022-jp<br>
+                Content-Transfer-Encoding: 7bit<p>
+
+<LI><b> Entering Japanese Text in HTML Forms</b><p>
+
+<li><b> Selection, Insertion, Copying & Pasting of Japanese Text</b><p>
+</ul>
+
+<LI><B>Line Wrapping for Japanese Text</B>:
+Netscape relies upon "white space" to determine where to wrap lines
+when laying out HTML text files in English (and other alphabetic
+languages).
+<P>
+Japanese text does not normally include "white space" (e.g., spaces
+and tabs), so Netscape 1.1 wraps lines at Japanese character
+boundaries when laying out HTML text files in Japanese.
+<P>
+<LI><B>MIME Charset parameter in HTTP</B>:
+If the MIME charset parameter is included in the HTTP header
+from the server, Netscape 1.1 parses this parameter to determine the
+encoding of text file.  For example:
+<pre>
+        Content-Type: text/html; charset=iso-8859-1
+           or
+        Content-Type: text/html; charset=iso-2022-jp
+</pre>
+<P>
+The charset names recognized by Netscape 1.1 are specified in RFC
+1700 (except for the names that begin with "x-").  These include:
+<UL>
+<LI>us-ascii
+<LI>iso-8859-1
+<LI>iso-2022-jp
+<LI>x-sjis
+<LI>x-euc-jp
+<LI>x-mac-roman
+</UL>
+<P>
+Netscape also supports aliases for us-ascii</B>:<br>
+ansi_x3.4-1968, iso-ir-6, ansi_x3.4-1986, iso_646.irv:1991,
+ascii, iso646-us, us, ibm367, cp367.
+<P>
+Netscape also supports aliases for  iso_8859-1</B>:<br>
+latin1, iso_8859-1, iso_8859-1:1987, iso-ir-100, l1,
+ibm819, cp819.
+<P>
+<LI><B>Preferences</B>:
+If the MIME charset is not specified in the HTTP headers, then
+Netscape will determine the character set encoding of the text files
+from a user selectable preference.
+<P>
+<LI><B>Document Information</B>:
+The character set encoding of the current document is included in
+the "Document Information..." box under the File menu.
+<P>
+<LI><B>System Requirements</B>:
+To surf in Japanese on Windows Japanese Windows is required.  It
+<B>may</B> also work on US Windows if third party Japanese enabling
+software such as Win/V is being used.
+<P>
+To surf in Japanese on Macintosh, either KanjiTalk7 or Japanese
+Language Kit (on System 7) is required.
+<P>
+<LI><B>Japanese demo</B>:
+After configuring your system for Japanese-language support, you're ready to
+explore our
+<A HREF="http://home.netscape.com/demos/japanese/index.html">
+Japanese demo</A>.
+</UL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>K</FONT>NOWN
+<FONT SIZE=+2>P</FONT>ROBLEMS/<FONT SIZE=+2>B</FONT>UGS
+</H3>
+</CENTER>
+
+<DL>
+<DT><B> Tables </B>
+<DD>You can't search for text that is contained within a table.
+<DD>In rare cases, selecting text across multiple cells of a table
+can cause Netscape to go into an infinite loop.  
+<P>
+
+<DT><B>Backgrounds and Transparency</B>
+<DD>In 16 color VGA mode, images with transparent backgrounds do not show
+properly over other background images. Instead of transparent, the
+background is opaque, usually black. 
+<P>
+
+<DT><B>Image Display Bugs</B>
+
+<DD> For video boards with Cirrus Logic video chip sets on them, and possibly for
+other makers, an image can be displayed that may occasionally cause the
+program to "freeze" or GP Fault in the video driver.  If this happens,
+ensure you are using the latest versions of drivers for your video board.   You can 
+download the latest version of the Cirrus Logic video driver from their ftp site
+<A HREF="ftp://ftp.cirrus.com"> ftp://ftp.cirrus.com</a><p>
+
+<DD>When a page (with an image on it) is re-sized so that the horizontal scroll
+bar appears, sometimes the right edge of the image does not draw all the way
+to the right edge of the window.  The width of the vertical blank area on
+the right is about the width of the left margin, and is the color of the
+background.<p>
+
+<DD>When the video driver is in 4, 16, or 24 bits per pixel mode, drawing
+transparent images over backdrop images has black flicker during drawing.
+This does not happen when video mode is 8 bits per pixel.<p>
+
+<DT><B>NAPLAYER Audio Player Bugs</B>
+<DD>The NAPLAYER will report "Sound device not available" in Windows '95,
+even if you have one available and working.
+<P>
+<DT><B>Asynchronous DNS</B>
+<DD>
+If you think your winsock is not handling Async DNS correctly, try
+setting the Async option in the Netscape INI file to "no,"
+<pre>
+    [Network]
+    Use Async DNS=no
+</pre>
+The default is to use Async DNS, not using it will result in lower
+performance and can cause problems when multiple simultaneous
+connections are attempted.  You can also set
+<pre>
+    [Network]
+    Max Connections=1
+</pre>
+which will prevent problems when not using Async DNS but will also
+result in much slower performance.
+<P>
+PC-NFS from Sun and Spry's newly updated stack are the only winsocks we
+know of that require setting the "Async DNS" flag to "no".
+<P>
+</DL>
+</DL>
+
+<HR SIZE=4>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>N</FONT>OTES,
+<FONT SIZE=+2>T</FONT>IPS, AND
+<FONT SIZE=+2>I</FONT>NFORMATION
+</H3>
+</CENTER>
+
+<DL>
+<DL>
+<DT><B>Norton Desktop 3.0</B>
+<DD>Turn FileAssist OFF if you are having problems using Netscape's Find function.
+<P>
+<DT><B>Highlighting more than one Screen</B>
+<DD>To highlight more than one screen of text in a document, 
+position the mouse where you want to start selecting text.
+Hold the mouse button down while pressing the down arrow key
+<P>
+<DT><B>Importing Hotlists as Bookmarks</B>
+<DD>Netscape has an import command on the Bookmarks window that
+will read any HTML file containing links and convert those links into
+bookmarks. If you would like to import your NCSA Hotlist into
+Netscape, you can use the <A
+HREF="ftp://ftp.netscape.com/unsupported/windows/">Mozilize</A>
+utility to convert your hotlist to a Netscape style bookmark list.  This
+program is unsupported so your results may vary.
+<P>
+<DT><B>Helper Applications</B>
+<DD>For telnet, ftp, and for displaying audio and video,
+Netscape uses "Helper Applications". These applications are configured
+in your Preferences window. For
+help configuring this window, check out our documentation:
+<a href="http://home.netscape.com/assist/helper_apps/index.html">
+Helper Applications</A>
+<P>
+On Windows, LVIEW31.EXE (for JPEG images),
+MPEGPLAY.EXE (for MPEG movies), and  WHAM.EXE (for audio files) are
+all useful applications. One site where these can be found is <A
+HREF="ftp://ftp.cica.indiana.edu">ftp://ftp.cica.indiana.edu</A>, but
+that site is often difficult to reach. You can also try the mirror
+site on <A
+HREF="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/</A>.
+
+The files you want are:
+<PRE>
+Gif/Jpeg:
+---------
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/lview31.zip</A>
+
+
+MPEG:
+-----
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegv11d.zip</A>
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/mpegw32g.zip</A>
+
+
+Video for Windows (AVI)
+-----------------------
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/desktop/avipro2.exe</A>
+
+
+Audio
+-----
+<a href="ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham133.zip">ftp://gatekeeper.dec.com/pub/micro/msdos/win3/sounds/wham133.zip</A>
+</PRE>
+<P>
+<DT><B>Why do I have two icons on the desktop?</B>
+<DD>In order to get Netscape to show up in the task list and get multiple
+top-level windows at the same time Netscape needs to keep one of its
+windows iconized at all times.  The icon will always be named "Netscape"
+and will not de-iconize if you click on it.  Yup, its still there in 1.1.
+<P>
+<DT><B>How do I use Netscape without a network connection?</B>
+<DD>If you do not have a network connection but still want to user
+Netscape to browse local files you should get the file
+<A HREF="ftp://ftp.netscape.com/unsupported/windows/mozock.dll">mozock.dll</A>.
+If you install this file as winsock.dll Netscape will work fine with
+local file reads.  Be sure to shift-click on the above link or else
+Netscape will treat it as a text document.  Doh!
+If you want to get out to the rest of the net
+mozock.dll is not for you.
+</DL>
+</DL>
+
+<HR SIZE=4>
+
+<P>
+<CENTER>
+
+
+<!-- footer -->
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD WIDTH=600 HEIGHT=8><HR SIZE=1 NOSHADE></TD></TR>
+<TR><TD ALIGN=LEFT VALIGN=TOP><FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/help.html" TARGET="_top">Help</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/site_map.html" TARGET="_top">Site&nbsp;Map</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/howtoget.html" TARGET="_top">How&nbsp;to&nbsp;Get&nbsp;Netscape&nbsp;Products</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/ad.html" TARGET="_top">Advertise&nbsp;With&nbsp;Us</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/addsite.html" TARGET="_top">Add Site</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/custom_browser.html" TARGET="_top">Custom Browser Program</A></FONT></TD></TR>
+<TR>
+<TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP>
+<!-- Channels -->
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/channels/autos.html" TARGET="_top">Autos</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/business.html" TARGET="_top">Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/computers_internet.html" TARGET="_top">Computing&nbsp;&amp;&nbsp;Internet</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/entertainment.html" TARGET="_top">Entertainment</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/kids_family.html" TARGET="_top">Family</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/games.html" TARGET="_top">Games</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/health.html" TARGET="_top">Health</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/lifestyles.html" TARGET="_top">Lifestyles</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/local.html" TARGET="_top">Local</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/netscape.html" TARGET="_top">Netscape</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/open_directory.html">Netscape&nbsp;Open&nbsp;Directory</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/news.html" TARGET="_top">News</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/personalize_finance.html" TARGET="_top">Personal&nbsp;Finance</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/real_estate.html" TARGET="_top">Real Estate</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/education.html" TARGET="_top">Research&nbsp;&amp;&nbsp;Learn</A>&nbsp;&nbsp;&nbsp;|&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/shopping.html" TARGET="_top">Shopping</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/smallbiz.html" TARGET="_top">Small Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/sports.html" TARGET="_top">Sports</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/travel.html" TARGET="_top">Travel</A></FONT></TD></TR> 
+</TABLE>
+
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD></TR>
+<TR>
+<TD WIDTH=600 COLSPAN=5 VALIGN=TOP ALIGN=LEFT>
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2>
+&copy; 1999 Netscape, All Rights Reserved. <A HREF="http://home.netscape.com/legal_notices/index.html">Legal & Privacy Notices</A><BR>This site powered by <A HREF="http://home.netscape.com/comprod/server_central/index.html" TARGET="_top">Netscape SuiteSpot servers</A>.</FONT></TD>
+</TR>
+</TABLE>
+<!-- end footer -->
+
+
+
+
+</CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,1379 @@
+<HTML>
+<HEAD>
+<TITLE>Welcome to Netscape Navigator 3.0</TITLE>
+</HEAD>
+
+
+
+<BODY BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#ff0000" ALINK="#ff0000" TEXT="#000000" >
+
+<CENTER>
+
+<!-- BANNER:s3 -->
+<A HREF="/maps/banners/documentation_s3.map"><IMG SRC="/images/banners/documentation_s3.gif" ALT="Documentation" BORDER=0 WIDTH=612 HEIGHT=50 ISMAP USEMAP="#banner_nav"></A>
+<MAP NAME="banner_nav">
+<AREA SHAPE=RECT COORDS="62,11,91,40" HREF="/">
+<AREA SHAPE=RECT COORDS="153,41,221,50" HREF="/">
+<AREA SHAPE=RECT COORDS="298,8,374,34" HREF="/support/index.html">
+<AREA SHAPE=RECT COORDS="381,15,586,43" HREF="http://help.netscape.com/browse/index.html">
+<AREA SHAPE=default NOHREF>
+</MAP>
+
+<!-- BANNER:s3 -->
+
+<H2>
+<FONT SIZE="+3">N</FONT><FONT SIZE="+2">ETSCAPE </FONT>
+<FONT SIZE="+3">N</FONT><FONT SIZE="+2">AVIGATOR FOR </FONT>
+<FONT SIZE="+3">W</FONT><FONT SIZE="+2">INDOWS</FONT>
+<BR>
+<FONT SIZE="+2">R</FONT><FONT SIZE="+1">ELEASE </FONT>
+<FONT SIZE="+2">3.0</FONT>
+</H2>
+<P>
+</CENTER>
+
+<HR SIZE=3>
+
+<P>
+These release notes cover:
+<UL>
+<LI><A HREF="#Features">New Features</A>
+<LI><A HREF="#Configuration">Configuration and Migration</A>
+<LI><A HREF="#Problems">Known Problems and Bugs</A>
+<LI><A TARGET="_top" HREF="http://cgi.netscape.com/cgi-bin/auto_bug.cgi">
+Unknown Problems and Bugs -- Please tell us about bugs you find.</A>
+</UL>
+<P>
+Other Information:
+<UL>
+<LI>Look in the Help Menu under Handbook
+<LI>Look in the Help Menu under Frequently Asked Questions
+<LI><A HREF="/comprod/products/navigator/version_3.0/communication/cooltalk/index.html">
+CoolTalk by InSoft</A>
+<LI><A TARGET="_top" HREF="http://www.insoft.com/support/CoolTalk-FAQ.html">
+CoolTalk Frequently Asked Questions</A>
+<LI><A TARGET="_top" HREF="../../../live3d/">Live3D</A>
+<LI><A TARGET="_top" HREF="http://www.paperinc.com/l3dFAQ.html">Live3D Frequently Asked Questions and README</A>
+<LI><A HREF="/assist/helper_apps/">Helper Applications</A>
+<LI><A HREF=/comprod/development_partners/plugin_api/index.html>
+    Plug-in SDK (Software Development Kit)</A>
+<LI><A HREF="index.html">
+    Release notes for earlier betas and other releases.</A>
+</UL>
+<P>
+<!-- New Features -->
+
+<HR SIZE=4>
+<A NAME="Features">
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>W</FONT>HAT'S 
+<FONT SIZE=+2>N</FONT>EW SINCE
+<FONT SIZE=+2>2.0?</FONT>
+</H3>
+
+<P>
+<!-- New Features -->
+
+<A HREF="#General">General Features</A>
+<br>
+<A HREF="#Layout">Layout Features</A>
+<br>
+<A HREF="#Message">Message Composition and Viewing Improvements</A>
+<br>
+<A HREF="#MIME">MIME Parser Improvements</A>
+<br>
+<A HREF="#Macintosh-only">Macintosh-only Changes</A>
+<br>
+<A HREF="#Windows-only">Windows-only Changes</A>
+<br>
+<A HREF="#UNIX-only">UNIX-only Changes</A>
+<br>
+<A HREF="#LiveConnect">LiveConnect</A>
+<br>
+<A HREF="#JavaScript">JavaScript</A>
+<br>
+<A HREF="#Java">Java</A>
+<br>
+<A HREF="#Security">Security</A>
+<br>
+<A HREF="#International">International Character Encodings</A>
+<br>
+<A HREF="#LiveAudio">LiveAudio</A>
+<br>
+<A HREF="#Live3D">Live3D</A>
+<br>
+<A HREF="#LiveVideo">LiveVideo</A>
+<br>
+<A HREF="#QuickTime">QuickTime</A>
+<br>
+<A HREF="#CoolTalk">CoolTalk</A>
+</CENTER>
+
+
+<A NAME="General">
+<H3>General Features</H3>
+<ul>
+<li><b>New Directory buttons:</b> The directory button toolbar now
+includes Destinations and People. Net Directory and Handbook have
+been removed.
+<P>
+<li><b>New Directory menu items:</b> The Directory menu now has items
+for Netscape Destinations and People. Internet Directory and Internet
+White Pages have been removed.
+<P>
+<li><b>New Navigation for Frames and the <b>Back</b> button:</b> Now,
+when you click on a link that updates a frame, pressing the
+<b>Back</b> button returns you to the previous state of the frame.
+Previously, pressing the <b>Back</b> button ignored updates within a
+page's frames and always returned you to the previous whole
+page (further back than you probably wanted). In short, navigating
+among frames now works on a per frame basis: pressing <b>Back</b>
+revisits the previous frame and pressing <b>Forward</b> revisits the
+frame ahead.
+<P>
+<li><b>Three-pane configurability:</b> A pane layout option has been
+added to the <b>Mail and News|Appearance</b> panel (choose the
+<b>Options|Mail and News Preferences|Appearance</b> menu item). The
+panel offers radio buttons to designate the layout of the three panes
+in the Mail and News windows. Choose <b>Split Horizontal</b>
+(<b>Articles on top</b> on Macintosh) to align the message content
+pane to the right of the two split panes. Choose <b>Split
+Vertical</b> (<b>Articles on left</b> on Macintosh) to align the
+message content pane below the two split panes. Choose <b>Stack</b>
+(<b>Stacked</b> on Macintosh) to align the message content pane below
+the two stacked panes (layered in rows atop one another).
+<P>
+<li><b>Show recipient in Sent Folder and Outbox:</b> When you select
+a mail folder by clicking on it, the message heading pane displays
+the titles of messages contained in that folder. In previous
+versions, you'd always see the title <b>Sender</b> above a column
+that shows the name of the sender of the mail message. Now, in the
+Outbox and Sent Mail folders, you'll see the title <b>Recipient</b>
+instead of </b>Sender</b>, and the column shows the email address of
+the mail recipient. For sent mail, the recipient info is much more
+useful than the sender info (typically yourself).
+<P>
+<li><b>Compressed headers:</b> When viewing either the Mail or
+News window, the <b>Options</b> menu now offers a cascading
+(hierarchical) menu items called <b>Show Headers</b> that replaces
+the <b>Show All Headers</b> item. The new menu item gives you more
+options to control the number of header information fields displayed
+when viewing messages. <b>All</b> displays all possible header
+fields. <b>Normal</b> displays the primary address fields.
+<b>Brief</b> displays only subject and recipient fields.
+<P>
+<li><b>Netscape Navigator Gold:</b> Netscape Navigator Gold has been
+updated for Win32 and Mac. Gold now lets you edit tables.
+<P>
+<li><b>New Network preferences panels:</b> New Network|Protocols and
+Network|Languages preference panels to expand and improve user
+preferences for security and privacy control.
+<P>
+<li><b>POP3 servers:</b> The <b>Keep Mail on Server</b> and <b>Maximum
+Message Size</b> options now work even with POP3 servers that do not
+implement the UIDL command.
+<P>
+<li><b>Special characters:</b> Additional entity names such as
+"&amp;pound" are now implemented.
+</ul>
+<P>
+
+<A NAME="Layout">
+<H3>Layout Features</H3>
+<ul>
+<li><B>Frame Border Control:</B> You can use the FRAMEBORDER, BORDER,
+and BORDERCOLOR attributes to control the display type, width, and color
+of frame borders. For precise control of border appearance, use all
+three attributes.
+<P>
+The FRAMEBORDER attribute determines how frame borders are displayed
+(outline-3D or plain). The attribute can be set with the value
+FRAMEBORDER=YES (outline-3D border) or FRAMEBORDER=NO (plain
+border), and can be used in the &lt;FRAMESET&gt; tag or the
+&lt;FRAME&gt; tag. The default is FRAMEBORDER=YES. When used in the
+&lt;FRAMESET&gt; tag, the FRAMEBORDER attribute sets the default
+value for all frames in the frameset. When used in the &lt;FRAME&gt;
+tag, the attribute applies only to the particular frame, overriding
+any frameset attribute. Because borders are shared between frames, a
+border will be plain only if all adjacent frames have their attribute
+set FRAMEBORDER=NO.
+<P>
+The BORDER attribute determines the thickness of frame borders for all
+frames in a frameset tag. The attribute can be set with a value from
+0 to N, and can only be used on the outermost &lt;FRAMESET&gt; (not
+on a per-frame basis). For example, setting BORDER=0 positions
+adjacent frames with no border space between them, BORDER=3 positions
+adjacent frames with 3 pixels of border space between them, and so
+on. The default is BORDER=5.
+<P>
+Remember, when neither a FRAMEBORDER or BORDER attribute is specified,
+the default is an outline-3D frame with a width of 5. Setting
+FRAMEBORDER=NO without a BORDER attribute displays a plain border
+with a width of 5. Unless you explicitly specify BORDER=0, a frame
+border is displayed.
+<P>
+Note also that when FRAMEBORDER=YES and BORDER is used, the thicker,
+outline borders acquire a 3-D appearance.
+<P>
+The BORDERCOLOR attribute determines the color of frame borders. The
+attribute can be set with a color name or RGB value, and can be used
+in the &lt;FRAMESET&gt; tag or the &lt;FRAME&gt; tag. When used in
+the &lt;FRAME&gt; tag, the attribute attempts to set the colors of
+the frame's borders. When used in the &lt;FRAMESET&gt; tag, the
+attribute attempts to set the colors of all borders of all frames in
+the frameset.
+<p>
+Because frame borders are shared, border color conflicts are resolved
+as follows: The attribute appearing in the outer &lt;FRAMESET&gt; has
+the lowest priority. This is, in turn, overridden by the attribute
+used in a nested &lt;FRAMESET&gt; tag. Finally, the BORDERCOLOR
+attribute used in a &lt;FRAME&gt; tag overrides all previous
+&lt;FRAMESET&gt; tag uses. If there is a conflict for two colors of
+equal priority both set on the same edge, the behavior is undefined.
+<P>
+<li><B>Multi-Column Text:</B> The &lt;MULTICOL&gt; tag is a container,
+and all the HTML between the starting and ending tag will be
+displayed in a multi-column format. The tag can be nested, although
+multi-column text within multi-column text becomes quickly
+unreadable. The attributes of this tag are COLS, GUTTER, and WIDTH.
+<P>
+The COLS attribute is mandatory and controls how many columns the
+display will be split into. Layout will attempt to flow elements
+evenly across the columns to make each column have about the same
+height. Unless the WIDTH attribute is specified, column with is
+adjusted to fill the available view.
+<P>
+The GUTTER attribute controls the pixels of space between columns. It
+defaults to a value of <tt>10</tt>.
+<P>
+The WIDTH attribute controls the width of an individual column. All
+columns are always the same width, so the overall width of a
+multi-column layout is:<br> <tt>(cols * width) + ((cols - 1) *
+gutter)</tt><br>
+<P>
+
+<li><B>Horizontal and Vertical Spacing:</B> A new tag called
+&lt;SPACER&gt; provides better control over the spacing of objects
+and whitespace in HTML pages. The attributes to spacer are TYPE,
+SIZE, WIDTH, HEIGHT, and ALIGN.
+<P>
+The TYPE attribute has three possible values: horizontal,
+vertical, and block. These correspond to the three
+types of spacing control delineated above. The default value
+is horizontal.
+<UL>
+<LI>The horizontal spacer inserts horizontal space between words. The
+width of the space is controlled by the SIZE attribute.
+<LI>The vertical spacer inserts vertical space between lines. Implicit
+in this spacer is a line break to end the current line, then the
+vertical space is added before the beginning of the next line. The
+height of the space is controlled by the SIZE attribute.
+<LI>The block spacer behaves almost exactly like an invisible image.
+When using this type of spacer the SIZE attribute is ignored, and
+instead the WIDTH, HEIGHT, and ALIGN attributes are applied just as
+they would be for the &lt;IMG&gt; tag.
+</UL>
+<P>
+The SIZE attribute only applies when the spacer has a type of
+horizontal or vertical. Then this attribute controls the absolute
+width or height in pixels of the spacing added.
+<P>
+The WIDTH attribute only applies when the spacer is of type block.
+Then this attribute controls the absolute width in pixels of the
+spacing rectangle added.
+<P>
+The HEIGHT attribute only applies when the spacer is of type block.
+Then this attribute controls the absolute height in pixels of the
+spacing rectangle added.
+<P>
+The ALIGN attribute only applies when the spacer is of type block.
+Then this attribute controls the alignment of the spacing rectangle
+in exactly the same way it would control the alignment of an
+&lt;IMG&gt; tag.
+<P>
+<li><B>Strikeout and Underline Text:</B> Netscape has always supported
+strikeout text in the form of the &lt;STRIKE&gt; tag. Now Netscape
+also supports an alternative syntax, the &lt;S&gt; tag, while
+maintaining support for the &lt;STRIKE&gt; tag as backwards
+compatibility.
+<p>
+Netscape now supports underlined text using the &lt;U&gt; tag. The tag
+causes all text between the start and end tag to have a solid
+underline drawn along the common baseline of the text.
+<P>
+<li><B>JavaScript Evaluation in HTML:</B> JavaScript evaluation in
+HTML attribute values allows JavaScript to be dynamically evaluated
+in the right-hand side of an HTML attribute name/value pair (that is,
+when calculating the values of HTML attributes). This allows the
+attributes of one HTML element to depend on information about
+previously placed elements on the page.
+<p>
+JavaScript evaluation uses the HTML entity
+sequence as follows:
+<p>
+<tt>&amp;lt; == "&lt;"</tt>
+<p>
+Where "&amp;" denotes the start of an entity, and ";" terminates
+it. In this case a dynamic entity is in the
+form of a JavaScript expression enclosed in curly braces:
+<p>
+<tt>&amp;{<i>javascript_expression</i>}; == "<i>returned_string</i>"</tt>
+<p>
+JavaScript entities concatenate with the surrounding text:
+<p>
+<tt>"&amp;{10 * 10};%" == "100%"</tt>
+<p>
+JavaScript entities can only be interpreted on the right-hand
+side of HTML attribute name/value pairs.
+<P>
+<li><B>FONT FACE=fontName:</B> The FONT FACE attribute lets you specify the
+names of specific fonts as your preferred font choices in the format:
+<P>
+<tt>&lt;FONT FACE=&quot;font1,font2,fontN&quot;&gt; &lt;/FONT&gt;</tt>
+<P>
+For example, if font1 is not available, font2 is used. If no specified
+font is available, the default font is used. COLOR and SIZE
+attributes can be specified along with the FACE attribute.
+<P>
+<tt>&lt;FONT FACE=&quot;Garamond,Helvetica,Times&quot;&gt; &lt;/FONT&gt;</tt>
+<P>
+<li><b>Support table cell background colors:</b> You can specify a
+background color to be used when displaying table cells. To specify a
+table background color use the <b>bgcolor</b> attribute. Nested
+tables inherit background colors.
+<TABLE ALIGN=RIGHT BORDER=1 WIDTH=20%>
+ <CAPTION CENTER Valign=BOTTOM>Color Cells</CAPTION>
+ <TR><TD BGCOLOR=#ffdddd>One Color</TD></TR>
+ <TR><TD BGCOLOR=#ccffff>Another Color</TD></TR>
+</TABLE>
+<p>
+The <b>bgcolor</b> tag specifies one of the supported color names and
+can be used with the following tags: <b>table</b>, <b>td</b>,
+<b>th</b>, and <b>tr</b>.
+<P>
+Here's the HTML that produced the table on
+the right.
+<br clear=all>
+<XMP>
+<TABLE ALIGN=RIGHT BORDER=1 WIDTH=20%>
+ <CAPTION CENTER Valign=BOTTOM>Color Cells</CAPTION>
+ <TR><TD BGCOLOR=#ffdddd>One Color</TD></TR>
+ <TR><TD BGCOLOR=#ccffff>Another Color</TD></TR>
+</TABLE>
+</XMP>
+<P>
+</ul>
+
+<A NAME="Message">
+<H3>Message Composition and Viewing Improvements</H3>
+<P>
+
+<ul>
+<li><B>Long-line Wrapping in Message Composition window:</b> The new
+Message Composition window menu item <b>View|Wrap Long Lines</b>,
+when checked, automatically line-wraps the messages you send such
+that no line is longer than 72 characters. The width of the Message
+Composition window does not affect line-wrapping, nor are the line
+breaks you see necessarily the wrapping that is sent. When unchecked,
+messages are sent without automatic line-wrapping and the line breaks
+that you see are sent. The default is checked.
+<P>
+In previous versions, long lines were wrapped at the width of
+the window. This gave a "What You See Is What You Get" aspect to
+the message composition window. Regardless of whether the sender had
+allowed text to auto-wrap, or had hit return at the end of
+every line, or had resized the window, the recipient of the
+message would see the same line breaks as the sender. 
+<P>
+However, problems occurred when senders made their composition windows
+very wide for ease of editing. It was
+very easy to accidentally send out messages with long lines that
+exceeded the 80 column limit. To many recipients, such messages would
+be very difficult to read.
+<P>
+In this version, outgoing text is wrapped at 72 columns, regardless of
+the size of the window. This makes the composition window less
+WYSIWYG, but it does make it much harder to accidentally generate
+unreadable messages.
+<P>
+There is (and has been) a single exception to the line wrapping rule:
+Lines which have the character <B><TT>&gt;</TT></B> as their first
+character are never wrapped. Such lines are usually a part of quoted
+text and it is important to preserve the special character at the start of each line.
+<P>
+It is also still true that lines beginning with <B><TT>&gt;</TT></B>
+will appear to be wrapped in the Message Composition window if the
+lines are longer than the window is wide. This is a property of the
+platform-provided text editors. At the time the message is sent,
+these lines will be effectively unwrapped.
+<P>
+Since the column at which word-wrapping occurs is no longer tied to
+the size of the window, the <B>Wrap Long Lines</B> option has been
+added to turn off word-wrapping on the Message Composition window.
+This is for the less common case where you need to send a message
+with specially-formatted text such as wide tables or charts, or data
+where wrapping the lines would damage the data.
+<P>
+When this option is selected, two things happen: First, the text
+area no longer does word-wrapping (a horizontal scrollbar will be
+presented instead). Second, the generated message will have
+exactly the line breaks that the user inserted explicitly and no
+automatic wrapping of any kind will occur.
+<P>
+The default for the option is to wrap lines and the option is not
+persistent. If you turn wrapping off, the particular composition
+window is affected only this one time (since no-wrapping is an
+unusual case).
+<P>
+
+<li><B>Long-line Wrapping in Mail and News windows:</b> The new menu
+item in the Mail and News windows <b>View|Wrap Long Lines</b>, when
+checked, displays long lines in the message in shorter, more numerous
+lines. When unchecked, long lines are more likely to extend off the
+screen and require the horizontal scroll bar for viewing. The default
+is unchecked.
+<P>
+Messages marked as <TT>text/plain</TT> should have preformatted line
+breaks so that the text does not require reformatting or wrapping.
+However, two forms of messages cause problems:
+<P>
+First, there are the messages which have line breaks at the end of
+each line, but which have lines which are too long (say, 100
+character lines rather than 79 character lines.) Such messages were
+easy to generate with earlier versions of Netscape by simply making
+the Message Composition window wider than its default size.
+<P>
+Second, there are the messages which only have line breaks at the end
+of each paragraph. These messages are generated by software which
+does not understand the requirements of Internet mail and
+inappropriately assumes that the recipient of the message will always
+be able to rewrap the messages.
+<P>
+To address both types of message, the <B>Wrap Long Lines</B> option
+has been added to the <B>View</B> menu on both the Mail and News
+windows. This allows lines which are longer than the width of the
+window to be wrapped. Turning this option on will probably make
+correctly-formatted messages look worse, however, for messages which
+are incorrectly formatted with overly long lines, the option makes
+the messages readable.
+<P>
+Note that though there are now line-wrapping options on both the
+Message Composition window, and on the Mail and News windows, they do very
+different things. The former affects the actual text that will be
+mailed out; the latter merely controls the presentation of
+received messages without actually altering them.
+</UL>
+<P>
+
+<A NAME="MIME">
+<H3>MIME Parser Improvements</H3>
+<P>
+The MIME message display engine has been significantly improved. A
+number of new features have been added and a number of bugs have been
+fixed.
+<ul>
+<LI><B>When saving attachments, a more reasonable default file name
+will be used:</B> In earlier versions, the <B>Save This Link As</b>
+command (and its shortcut, the shift-click or option-click gesture)
+did not generally offer a good default file name when prompting for
+the place to save the attachment. This is now fixed: the suggested
+file name should always be the original name of the attached
+document.
+<P>
+<LI><B>Support for uuencoded data in non-MIME messages is greatly
+improved:</B> In previous versions of Netscape, uuencoded
+pseudo-attachments were not handled as well as full-fledged MIME
+attachments; the handling of uuencoded data in non-MIME messages
+should now be virtually indistinguishable from real MIME attachments,
+from the end user's point of view.
+<P>
+In previous versions, uuencoded data was automatically decoded only if
+it appeared to be on of the built-in image types (GIF, JPEG, and
+XBM); and once the uuencoded data was encountered, it was considered
+to extend from the <TT>begin</TT> line to the end of the message.
+This has been fixed:
+<UL>
+<P>
+<LI>Any number of uuencoded segments in a message will be displayed
+as attachments: the uuencoded data is considered to extend from the
+<TT>begin</TT> to the <TT>end</TT> line, and then the
+remainder of the message will be presented in the usual way. 
+
+<P>
+<LI>Any type of uuencoded data will be treated as an attachment, not just
+images. If the extension on the name of the attached file is one that
+indicates that it is a GIF, JPEG, or XBM, then the attachment will be
+decoded and displayed inline; otherwise, it will be presented as a
+normal attachment link, making it easy to decode and save the
+data to a file. 
+
+<P>
+<LI>The <B>View Attachments as Links</B> menu item now affects
+the presentation of uuencoded attachments in the same way it has
+always affected MIME attachments.
+
+<P>
+<LI>When uuencoded attachments are saved, they will always be decoded
+first, just as base64-encoded data is.
+</UL>
+
+<P>
+<LI><B>BinHex data is recognized in non-MIME messages:</B> In
+much the same way that we notice the presence of uuencoded data in
+non-MIME messages, we now also notice BinHex data.
+
+<P>
+<LI><B>Sun MailTool attachments are supported:</B> Attachments of the
+form generated by Sun's MailTool (messages of type
+<TT>x-sun-attachment</TT>) are recognized, and displayed just like
+normal MIME messages.
+
+<P>
+<LI><B>The multipart/alternative MIME type is supported:</B>
+The <TT>multipart/alternative</TT> Content-Type is a container that
+includes different versions of the same document; for example,
+a <TT>text/plain</TT> version, followed by a <TT>text/html</TT>
+version, followed by an <TT>application/postscript</TT> version.
+Netscape will present to the user only one of the versions, the
+highest ``resolution'' version that can be displayed inline.
+<P>
+Netscape does not currently have the ability to generate messages
+which contain <TT>multipart/alternative</TT> data, but it is now
+capable of displaying it (for compatibility with existing and future
+mailers which do generate such messages.)
+
+<P>
+<LI><B>The message/external-body MIME type is supported:</B>
+The <TT>message/external-body</TT> Content-Type is a MIME
+representation of what is essentially a URL: it describes a method
+for retrieving a document from the net. The directly-supported
+<TT>message/external-body</TT> access methods are <TT>ftp</TT>,
+<TT>anon-ftp</TT>, <TT>local-file</TT>, <TT>afs</TT>,
+<TT>mail-server</TT>, and <TT>url</TT>.
+
+<P>
+<LI><B>Uuencoded data is only recognized in non-MIME messages:</B> We
+no longer recognize uuencoded data in arbitrary parts of type
+<TT>text/plain</TT>: we now only do this auto-<WBR>recognition in
+messages which have no Content-Type specified. That is, if the
+message is a full-fledged MIME message, we always believe the
+Content-Type of that message. If it says it's plain text, then we
+treat it as plain text and don't play guessing games behind its back.
+<P>
+However, if the message does not have a Content-Type, then it is
+not a MIME message, and we assume that it may contain either text, or
+uuencoded data, or BinHex data, or any combination thereof. 
+<P>
+So if you come across a message that contains uuencoded data, and we
+did not present it as an attachment, then that's probably because
+that message was generated by simply pasting the uuencoded data into
+the main body of the message with a MIME-compliant mailer. 
+<P>
+The proper way to send uuencoded data with a MIME-compliant mailer is
+to attach the uuencoded file to the message, so that it shows up as a
+MIME part, with some non-text Content-Type, and <TT>x-uuencode</TT>
+as its Content-Transfer-Encoding.
+</ul>
+
+
+<A NAME="Macintosh-only">
+<H3>Macintosh-only Changes</H3>
+<ul>
+<li><B>Open Transport native:</B> Native support for Apple Open Transport.
+<P>
+<li><B>Internet Config:</B> Basic Internet Config features are
+supported. Internet Config is a public domain system extension that
+lets you configure Internet information such as email address and
+server names in a single source location. This is useful if you are
+using multiple Internet applications. Supporting applications can
+find this information, making it unnecessary for you to enter the
+same information in each of your Internet applications.
+<P>
+<li><B>Tooltips:</B> An item in the Options|General
+Preferences|Appearance panel lets you turn on tooltips so that when
+the mouse stays over a toolbar button, tooltip text appears.
+<P>
+<li><B>Unread mail and news messages:</B> Are now marked in bold.
+<P>
+<li><B>Helpers panel:</B> The Options|General Preferences|Helpers
+panel has been redesigned to simplify editing, adding, and deleting
+helper applications and plug-ins.
+<P>
+<li><B>User-interface improvements:</B> Several minor changes
+regarding fonts, spacing, and tabs. Improved design in toolbar and
+preferences panels.
+<P>
+<li><B>Enable active scrolling option:</B>The General|Appearance
+preference panel has a check box to allow active window scrolling.
+When checked, movement of the scroll bar thumb causes the content
+area to scroll as you drag. When unchecked, movement of the scroll
+bar thumb causes the content area to scroll only after the mouse
+button is released. The default is checked. On slower computers,
+scrolling performance might improve when the setting is unchecked.
+</ul>
+
+<A NAME="Windows-only">
+<H3>Windows-only Changes</H3>
+<ul>
+<li><B>Forms Printing:</B> The printing of forms has been improved.
+<P>
+<li><B>Image Presentation:</B> Image outlines and alt text are
+presented before image loading.
+<P>
+<li><B>Set as Wallpaper:</B> A menu item has been added to the pop-up
+that lets you use a specified image as the screen background image.
+Point the mouse cursor over any image, pres the right-mouse button,
+then select the <B>Set as Wallpaper</B> menu item.
+</ul>
+
+<A NAME="UNIX-only">
+<H3>UNIX-only Changes</H3>
+<ul>
+<li><B>Plug-in support on UNIX platforms:</B> SGI IRIX, SunOS, Solaris
+2.3, Solaris 2.4, DEC OSF/1, HP/UX, and Linux 1.2 (ELF).
+<P>
+<li><B>Frame Source and Frame Info:</B> The View menu has items for
+Frame Source and Frame Info, available when a frame is selected.
+<P>
+<li><B>Quoted text color:</B> The Mail and News Preferences|Appearance
+panel has a field that lets you enter the color of your quoted text.
+<P>
+<li><B>Hide menu bar:</B> The Options menu has an item to let you hide
+the menu bar. Use the right mouse button to display the pop-up menu
+containing an item to show the menu bar again.
+<P>
+<li><B>Drag-and-drop attachments:</B> To create an attachment, you can
+drag a mail message item from the message pane to the attachment
+field of the Composition window.
+<P>
+<li><B>Drag-and-drop news:</B> You can drag News window articles to
+store them in Mail window folders.
+<P>
+<li><B>HP/UX:</B> The HP/UX binary has been linked dynamically.
+<P>
+<li><B>Helpers panel:</B> The Options|General Preferences|Helpers
+panel has been redesigned to simplify editing, adding, and deleting
+helper applications and plug-ins.
+</ul>
+
+
+<A NAME="LiveConnect">
+<H3>LiveConnect</H3>
+<ul>
+<LI><B>Java, JavaScript, and Plug-in Connectivity:</B> Netscape's
+LiveConnect lets you integrate Java, JavaScript and Navigator
+plug-ins. This allows you to create plug-ins and applets that can be
+controlled by Java and JavaScript, or use Java and JavaScript to
+implement portions of your plug-in. Fundamentally, LiveConnect allows
+you to call:
+<ol>
+<li>Java methods from plug-ins.
+<li>Native methods implemented in plug-ins from Java.
+<li>Java methods from JavaScript.
+<li>JavaScript from Java methods. 
+</ol>
+<P>
+You can find out more at <A
+HREF=http://home.netscape.com/comprod/products/navigator/version_3.0/developer/mojava.html>LiveConnect
+Developer Information</A>. For further information about
+Java-to-plug-in connections and Java-to-JavaScript connections
+(including recent JRI/JAVAH changes), choose the <B>Help|Handbook</B>
+menu item to find links to latest versions of the JavaScript Guide
+and Plug-in Guide.
+<P>
+<LI><B>Disabling LiveConnect:</B> LiveConnect is disabled if either
+Java or JavaScript is disabled in the Options|Network
+Preferences|Languages panel.
+</ul>
+
+
+<A NAME="JavaScript">
+<H3>JavaScript</H3>
+<ul>
+<LI><B>JavaScript-generated documents:</B> JavaScript-generated
+documents can be printed, saved as files, and viewed with View
+Document/Frame Source.
+<P>
+<LI><B>Resizing a JavaScript-generated document modifies location
+field:</B> When you resize a Javascript-generated document, the
+following text appears in the location field as a prefix to the URL:
+<P>
+<CODE>wysiwyg://(id)/</CODE><P>
+<P>
+where <CODE>(id)</CODE> after the literal 'wysiwyg://' and
+before the third '/' is automatically generated.
+<P>
+<LI><B>Resizing a window reloads its documents from cache:</B>
+Previously, resizing caused JavaScript to rerun the same scripts as
+when the page first loaded. Now, the document is reloaded from cache
+(scripts are not rerun, the load and unload events are not sent, and
+user-defined variables and properties are not reinitialized). There
+is currently one exception: Resizing can cause HTML objects such as
+forms and links to lose their user-set properties (the objects are
+reflected again by the reload).
+<P>
+<LI><B>NOSCRIPT tag:</B> A
+<CODE>&lt;NOSCRIPT&gt;...&lt;/NOSCRIPT&gt;</CODE> tag has been added
+so that if a user has JavaScript turned off in the Network|Languages
+preferences panel or if a user's browser application does not support
+JavaScript, the user sees the HTML between the noscript tag and its
+end tag.
+<P>
+<LI><B>SRC attribute:</B> The <CODE>&lt;SCRIPT&gt;</CODE> tag now has
+an additional attribute that allows a JavaScript file to be specified
+as the JavaScript source (rather than embedding the JavaScript in the
+HTML). Attributes within the SCRIPT tag can now be specified as
+follows:
+<P>
+<CODE>&lt;SCRIPT LANGUAGE=JavaScript SRC=mySource.js&gt; </CODE>
+<P>
+where <CODE>mySource.js</CODE> is the URL (relative or full address) of the
+JavaScript source code file.
+<P>
+The LANGUAGE attribute is mandatory unless the SRC attribute is
+present and specifies the scripting language. The SRC attribute is
+optional and, if given, specifies a URL that loads the text of a
+script. Both attributes may be present.
+<P>
+The SRC attribute specifies the scripting language by using the .js
+suffix. The suffix must be mapped by the web server to the MIME type
+"application/x-javascript" which the server sends back in the HTTP
+GET reply's Content-type: header. Without a properly configured
+server (one that maps .js filename suffix to application/x-javascript
+MIME), Netscape won't respond properly with the data coming back in
+the HTTP response to the SRC-initiated request.
+<P>
+<LI><B>Data tainting security model:</B> You can set NS_ENABLE_TAINT
+to enable JavaScript in one window to see properties of a second
+window, regardless of which server provided the second window's
+document. When JavaScript in the first window attempts to send to a
+server (other than the one that originated the data) data derived
+from the second window's tainted properties, a confirming dialog is
+brought up so that the user can cancel or confirm the transaction.
+<P>
+To set NS_ENABLE_TAINT:
+<ul>
+<li>On UNIX, use setenv.
+<li>On Windows, use set.
+<li>On Macintosh, edit the resource with type 'Envi' and number 128 in
+the Netscape application by removing the two ascii slashes "//"
+before the NS_ENABLE_TAINT text at the end of the resource.
+</ul>
+You can use two new functions, taint() and untaint(), to mark and
+unmark an argument datum with taint associated with the current
+script. For example, to remove taint from a form input element so
+that it can be sent to another server by the server's script, you
+would say:
+<P>
+<CODE>untainted = untaint(document.form1.input3)
+<BR>// now untainted can be sent in a URL or form post by other scripts
+</CODE>
+<P>
+Neither taint() nor untaint() modifies its single argument. Rather, both
+functions return a marked or unmarked reference to the argument object,
+or a copy of the primitive type value (number or boolean value).
+<P>
+<LI><B>JavaScript reflection of plug-ins:</B> Allows developers to
+dynamically determine what plug-ins are installed on the client. By
+making the list of installed plug-ins accessible through JavaScript,
+content developers can write simple scripts to display embedded
+plug-in data if the appropriate plug-in is installed, or display some
+alternative information (image, text, etc.) if not.
+<P>
+JavaScript currently has a global "navigator" object which contains
+properties for information not associated with any particular
+document. This object now has two additional properties: a
+"mimeTypes" object and a "plugins" object.
+<P>
+The mimeTypes object is an array of all MIME types supported by the
+client (either internally, via helper apps, or by plug-ins). Each
+element of the array is a mimeType object, which has properties for
+its type, description, and file extensions.
+<P>
+The plugins object is an array of all plug-ins currently installed on
+the client. Each element of the array is a plugin object, which has
+properties for its name and description, as well as a subarray of
+mimetype objects for the types supported by that plugin.
+</ul>
+
+
+<A NAME="Java">
+<H3>Java</H3>
+<ul>
+<li><B>The APPLET tag now supports an ARCHIVE attribute:</B> This can improve
+applet download time by reducing the number of HTTP connections required
+to fetch applet code.  Example:
+
+<XMP>
+  <applet archive="Nuclear.zip"
+    code="NuclearPlant.class"
+    width=680 height=473>
+  </applet>
+</XMP>
+
+This will cause the file Nuclear.zip to be downloaded to the user's
+disk, and will search it for the NuclearPlant class and the classes it
+requires. The zip file is found relative to the codebase path, and must
+not be compressed.  Classes not in the zip file will still be searched
+for via the old mechanism if required.
+<P>
+<li><B>Compatible with the JDK:</B> The Java implementation is now
+compatible with the <A
+HREF=http://www.javasoft.com/java.sun.com/products/JDK/index.html>Java
+Developers Kit</A> (JDK version 1.0.2) from Sun.
+<P>
+<li><B>Mac Support:</B> Java support has been added to the Macintosh
+Power PC and 68K platforms allowing users to run Java applets.
+Applets are software programs written in the Java language that can
+be integrated within HTML pages.
+<P>
+<li><B>UNIX Support:</B> Java support has been added to the IBM AIX
+and BSDI platforms. The Java implementation is now compatible with
+version 1.0.2 of the JDK from Sun.
+<P >
+<LI><B>Unicode Support: </B>Java applets will now display all Unicode
+characters which can be rendered with an existing system font.
+Support is no longer limited to the Latin-1 subset of Unicode:
+Support is provided for Western (Latin 1) and Central European (Latin
+2) languages, as well as Chinese, Japanese, and Korean. This feature
+is currently available on the UNIX and Macintosh platforms.
+<P>
+<li><B>Win 32 JIT Compiler:</B> On Windows 32 computers, a
+just-in-time compiler translates Java bytecodes into Intel machine
+code which makes many Java programs execute substantially faster.
+<P>
+<li><B>Windows AWT toolkit:</B> A completely new implementation of the
+AWT toolkit fixes many bugs.
+<P>
+<li><B>JavaScript interaction using LiveConnect:</B> There is now a
+new attribute for the APPLET tag called MAYSCRIPT which is required
+for an applet that wishes to use LiveConnect and the
+netscape.javascript classes to interact with JavaScript.
+<P>
+<li><B>Java security:</B> Programming notes on Java security.
+<ul>
+<li>To protect the privacy of applets, System.in, System.out, and
+System.err have been made "final" (they are effectively constants,
+and can not be changed by applets).
+<li> Thread.suspend() can result in deadlocking the Java subsystem
+(for example, suspend an applet that is holding system critical
+resources).  The call has been annotated with a warning that prints
+on the Java Console when this method is invoked. Use of the call
+should be avoided. Future releases might not support the call.
+<li>For the privacy of each applet, Thread.stop(t) (the version that
+takes an argument) is now restricted to only take an instance of a
+ThreadDeath class.  Passing other types results in a security
+exception.
+</ul>
+</ul>
+
+
+<A NAME="Security">
+<H3>Security</H3>
+<ul>
+<li><b>New section in Security preferences panel:</b> New Secure
+Network Protocol section in Security|General Preferences to control
+access to SSL v2 and SSL v3.
+<P>
+<li><b>Security Preferences: </b> Two new security preference panels
+have been added to enable new security features.
+<P>
+<ul>
+<li><b>Personal Certificate panel:</b> Personal certificates identify
+you to others on the Internet. For example, when you submit
+information in a form, your personal certificate allows the recipient
+of the form to know the information came from you and no one else.
+<P>
+You may wish to obtain more than one personal certificate. Some web
+sites may request (and issue to you) a personal certificate for
+specific use with their site. You may also obtain more generic
+personal certificates that represent you for credit card transactions
+or other nonspecific, secure communications.
+<P>
+<li><b>Passwords panel:</b> A Netscape password protects you if your
+computer can be physically accessed by other people or remotely
+accessed through a network. Your password protects your security
+certificates.
+</ul>
+</ul>
+
+<A NAME="International">
+<H3>International Character Encodings</H3>
+<ul>
+<li>Netscape supports the following character encodings in Netscape Navigator for 
+Web, Mail, and News: ISO 8859-1 (Latin-1), Shift-JIS, EUC-JP, JIS (ISO-2022-JP), EUC-KR, GB,
+Big5, EUC-TW (CNS), and ISO 8859-2 (Latin-2).
+<P> 
+<li>Internally, Netscape converts these character encodings to the
+encodings used in the fonts on your system (which vary from platform
+to platform). The following is a specific list of the character
+encodings supported:
+<P>
+<ul>
+<li>Western European: ISO 8859-1, MacRoman (Mac only)
+<li>East (or Central) European: ISO 8859-2, MacCE  (Mac only)
+<li>Japanese: ShiftJIS, EUC JP, ISO-2022-JIS
+<li>Korean: EUC KR, ISO-2022-KR
+<li>Traditional Chinese: Big 5, EUC TW
+<li>Simplified Chinese: GB2312     
+<li>East (or Central) European: CP 1250 (Windows Latin 2)
+<li>Cyrillic: ISO 8859-5, KOI8-R, MacCyrillic (Mac only), CP 1251 (Windows Cyrillic)
+<li>Greek: ISO 8859-7, MacGreek (Mac only)
+<li>Turkish: ISO 8859-9, MacTurkish (Mac only)
+</ul>
+</ul>       
+
+<A NAME="LiveAudio">
+<H3>LiveAudio</H3>
+<ul>
+<li><B>Plug-in:</B> This plug-in is an asynchronous sound-playing
+application, capable of playing AIFF, MIDI, WAV, and AU sound
+formats. The plug-in can be controlled using various views.
+<P>
+<li><B>Supported Platforms:</B> Win 16, Win 32, Mac 68K, and Mac PPC 
+<P>
+<li><B>System Requirements:</B> 
+<ul>
+<li>Win 16: (Minimum) 386 Processor with Windows 3.1, and a compatible
+sound card installed.
+<P>
+<li>Win 32: (Minimum) 386 Processor with Windows 95 or Windows
+NT, and a compatible sound card installed.
+<P>
+<li>Macintosh (68K): (Minimum) Macintosh 68030, with System 7.1, QuickTime
+2.1 (with Musical Instrument Plug-in), and Sound Manager 3.1.
+<P>
+<li>Macintosh (PPC): (Minimum) Macintosh with a PPC 601 (66MHz), System
+7.1.2, QuickTime 2.1 (with Musical Instrument Plug-in), and Sound Manager
+3.1.
+</ul>
+</ul>
+
+<A NAME="Live3D">
+<H3>Live3D</H3>
+<ul>
+<li><B>Plug-in:</B> This plug-in extends Netscape Navigator so
+that you can experience distributed, interactive 3D spaces rich with
+text, images, animation, sound, music, and video. In addition to
+providing a high-performance VRML viewer, Live3D extends Netscape's
+Java, JavaScript, and plug-in interfaces to make it easy to develop
+distributed 3D applications on the Netscape Navigator platform.
+<P>
+<li><B>Supported Platforms:</B> Win 32, Win 16, Macintosh PPC
+<P>
+<li><B>System Requirements:</B>
+<ul>
+<li>PC (Windows 95, Windows NT, or Windows 3.1): Live3D for Windows
+requires that you have a Pentium or a 486DX CPU, or a 486SX CPU with
+a math co-processor, 8mb of RAM, 2.5mb of disk space, and at least a
+256 color display.
+<P>
+<li>Macintosh (PPC): System 7.x
+</ul>
+</ul>
+
+<A NAME="LiveVideo">
+<H3>LiveVideo</H3>
+<ul>
+<li><B>Plug-in:</B> This plug-in will play AVI movies. AVI is a common
+video format on Windows.
+<P>
+<li><B>Supported Platforms:</B> Win 16, Win 32
+<P>
+<li><B>System Requirements:</B> 
+<ul>
+<li>Win 16: (Minimum) 386 Processor with Windows 3.1, and a compatible
+sound card installed. Will require "Video for Windows."
+<P>
+<li>Win 32: (Minimum) 386 Processor with Windows 95 or Windows
+NT, and a compatible sound card installed.
+</ul>
+</ul>
+
+<A NAME="QuickTime">
+<H3>QuickTime</H3>
+<ul>
+<li><B>Plug-in:</B> This plug-in automatically plays QuickTime movies
+(.mov files) including movies with text, MIDI, and other kinds of
+data. A page developer can use HTML commands to automatically play a
+movie for you or to present a controller giving you the ability to
+play, stop, fast-forward, and rewind movies.
+
+<P>
+<li><B>Supported Platforms:</B> Win 16, Win 32, Mac 68K, and Mac PPC 
+<P>
+<li><B>System Requirements:</B> 
+<ul>
+<li>PC (Win 16 or Win 32): Windows 95, NT, or 3.1, compatible
+sound card, and QuickTime 2.1.1 for Windows.
+<P>
+<li>Macintosh (68K or PPC): Macintosh with System 7.0 or later, QuickTime
+2.1, and Sound Manager 3.2.
+</ul>
+</ul>
+
+<A NAME="CoolTalk">
+<H3>CoolTalk</H3>
+<ul>
+<li><B>Helper Application:</B> This helper application is a real-time
+audio and data collaboration tool specifically designed for the
+Internet. CoolTalk provides full-duplex audio conferencing, allowing both users
+to speak and be heard simultaneously. Unlike audio-only Internet
+products, CoolTalk includes a Chat Tool and Shared Whiteboard for
+textual and graphical data conferencing.
+<P>
+<LI><B>IS411 Server:</B>
+An interactive version of the IS411 server is available at
+<A HREF=http://live.netscape.com/>live.netscape.com</A>.
+The IS411 server may be used to interactively search for and connect to
+other registered CoolTalk users.
+<P>
+<li><B>Supported Platforms:</B> Win 32, Unix (hpux, irix, osf1, sol23,
+sol24, sun4)
+<P>
+<li><B>System Requirements:</B> 
+<UL>
+<LI>
+Win 32:
+<br>486, 50 MHZ or higher 8 MB RAM
+<br>Internet Winsock 1.1 compatible TCP/IP connection
+<br>14.4 Kbps or higher network connection
+<br>MS Windows 95, MS Windows 3.1 or MS Windows NT 3.51
+<br>MS Windows compatible sound card
+<br>Microphone which can be connected to the sound card for audio input
+<br>Multimedia speakers for audio output.
+<p>
+<LI>
+UNIX: (Note that all UNIX configurations require a minimum of 24 MB of RAM and a
+microphone for voice input.)
+<br>
+ SunOS 4.1.3 or higher
+<br> 
+ Solaris 2.3, 2.4
+<br> 
+ Digital UNIX 3.2 with MME 2.0 (Multimedia Services)
+<br> 
+ HP/UX 9.0[357] with patches PHKL_6050 and PHSS_6213
+ These patches are required for driver/kernel changes and the correct Aserver
+<br> 
+ SGI 5.2
+<br>
+</UL>
+</ul>
+<!-- End New Features -->
+<HR SIZE=3>
+
+<!-- Configuration and Known Problems -->
+<A NAME="Configuration">
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>C</FONT>ONFIGURATION AND
+<FONT SIZE=+2>M</FONT>IGRATION
+</H3>
+</CENTER>
+
+<UL>
+<LI><B>Installing under Windows NT 4.0:</B>
+If you run the installer and nothing happens, try restarting NT 
+and running the installer again.
+<P>
+<LI><B>Quicktime Plug-In:</B>
+<UL>
+<LI>You must install Quicktime for Windows first, before viewing
+  any Quicktime Movies in Netscape Navigator.
+
+<LI>You can download Quicktime for Windows from Apple's site at:
+<A HREF=http://quicktime.apple.com/qt/sw/sw.html>
+http://quicktime.apple.com/qt/sw/sw.html </A>
+
+
+<LI>For more information on Quicktime, check the README.TXT.
+</UL>
+<P>
+
+<LI><B>16 bit Windows 3.x Users: </B> Both <B>CoolTalk</B> and the 
+<B>LiveVideo</B> plugin require Video for Windows to run. You can download
+Video for Windows from 
+<A HREF="ftp://ftp.netscape.com/navigator/3.0/windows/wv1160.exe">ftp://ftp.netscape.com/navigator/3.0/windows/wv1160.exe</A>. 
+<P>
+<LI><B>Netscape is not showing the most recent version of web pages:</B>
+<UL>
+<LI>If you
+       have old data in your disk cache, you may still see the problem where
+       Netscape Navigator is not showing you the most recent version of the
+       web pages because of daylight savings time conflicts. To remedy this
+       problem, clear your disk cache the first time you run the Navigator.
+
+ <P>
+<LI> If you have cleared your disk cache, and are still seeing this problem,
+     go to Help|How to Give Feedback and tell us about the problem.
+</UL>
+ 
+
+</UL>
+
+<P>
+<HR SIZE=3>
+<P>
+
+<A NAME="Problems">
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>K</FONT>NOWN
+<FONT SIZE=+2>P</FONT>ROBLEMS
+</H3>
+</CENTER>
+
+<LI><B>CoolTalk:</B>
+<UL>
+<LI>If you had previously installed the CoolTalk Watchdog, you need
+  to uninstall it by un-installing Netscape Navigator, and then
+  reboot your machine before installing the latest version of the
+  Navigator.  In WindowsNT and Windows3.x, you can also do that by
+  removing the Cooltalk Watchdog Icon from the Startup Program Group, and then
+  restart Windows before installing Netscape Navigator 3.0.
+<P>  
+<LI>In Windows95, you can right mouse click on the Cooltalk
+  Watchdog Icon and exit before installing Netscape Navigator
+  3.0. You will find the Cooltalk Watchdog Icon (if turned on)
+  in the right corner of the Win95 Task Bar. 
+
+<LI>During installation of CoolTalk, the command line argument for
+the Watchdog is incorrect.  It should read as follows:
+<blockquote>
+<tt>wdog.exe /v </tt><i>"path to CoolTalk executable"</i><tt>\cooltalk.exe</tt>
+</blockquote>
+<P>
+<LI>If your connection to the Internet is behind a firewall,
+you may have problems connecting to other CoolTalk users outside your
+firewall.  See your system administrator for details.
+</UL>
+<P>
+<LI><B>Live3D:</B>
+	<UL>
+        <LI> You may get an error dialog box mentioning that Netscape         
+         cannot decode x-gzip files when the VRML worlds are 
+         loaded with Live3D. You should ignore this error dialog and
+         click OK.
+	<P>
+        <LI> You may experience a GPF when quitting the Navigator after 
+         having viewed certain VRML worlds with the Live3D plugin.
+	<P>
+	</UL>
+
+<P><LI><B>Navigator Problems:</B>
+<UL>
+    <LI> Uuencoded documents will be converted to base64 encoding.  You
+	 won't be able to send properly uuencoded MIME messages.
+<P>
+    <LI> After setting some preferences in Mail (or News), you need 
+         to close the Mail (or News) Window and open it again         
+         for things to take effect. 
+<P>
+    <LI> When you use the right mouse button to view a single GIF image
+        (in 256 color mode), you might experience a "flash" when the
+         custom colormap is installed.  The is also true for any page
+         with only one GIF image and no text.
+<P>
+    <LI> If you are running in 256 color mode and have a Windows
+         background (wallpaper) image present, minimizing then
+         restoring Netscape, might cause images and the Netscape logo
+         to appear in strange colors. <B>Workarounds:</B> 1) Open
+         a new Netscape window (then close it if you wish). 2) Remove
+         the Windows background image.
+<P>
+    <LI> If Netscape is crashing in the video driver, ensure that you
+         are using the latest drivers for your Video card.
+         You can obtain the latest drivers on-line or by contacting
+         your Video Card's manufacturer.
+<P>
+    <LI> The Up/Down direction box in the Find dialog in Mail & News 
+         is not implemented yet.
+<P>
+    <LI> You will not receive a warning dialog when sending a 
+         message when your disk is out of space. An empty message will
+         be sent to the recipient(s).
+<P>
+    <LI> LiveAudio & LiveVideo Plugins may not get launched correctly when they
+         are received as Mail Attachments.  When received, you can save
+         the attached plugin as a file - (just click the right mouse button,
+         and choose Save Link As). Then drag the file you saved to the
+         Browser Window. 
+<P> 
+    <LI> Cannot open Navigator easily? If in the previous session you 
+         entered upper case letters in the Nickname field of Address Book
+         | Item |Add User (or Add List), you will get an error message a few
+         times. Just keep clicking the OK button until Netscape comes up,
+         and go back and rename the nickname to be lower case.
+<P> 
+    <LI> <I>Deleting Certificates:</I> When deleting certificates or CA's, it
+         is a good idea to exit and restart the Navigator to make certain
+         that the change took effect.
+<P>
+    <LI> In Windows 95, if installing 3.0 over 2.02 without deinstalling 2.02, you
+         may get an error message that the older URL.DLL will be repaired when you 
+         restart Windows. This is okay so continue with the installation.
+
+</UL>
+
+<A NAME=JavaScriptBugs>
+
+
+<LI><B>Java Bugs:</B>
+<UL>
+<LI>If you can't start Java applets, make sure Java is turned on 
+in Options|Network|Languages.
+<LI>The APPLET tag must have WIDTH and HEIGHT attributes.
+	<LI>Win 32bit build for NT & 95:
+	Insets for layout manager is wrong for adding and removing
+	menubar.
+	<LI>There is a new implementation of AWT.  This new
+	implementation propagates more user events to more types
+	of components than the JDK AWT.  This can cause some programs
+	to misbehave if they are written incorrectly.
+	<LI>Mouse-up events are not implemented if the pointer
+	leaves the applet window.
+	<LI>The Dialog class is not yet implemented.
+	<LI>Java requires at least a 256 color video driver. 
+	If you want to use the Navigator with less than
+     	256 colors, Java must be disabled. 
+	<LI>The Java Console window has a limit to the amount of text 
+	it can display. Once the window fills
+     	up, it must be cleared before new text will appear. 
+	<LI>In order for a Date object to display the time-zone (ie. PST) 
+	the TZ environment variable must be
+     	set (for both NT and Win95). 
+</UL>
+<P>
+<LI><B>JavaScript Bugs:</B>
+<UL>
+<LI>Placing an onBlur or onFocus event handler in a
+        <FRAMESET> tag has no effect.
+        <LI>Returning false in an onClick event handler for a
+        reset button has no effect.
+
+<LI>Date objects convert in string context to numeric literals spelling the
+milliseconds since 1970, instead of date strings such as "Thu Aug 01
+14:57:54 PDT 1996".
+<LI>Pages that call <tt>document.write</tt> to generate HTML must use HEIGHT and
+WIDTH attributes on their IMG and EMBED tags, to avoid crashing when the
+HTML layout delayed by the unsized images finishes.
+<LI>Documents that are partly source HTML loaded from a server, and partly
+generated by JavaScript, can be printed, saved, or viewed, but the
+generated HTML will not appear on the printout, in the saved file, or in
+the View window.
+<LI>Calling <tt>document.open("text/plain")</tt> crashes the browser.
+<LI>Nested tables mixed with script tags that call <tt>document.write()</tt>
+can produce incorrectly formatted output, possibly including pieces of
+the script tags.
+</UL>
+<P>
+<LI><B>New <tt>document.write()</tt> behavior:</B>
+A <tt>document.write()</tt> call from an event handler no
+longer keeps JavaScript variables and objects functioning in a page. 
+This could be a security problem. 
+Instead, use a separate window, or do a large write, or use frames. 
+<P>
+<LI><B>LiveConnect Bugs:</b>
+<UL>
+<LI>Java "long" values can't be passed to or from javascript
+<li>JavaScript calls to overloaded Java methods may not be resolved
+correctly.
+<li>There is no access to multidimensional Java arrays from JavaScript.
+<LI>Network activity in Java code called from JavaScript will throw
+an exception.
+<LI>JavaScript can't call methods which have non-system classes as
+arguments (i.e. applet-specific classes).  The workaround is to declare
+those arguments as java.lang.Object (or some other ancestor system
+class) and then cast them to the appropriate class inside the method.
+<LI>If JavaScript code tries to access an applet before the applet has
+finished loading, that applet will be inaccessible from JavaScript
+even when the applet has finished loading.  The error message will
+say something like "document.applets[0] has no properties."  You
+can wait for all applets to finish loading by waiting for the onLoad
+handler on the BODY tag to be called.
+</UL>
+<P>
+<LI><B>Putting percent signs (%) into URLs:</B>
+Netscape now assumes URL encoding on <tt>mailto:</tt> URLs and
+other types of URLs.
+If you want to put a percent sign (%) into a URL, you need to
+represent it as its hex code.  Substitute "<tt>%25</tt>" for the 
+percent sign.  For example,
+<blockquote>
+<nobr><tt>&lt;A HREF=&quot;mailto:user%25uucp-host@somewhere.com&quot;&gt;mail&lt;/A&gt;</tt></nobr>
+to send mail to: &nbsp;&nbsp; <tt>user%uucp-host@somewhere.com</tt>
+</blockquote>
+<P>
+<LI><B>Broken CGI scripts:</B>
+HTML character entities are being evaluated in  URLs.  For example,
+<blockquote><tt>http://sample-cgi/program.pl?topic=man&amp;section=all</tt></blockquote>
+is turned into
+<blockquote><tt>http://sample-cgi/program.pl?topic=man&section=all</tt></blockquote>
+<P>
+<LI><B>Known bugs in International Support.</B>
+<UL>
+   <LI> If the Navigator is used on a machine using Japanese Windows 
+        locale, the text on several buttons in the Options | General
+        Preferences | Fonts dialog box will mis-display. The names 
+        of the fonts may also mis-display. However, the font functionality
+        is unaffected. They will display correctly when viewing
+        documents, mail, or news (if you map that font to the document
+        encoding you have selected via Options | Document Encoding, 
+        and the document you are viewing was encoded using that character set).
+</UL>
+
+</UL>
+<P>
+<!-- End Configuration and Known Problems -->
+
+<HR SIZE=3>
+
+<P>
+<CENTER>
+
+
+<!-- footer -->
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD WIDTH=600 HEIGHT=8><HR SIZE=1 NOSHADE></TD></TR>
+<TR><TD ALIGN=LEFT VALIGN=TOP><FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/help.html" TARGET="_top">Help</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/site_map.html" TARGET="_top">Site&nbsp;Map</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/howtoget.html" TARGET="_top">How&nbsp;to&nbsp;Get&nbsp;Netscape&nbsp;Products</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/ad.html" TARGET="_top">Advertise&nbsp;With&nbsp;Us</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/addsite.html" TARGET="_top">Add Site</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/custom_browser.html" TARGET="_top">Custom Browser Program</A></FONT></TD></TR>
+<TR>
+<TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP>
+<!-- Channels -->
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/channels/autos.html" TARGET="_top">Autos</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/business.html" TARGET="_top">Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/computers_internet.html" TARGET="_top">Computing&nbsp;&amp;&nbsp;Internet</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/entertainment.html" TARGET="_top">Entertainment</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/kids_family.html" TARGET="_top">Family</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/games.html" TARGET="_top">Games</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/health.html" TARGET="_top">Health</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/lifestyles.html" TARGET="_top">Lifestyles</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/local.html" TARGET="_top">Local</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/netscape.html" TARGET="_top">Netscape</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/open_directory.html">Netscape&nbsp;Open&nbsp;Directory</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/news.html" TARGET="_top">News</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/personalize_finance.html" TARGET="_top">Personal&nbsp;Finance</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/real_estate.html" TARGET="_top">Real Estate</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/education.html" TARGET="_top">Research&nbsp;&amp;&nbsp;Learn</A>&nbsp;&nbsp;&nbsp;|&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/shopping.html" TARGET="_top">Shopping</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/smallbiz.html" TARGET="_top">Small Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/sports.html" TARGET="_top">Sports</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/travel.html" TARGET="_top">Travel</A></FONT></TD></TR> 
+</TABLE>
+
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD></TR>
+<TR>
+<TD WIDTH=600 COLSPAN=5 VALIGN=TOP ALIGN=LEFT>
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2>
+&copy; 1999 Netscape, All Rights Reserved. <A HREF="http://home.netscape.com/legal_notices/index.html">Legal & Privacy Notices</A><BR>This site powered by <A HREF="http://home.netscape.com/comprod/server_central/index.html" TARGET="_top">Netscape SuiteSpot servers</A>.</FONT></TD>
+</TR>
+</TABLE>
+<!-- end footer -->
+
+
+
+
+</CENTER>
+</BODY>
+</HTML>

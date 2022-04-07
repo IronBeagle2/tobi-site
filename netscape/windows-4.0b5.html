@@ -1,0 +1,837 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (Win95; I) [Netscape]">
+   <META NAME="Description" CONTENT="Release notes for PR5">
+   <TITLE>Welcome to Netscape Communicator Preview Release 5</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF LINK=#0000FF VLINK=#FF0000 ALINK=#FF0000 TEXT=#000000>
+
+<CENTER><!-- BANNER:s3 -->
+<A HREF="/maps/banners/documentation_s3.map"><IMG SRC="/images/banners/documentation_s3.gif" ALT="Documentation" BORDER=0 WIDTH=612 HEIGHT=50 ISMAP USEMAP="#banner_nav"></A>
+<MAP NAME="banner_nav">
+<AREA SHAPE=RECT COORDS="62,11,91,40" HREF="/">
+<AREA SHAPE=RECT COORDS="153,41,221,50" HREF="/">
+<AREA SHAPE=RECT COORDS="298,8,374,34" HREF="/support/index.html">
+<AREA SHAPE=RECT COORDS="381,15,586,43" HREF="http://help.netscape.com/browse/index.html">
+<AREA SHAPE=default NOHREF>
+</MAP>
+
+<!-- BANNER:s3 --></CENTER>
+
+<CENTER>
+<H2>
+<FONT SIZE=+3>N</FONT><FONT SIZE=+2>ETSCAPE </FONT><FONT SIZE=+3>C</FONT><FONT SIZE=+2>OMMUNICATOR
+FOR </FONT><FONT SIZE=+3>W</FONT><FONT SIZE=+2>INDOWS</FONT>&nbsp;<BR>
+<FONT SIZE=+2>Preview Release 5</FONT></H2></CENTER>
+
+<HR SIZE=3>As with all pre-release or beta versions of software, it is
+recommended that you only use the software for evaluation purposes. These
+are the most current release notes. You can access these release notes
+from the Help menu in Communicator. Please ignore any release notes that
+might have been previously installed on your system.
+
+<P>If you are using Netscape Communicator Professional Edition (which includes
+Netscape Calendar, IBM Host On-Demand, and AutoAdmin) please read the information
+contained in these notes. In addition, you can click <A HREF="http://home.netscape.com/eng/mozilla/4.0/relnotes/pro-4.0b5.html">here</A>
+to view the Release Notes specifically for Professional Edition.
+<CENTER>
+<HR WIDTH="100%"><!-- Begin Timebomb --><B><FONT COLOR="#FF0000">*** Expires
+August 1, 1997 ***</FONT></B><FONT COLOR="#FF0000">&nbsp;</FONT>&nbsp;<!-- End Timebomb -->&nbsp;
+<HR SIZE=3></CENTER>
+These release notes cover:
+<UL>
+<LI>
+<A HREF="http://home.netscape.com/comprod/products/communicator/guide.html">What's
+new</A></LI>
+
+<LI>
+<A HREF="#problems">Known issues</A></LI>
+
+<LI>
+<A HREF="#dev info">Developer information</A></LI>
+
+<LI>
+<A HREF="#international">International information</A></LI>
+
+<LI>
+<A HREF="http://home.netscape.com/assist/helper_apps/">Helper applications
+information</A></LI>
+</UL>
+<A HREF="http://cgi.netscape.com/cgi-bin/auto_bug.cgi" TARGET="_top">Unknown
+problems and bugs -- please tell us about bugs you find.</A>
+
+<P>Additional information is available:
+<UL>
+<LI>
+From the Help menu, choose <B>Help Contents</B></LI>
+
+<LI><B><A HREF="http://help.netscape.com/browse/commctr4x.html">Technical Notes</A></B></LI>
+</UL>
+
+<CENTER><!-- New Features --></CENTER>
+
+<DT>
+
+<HR SIZE=3><A NAME="Known Issues"></A></DT>
+
+<CENTER>
+<H3>
+<FONT SIZE=+2>K</FONT>NOWN<FONT SIZE=+2> I</FONT>SSUES</H3></CENTER>
+
+<H3>
+General and Setup</H3>
+
+<UL>
+
+<LI>If a system halt related to the Kernel32.dll occurs, update the kernel. You can obtain
+the update from
+<A HREF="http://www.microsoft.com/kb/articles/q148/3/36.htm">http://www.microsoft.com/kb/articles/q148/3/36.htm</A>.
+This may correct the problem.</LI>
+
+<LI>This version of Communicator does not support Netcaster.</LI>
+
+<LI>
+Plug-ins installed in previous versions of Navigator are not automatically
+transferred to Communicator. Re-install these plug-ins.</LI>
+
+<LI>
+The browse button on file forms does not work.</LI>
+
+<LI>
+Pages containing layers cannot be printed.</LI>
+</UL>
+
+<H3>
+Composer</H3>
+
+<UL>
+<LI>
+Composer does not resolve links properly if escape characters are contained
+in the URL.</LI>
+
+<LI>
+Two-page Composer windows might cause your system to hang.</LI>
+
+<LI>
+You might experience a system halt if you use the Alt keyboard shortcuts
+to or from an open Composer window. Use the mouse to move between windows.</LI>
+
+<LI>
+Do not use more than four applets in a document.</LI>
+</UL>
+
+<H3>
+Messenger and Collabra</H3>
+
+<UL>
+<LI>
+You need a certificate of your own (in addition to the recipient's certificate)
+prior to sending any encrypted mail to the recipient.</LI>
+
+<LI>
+The HTML preferences set in the address book may be overwritten by the
+preference set in the HTML Domains dialog.</LI>
+
+<LI>
+In the offline state, choosing the Send toolbar button in the Compose window
+places the message to the Outbox to send at a later time.</LI>
+
+<LI>
+In the offline state, accessing new messages causes Communicator to try
+to go online.</LI>
+
+<LI>
+The No Pages to Print error occurs if you have scrolled down to the bottom
+of a message. Scroll back to the top of the message and print again.</LI>
+
+<LI>
+If you get a system halt when invoking the Compose window, rename <TT>abook.nab</TT>
+(address book file) located in your Users Profile directory.</LI>
+
+<LI>
+Shortcut keys might not bring up the correct dialog or perform the correct
+action for Windows NT 3.51.</LI>
+
+<LI>
+In the Mail and Discussions Preferences, Identity section, you may need
+to include your host name, such as johndoe@hostname. Additionally you may
+need to include your domain name, as in johndoe@company.com. This varies
+from site to site.</LI>
+
+<H4>
+<B>Messenger</B></H4>
+
+<UL>
+<LI>
+When you send secure mail, you are prompted for your password twice.&nbsp;
+If</LI>
+
+<BR>you cancel the second time, you have to restart Communicator.
+<LI>
+The progress dialog remains at 100% for longer than necessary before continuing
+to download other messages, especially when using filters for incoming
+messages. This can be ignored.</LI>
+
+<LI>
+If you encounter a general protection fault in <TT>msvcrt.dll</TT> when
+sending a message, exit Communicator.&nbsp; This is caused by a .tmp file
+Windows limitation. See your system administrator or equivalent about removing
+these .tmp files.&nbsp; Afterwards, you can send messages from Communicator.</LI>
+
+<LI>
+The Empty Trash Folder menu item is disabled from the Message List window.
+Empty the Trash folder from the Message Center.</LI>
+
+<LI>
+When you open a saved draft message, the names in the Reply to and Follow
+up fields are not listed.</LI>
+
+<LI>
+After you get new messages, the message you had selected before downloading
+stays current. To get to the first new (unread) message, click Next on
+the toolbar.</LI>
+
+<H3>
+<FONT SIZE=+0>Mail with IMAP Servers</FONT></H3>
+
+<UL>
+<LI>
+Your system may halt when you search for messages using the status criteria
+is replied, is forwarded, or is read.</LI>
+
+<LI>
+If you select the IMAP icon and try to use the Search Message command,
+the Search button does not work. Select the local mail server icon to search
+local mail folders.</LI>
+
+<LI>
+When using Communicator with some IMAP servers, you may wish to specify
+an IMAP mail directory.&nbsp; Access the Mail &amp; Groups Preferences.
+Under the Mail Server section, choose More Options. Specify the mail directory
+in this dialog. Exit and restart Communicator.</LI>
+
+<LI>
+When creating IMAP4 folders on a mail server, use only ASCII characters.
+If folders are named with European accented characters or Chinese/Japanese/Korean
+double-byte characters, the names are unreadable. Once created, these folders
+cannot be deleted.</LI>
+
+<LI>
+Filing a message from a discussion group in an online folder results in
+an empty dialog. File discussion group&nbsp; messages in a local mail folder.</LI>
+
+<LI>
+You might get prompted for a POP password when sending a message under
+IMAP. Enter your POP password and the message is sent.</LI>
+
+<LI>
+After switching between IMAP and POP servers, exit and restart the application.</LI>
+
+<LI>
+You can specify a directory for your IMAP folders. Set this preference
+in Mail and Groups preferences under the Mail Server section. Click More
+Options and set the IMAP mail directory.</LI>
+
+<LI>
+If you mark all messages Read or Catch up by Date, the next time you get
+new messages, those messages become marked as unread again.&nbsp; Manually
+mark each message as Read by selecting each one or clicking the green Unread
+indicator in the Message List window.</LI>
+
+<LI>
+Mail filters are supported on server folders in IMAP mode, but not for
+local folders.</LI>
+
+<LI>
+From the Message Center, the File, Empty Trash Folder menu item is enabled
+after you select a mail folder in the Message Center. Emptying the Trash
+empties both your online Trash folder, as well as your local Trash folder
+(POP server), if one exists.</LI>
+
+<LI>
+MIME HTML messages (mail with embedded images) do not display properly
+when read with IMAP.</LI>
+</UL>
+</UL>
+
+<DT>
+<B>&nbsp;</B></DT>
+
+<DT>
+<B>Collabra</B></DT>
+
+<DT>
+&nbsp;</DT>
+
+<UL>
+<LI>
+The searching discussion messages command is case-sensitive.</LI>
+
+<LI>
+Categories containing new messages are not displayed in bold text.</LI>
+
+<LI>
+Composing a message for a discussion group with the New Message menu item
+(and not using New Message from within the discussion group) sends the
+message to the default server. An error message occurs if the discussion
+group is not on your default server. Compose a message from within the
+discussion group so the New Message toolbar or menu item is available.</LI>
+
+<LI>
+The unread and total counts displayed in the Message List window are per
+category.</LI>
+</UL>
+
+<H3>
+<FONT SIZE=+0>Categories within Discussion Groups on Beta Collabra Server</FONT></H3>
+
+<UL>
+<LI>
+You can access categories created on Beta Collabra Server 3.0, which supports
+category creation. The Message List window shows the categories in the
+upper-left pane.</LI>
+
+<LI>
+A time delay might occur when marking a large (for example, 10,000 messages)
+discussion group as read using the Catch up by Date feature.</LI>
+</UL>
+
+<DT>
+<B>&nbsp;</B></DT>
+
+<DT>
+<B>Windows 16-bit Issues</B></DT>
+
+<DT>
+&nbsp;</DT>
+
+<UL>
+<LI>
+Your system might halt when adding a secure news or discussions server
+that has an incorrect certificate.</LI>
+
+<LI>
+With some graphics cards, you might notice a flashing in the address pane
+in the compose window.</LI>
+
+<LI>
+You might be unable to select the address, attachment, or options tab in
+the compose window. Place your cursor in the Subject field before changing
+to or from the address, attachment, or options tab.</LI>
+
+<LI>
+On slower systems, there might not be appropriate feedback as you access
+the Subscribe to Groups dialog. If you hear the hard drive being accessed,
+then Communicator is still active. It may take a few minutes for the list
+of discussion groups to display.</LI>
+</UL>
+</UL>
+
+<H3>
+Conference</H3>
+
+<UL>
+<LI>
+Conference needs to be running to receive calls.</LI>
+
+<LI>
+The Collaborative Browser does not work with JavaScript pages that require
+user action and anchors linking different portions of forms.</LI>
+
+<LI>
+Frame support during collaborative browsing is limited.</LI>
+
+<LI>
+Calling a fictitious user prompts you to leave voice mail.</LI>
+
+<LI>
+Calling a valid user that has selected the Do Not Disturb option notifies
+you the user is not available but does not prompt you to leave voice mail.</LI>
+
+<LI>
+Voice mail must always be sent in HTML-only format.</LI>
+
+<LI>
+A voice mail recipient using an IMAP server receives the following error
+message:</LI>
+
+<UL><TT>file not found or unknown format</TT></UL>
+
+<LI>
+Placing a call to a valid user that is running Conference but does not
+accept or reject your call does not time out or prompt you to leave voice
+mail.</LI>
+
+<LI>
+Netscape Conference does not interoperate with Cool Talk or with the Netscape
+411 Server for CoolTalk.</LI>
+
+<LI>
+Netscape Conference does not usually work across firewalls unless the firewall
+is configured to allow UDP data to pass through.</LI>
+
+<LI>
+Closing the Conference application may occasionally cause an invalid page
+fault in the Voxware codec.</LI>
+</UL>
+
+<H3>
+Plug-ins</H3>
+
+<UL>
+<LI>
+ViewDirector Pro2 plug-in does not work.</LI>
+
+<LI>
+Plug-ins from other companies installed in previous versions of Navigator
+are not automatically transferred to Communicator. Re-install these plug-ins.</LI>
+
+<LI>
+You might experience color palette problems with plug-ins and Communicator.
+Minimize and restore the Communicator window. Also, running in 16-bit high-color
+mode solves the problem.</LI>
+</UL>
+
+<H3>
+SmartUpdate</H3>
+
+<UL>
+<LI>
+If a SmartUpdate download of an item occurs while that item is open or
+in use on your system, you need to restart your system for the update to
+take place.</LI>
+</UL>
+
+<H3>
+Cosmo Player</H3>
+
+<UL>
+<LI>
+During loading of CosmoPlayer within Communicator 4.0, there is a Direct
+Draw Initialization error with some older graphics display drivers on Windows
+NT 4.0. Click OK in the dialog boxes to continue.</LI>
+
+<LI>
+On Windows 3.1, you may experience a system halt when leaving or exiting.</LI>
+
+<LI>
+Anchor descriptions now appear in Communicator/Navigator's status area
+instead of over an object.</LI>
+
+<LI>
+When in POINT mode, TouchSensors are inactive and clicking on anchors does
+not work.</LI>
+
+<LI>
+Using the right mouse button,&nbsp; no longer allows you to spin the world.
+(WebFX/Live3D users: you can use EXAMINE mode and the left mouse button
+to achieve similar functionality.)</LI>
+</UL>
+
+<HR WIDTH="100%">
+<CENTER>
+<H3>
+<A NAME="dev info"></A><FONT SIZE=+2>D</FONT>EVELOPER <FONT SIZE=+2>I</FONT>NFORMATION</H3></CENTER>
+
+<H3>
+Java</H3>
+
+<UL>
+<LI>
+JSObject.getWindow requires an applet as an argument.</LI>
+
+<LI>
+toLocaleString()method in Date Class throws security exceptions.</LI>
+
+<LI>
+Classes loaded from CLASSPATH are no longer privileged.</LI>
+
+<LI>
+FileInputStream object's available method fails.</LI>
+
+<LI>
+JDK 1.1 packages missing in this beta include java.math and sun.rmi.</LI>
+
+<LI>
+The java.security package is unsupported.</LI>
+
+<LI>
+Although the targets UniversalFileRead and UniversalFileWrite are fully
+implemented for the signed classes and the netscape.security. Target objects,
+the parameter targets FileRead and FileWrite, used for individual file
+access grants, are not supported.</LI>
+</UL>
+
+<H3>
+JavaScript</H3>
+
+<UL>
+<LI>
+New Behavior in Communicator:</LI>
+
+<UL>
+<LI>
+Multi-byte character-set encodings (such as Shift-JIS) can be passed through
+JavaScript either as string literals or with LiveConnect to and from Java.
+Manipulation within JavaScript is dangerous since built-in methods do not
+recognize multi-byte encodings.</LI>
+
+<LI>
+In a frame, history.back, history.forward, and history.go(n) manipulate
+the frame's local history, not the history of the entire Navigator window
+that the Back button manipulates.</LI>
+
+<LI>
+In addition to loading system classes, JavaScript can now load Java classes
+located at the same URL as the page.</LI>
+</UL>
+
+<LI>
+LiveConnect</LI>
+
+<UL>
+<LI>
+When JavaScript code called from Java encounters an error, the error may
+be reported&nbsp; to Java in future calls to JavaScript.</LI>
+
+<LI>
+Calls from JavaScript to plug-ins and back to JavaScript can sometimes
+deadlock.</LI>
+
+<LI>
+The ARCHIVE attribute of a script tag does not propagate to the Java class
+loader.</LI>
+
+<LI>
+JavaScript and Java don't share class loaders, so passing Java objects
+as arguments from JavaScript to Java may fail.</LI>
+</UL>
+
+<LI>
+Regular expressions</LI>
+
+<UL>
+<LI>
+When invoked with the case-insensitive option, String.replace() incorrectly
+changes the return string to lower case.</LI>
+
+<LI>
+When RegExp.exec() is invoked more than once, the index property of the
+resulting array is incorrect.</LI>
+</UL>
+
+<LI>
+In nested frames the unload event is sent without alerts or confirmation
+dialogs.</LI>
+
+<LI>
+Plain text written using document.write() sometimes changes to HTML text&nbsp;
+when reloading or resizing.</LI>
+
+<LI>
+Using window.alert inside onBlur handlers can cause infinite loops.</LI>
+
+<LI>
+When focus is given from a form field to the top level window then back
+to the form element, the form's onFocus handler does not always get called.</LI>
+
+<LI>
+The image onAbort event handler does not work correctly in frames.</LI>
+
+<LI>
+document.write does not work inside JavaScript entities followed by {....}.</LI>
+
+<LI>
+The output of dates incorrectly returns the date in milliseconds when the
+date is concatenated with a string.</LI>
+
+<LI>
+Signed scripts do not work.</LI>
+
+<LI>
+The onMouseOut and onMouseOver handlers do not work.</LI>
+</UL>
+
+<H3>
+Layering and absolute positioning</H3>
+
+<UL>
+<LI>
+Layer stacking order is not preserved across window/frame resize.</LI>
+
+<LI>
+Negative values for the Z-INDEX attribute on LAYER and ILAYER tags are
+not recognized.</LI>
+
+<LI>
+Clicking on a link in a SRC layer, where the link has no TARGET attribute,
+causes the target page to be loaded into the top-level window,&nbsp; instead
+of replacing the layer.&nbsp; It is not possible to target URLs at layers
+as with frames. The back/forward buttons do not work with layers.</LI>
+
+<LI>
+It is not possible to use #URLs (named anchors) as the value for a LAYER's
+SRC attribute.&nbsp; Also, links to named anchors from a link within a
+layer may not work properly.</LI>
+
+<LI>
+The new width and height properties added to the document object may conflict
+with user-defined variables of the same name. It is recommended that scripts
+containing these properties be modified to use differently-named variables
+or use the var keyword to declare such variables before they are used to
+eliminate the conflict.</LI>
+
+<LI>
+Changing the contents of a layer (calling the load method, setting the
+src property, calling document.open/write/close) has certain restrictions:</LI>
+
+<UL>
+<LI>
+They cannot be done while the main document is still loading.</LI>
+
+<LI>
+Only one layer can be changed at a given time. Changes to multiple layers
+must be done serially. You can use the onLoad event handler for layers
+to achieve the required serialization.</LI>
+</UL>
+
+<LI>
+The Find in Page command does not work in layers.</LI>
+</UL>
+
+<H3>
+Style Sheets</H3>
+
+<UL>
+<LI>
+The use of negative margins to overlap text can cause very unpredictable
+results and is not recommended.</LI>
+
+<LI>
+Use CSS positioning or layers to overlap text.</LI>
+
+<LI>
+Negative margin values are only allowed for margin-top and margin-bottom.</LI>
+
+<LI>
+Do not use pixel units. Because of variances of fonts among operating systems
+(PC, MAC and UNIX) most fonts will not have the exact same pixel dimensions.&nbsp;
+The use of relative units, epecially EMs which are based on the current
+size of the font, regardless of which font actually gets selected, is highly
+recommended.</LI>
+
+<LI>
+Assigning styles to the &lt;LI> tag only effect the bullet not the text
+as it should.&nbsp; To work around the problem enclose the text with a
+&lt;SPAN> tag or assign the style to the &lt;UL> or &lt;OL> tag.</LI>
+
+<LI>
+Sizing images using style sheets is disabled.</LI>
+
+<LI>
+Following their original web design, tables do not inherit styles from
+the surrounding text or style sheet.</LI>
+
+<LI>
+You cannot assign most styles to the &lt;TABLE> or &lt;TR> elements. Use
+the &lt;TD> element instead.&nbsp; Exceptions are: background image and
+color on the &lt;TABLE> tag which work as expected. For other styles, results
+may vary depending on the complexity of the table and their use is not
+recommended.</LI>
+
+<LI>
+Small-caps and obliqe font styles are not supported</LI>
+
+<LI>
+Postioning of empty tag elements (eg images) is not supported</LI>
+
+<LI>
+Dotted and dashed border styles are not supported.</LI>
+
+<LI>
+Border colors and styles can only be applied to all four sides at once
+via the border-color and border-style properties. They cannot be set on
+a per side basis.</LI>
+
+<LI>
+The vertical-align property only applies to replaced elements and does
+not support percentage units, sub, or super.</LI>
+
+<LI>
+The background property inherits into text elements.&nbsp; Apply a "background-color
+: transparent" if you do no want inheritance.</LI>
+
+<LI>
+Unsupported CSS attributes include:</LI>
+
+<UL>
+<LI>
+word-spacing and letter-spacing</LI>
+
+<LI>
+first-line and first-letter styles</LI>
+
+<LI>
+list-style-image and list-style-position</LI>
+
+<LI>
+white-space: no-wrap</LI>
+
+<LI>
+font-variant&nbsp; (see small-caps above)</LI>
+
+<LI>
+!important</LI>
+
+<LI>
+background-attachment and background-position</LI>
+</UL>
+In order to make pixel units print sensibly when going to high resolution
+printers, pixel units are scaled to a virtual display resolution of&nbsp;
+120dpi.&nbsp; What this means is that when going to a 300dpi printer, fonts
+that are specified as being 12px high will be output as 30px or 7.2pts
+which is how they would appear on a screen with a 120dpi resolution.&nbsp;
+This is consistant with how pixel units specified via HTML tags (for example
+&lt;table width=100>) are scaled.&nbsp; This scaling will not cause fonts
+to have jagged edges since the font will be printed at the full 300dpi
+resolution at 7.2pts.&nbsp; All other related pixel units (line-height,
+margins, etc.) are scaled as well.</UL>
+
+<H3>
+SmartUpdate</H3>
+
+<UL>
+<LI>
+For developer-related issues regarding SmartUpdate and JAR files, see the
+release notes for the JAR Packager, which are at: <A HREF="http://developer.netscape.com/software/signedobj/relnotes.html">http://developer.netscape.com/software/signedobj/relnotes.html</A></LI>
+</UL>
+<B>For more developer information, click <A HREF="http://developer.netscape.com/library/documentation/communicator/">here</A>.</B>
+<BR>
+<HR WIDTH="100%">
+<CENTER>
+<H4>
+<A NAME="international"></A><B><FONT SIZE=+2>I</FONT><FONT SIZE=+1>NTERNATIONAL</FONT><FONT SIZE=+2>
+I</FONT><FONT SIZE=+1>NFORMATION</FONT></B></H4></CENTER>
+
+<H3>
+Known Issues</H3>
+
+<UL>
+<LI>
+UTF-8 pages displayed under US Windows 95 may not work properly when the
+Windows 95 system was installed using the Custom Install option. Re-install
+Windows 95 using the Typical install option to eliminate the problem.</LI>
+
+<LI>
+Copying and pasting CJK characters in a UTF-8 form has a limitation and
+may not work well if the copy source itself is in UTF-8.</LI>
+
+<LI>
+If there is a mismatch between the HTTP server character set and the document's
+own Meta Charset, the document's Charset Tag may predominate.</LI>
+
+<LI>
+On Windows NT, Cyrillic/Greek/Turkish/Central European characters may not
+display correctly in TextArea and Text Input for an HTML FORM.</LI>
+
+<LI>
+Using the View Page Info command may cause the original page to display
+incorrectly when the Page Info window is closed. Reload the page to restore
+the correct display.</LI>
+
+<LI>
+When multiple frames are created by JavaScript, the second or later pages
+may be assigned the incorrect character set. For example, a search result
+page may be generated this way. In such a case, resize the window or reload
+the frame to restore the correct display. Page designers can avoid this
+problem by initially loading multiple frames using conventional HTML rather
+than with JavaScript.</LI>
+
+<LI>
+Communicator supports only one encoding for multiple layers.</LI>
+
+<LI>
+HTML Composer cannot save documents in ISO-2022-JP (Japanese) or ISO-2022-KR
+(Korean).</LI>
+
+<LI>
+Under Chinese/Japanese/Korean encodings, if there are more than one ASCII
+spaces in HTML mail and documents, all but the last one will be converted
+to a full-width space in that particular encoding.&nbsp; When you view
+such a mail message or documents under the Western encoding, it will be
+displayed as unintelligible strings in ASCII.&nbsp; A typical case of this
+would be reply/quoting an English mail message under a Japanese encoding.
+For composing HTML mail and documents which contain only ASCII (for example,
+English only), use one of the following methods:</LI>
+
+<UL>
+<LI>
+Use the Western encoding to compose such mail or documents</LI>
+
+<LI>
+If an Asian encoding is used, insert only one space between sentences and
+avoid using tabs.</LI>
+</UL>
+
+<LI>
+An Address Book/Mail Header name resolution may insert an equivalent of
+ASCII&nbsp; backslash "\" in the display of certain Japanese and Chinese
+characters. This is a cosmetic problem likely to occur only with Shift_JIS
+(Japanese) and Big5 (Taiwan) encodings. Email address resolution should
+work all right and messages can be sent.</LI>
+
+<LI>
+There may be a slight imperfection in the Address Book resolution when
+there are multi-byte (C/J/K) language entries.</LI>
+</UL>
+To learn more about new international features for Navigator, Composer,
+Messenger/Collabra Discussion Groups, and Java/JavaScript, visit the <A HREF="http://home.netscape.com/eng/intl/index.html">International
+Users Page</A>.
+<BR>
+
+<CENTER>
+<HR SIZE=4>
+<P>
+
+<!-- footer -->
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD WIDTH=600 HEIGHT=8><HR SIZE=1 NOSHADE></TD></TR>
+<TR><TD ALIGN=LEFT VALIGN=TOP><FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/help.html" TARGET="_top">Help</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/site_map.html" TARGET="_top">Site&nbsp;Map</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+HREF="http://home.netscape.com/misc/nav_redir/howtoget.html" TARGET="_top">How&nbsp;to&nbsp;Get&nbsp;Netscape&nbsp;Products</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/ad.html" TARGET="_top">Advertise&nbsp;With&nbsp;Us</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/addsite.html" TARGET="_top">Add Site</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A HREF="http://home.netscape.com/misc/nav_redir/custom_browser.html" TARGET="_top">Custom Browser Program</A></FONT></TD></TR>
+<TR>
+<TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD>
+</TR>
+
+<TR>
+<TD ALIGN=LEFT VALIGN=TOP>
+<!-- Channels -->
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2><A HREF="http://home.netscape.com/misc/nav_redir/channels/autos.html" TARGET="_top">Autos</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/business.html" TARGET="_top">Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/computers_internet.html" TARGET="_top">Computing&nbsp;&amp;&nbsp;Internet</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/entertainment.html" TARGET="_top">Entertainment</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/kids_family.html" TARGET="_top">Family</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/games.html" TARGET="_top">Games</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/health.html" TARGET="_top">Health</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/lifestyles.html" TARGET="_top">Lifestyles</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/local.html" TARGET="_top">Local</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/netscape.html" TARGET="_top">Netscape</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/open_directory.html">Netscape&nbsp;Open&nbsp;Directory</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/news.html" TARGET="_top">News</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/personalize_finance.html" TARGET="_top">Personal&nbsp;Finance</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/real_estate.html" TARGET="_top">Real Estate</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/education.html" TARGET="_top">Research&nbsp;&amp;&nbsp;Learn</A>&nbsp;&nbsp;&nbsp;|&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/shopping.html" TARGET="_top">Shopping</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/smallbiz.html" TARGET="_top">Small Business</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+HREF="http://home.netscape.com/misc/nav_redir/channels/sports.html" TARGET="_top">Sports</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <A HREF="http://home.netscape.com/misc/nav_redir/channels/travel.html" TARGET="_top">Travel</A></FONT></TD></TR> 
+</TABLE>
+
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR><TD WIDTH=600 HEIGHT=8 COLSPAN=0></TD></TR>
+<TR>
+<TD WIDTH=600 COLSPAN=5 VALIGN=TOP ALIGN=LEFT>
+<FONT FACE="sans-serif, Arial, Helvetica" SIZE=-2>
+&copy; 1999 Netscape, All Rights Reserved. <A HREF="http://home.netscape.com/legal_notices/index.html">Legal & Privacy Notices</A><BR>This site powered by <A HREF="http://home.netscape.com/comprod/server_central/index.html" TARGET="_top">Netscape SuiteSpot servers</A>.</FONT></TD>
+</TR>
+</TABLE>
+<!-- end footer -->
+
+</CENTER>
+
+
+</BODY>
+</HTML>
+
