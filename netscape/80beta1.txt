@@ -1,0 +1,97 @@
+  <h2>Release Notes</h2>
+</div>
+<h1><b>The Netscape Browser, 8.0 Beta </b><br>
+&nbsp;<i>Version 0.9.6 - based on Firefox 1.0</i><br>
+    </h1>
+<div class=vs1x>&nbsp;</div>
+<div class=text14><b><i>Known Issues</i></b></div>
+<div class=vs6>&nbsp;</div>
+1.  Usernames and passwords are stored in clear text when using the Passcard option to save your login info IF "Protect this Passcard using my Master Password" is not used.  This is functionality inherited from Firefox.  Use CAUTION when storing passwords on a shared computer.
+<div class=vs6>&nbsp;</div>
+2.  Some crashes still exist in versions of Windows 98.
+<div class=vs6>&nbsp;</div>
+3.	Automatic detection of RSS feeds requires switching the engine to Netscape. You will see the RSS notification icon in the address bar (or get a feed from an orange 'XML' or 'RSS' button on a page) when you change the site control to display like Netscape on any site that is set to render like IE.
+<div class=vs6>&nbsp;</div>
+4.	Setting the tab preference for 'link in page' to 'add new tab' is not always obeyed. Certain types of JavaScript links will overwrite this preference and refresh the current tab. You can right-click the link and select 'open link in new tab' in these cases. This is usually by design of the JavaScript page, and is expected behavior for the process the JavaScript page wants you to do.
+<div class=vs6>&nbsp;</div>
+5.	There are cases where certain JavaScript elements will fail to appear on some pages. Like the Site Controls dialog says "If you don't feel that the page is being displayed properly, try selecting another rendering engine." 
+<div class=vs6>&nbsp;</div>
+6.	The deficiencies noted in FireFox 1.0 are inherited in Netscape 8 BETA in most cases. Patches to the FireFox code base will be imported into Netscape 8 BETA as they become available and are tested for compatibility. The recently released 1.0.1 patch has not been imported into Netscape 8 BETA.
+<div class=vs6>&nbsp;</div>
+7.	Media plug-ins: various versions of some popular audio and video plug-ins are not yet fully functional with Netscape 8 BETA. As the BETA program proceeds Netscape is working with plug-in vendors to ensure compatibility with this new browser version. In some cases incompatibility with a media plug-in can cause Netscape to crash.
+<div class=vs6>&nbsp;</div>
+8.	Importing and blocking of cookies can sometimes operate incorrectly. Some updates are required to Mozilla components to properly synchronize cookies. Due to this deficiency the 'allow cookies from originating site only' does not function in all cases.
+<div class=vs6>&nbsp;</div>
+9.	Automatic form fill is disabled for sites with forms other than login and password fields. Automatic form fill is supported for login usernames and passwords and related special fields that are sometimes included on login pages.  Full form fill functionality will be available in the full 8.0 release.
+<div class=vs6>&nbsp;</div>
+10.	There are issues with the synchronization of the browser's session history when a browsing session includes the use of both rendering engines. In some cases the forward and back buttons will not provide the desired results. This is currently fixed and is being tested - a patch will be released after regression testing is complete.
+<div class=vs6>&nbsp;</div>
+11.	The 'auto-complete' dropdown that appears under web page text fields and offers to complete your text entry (when you have previously enter text into that filed) does not function in the BETA.
+<div class=vs6>&nbsp;</div>
+12.	There are known intermittent crashes that can occur for various reasons. They are infrequent enough in laboratory conditions to indicate that browsing will not be interrupted in typical scenarios. Stress lab testing is on-going throughout the BETA period to isolate and remove the sources of incompatibility that cause the crashes to occur.
+                
+                  <div class=vs1x>&nbsp;</div>
+<div class=text14><b><i>Downloading and Installing</i></b></div>
+<div class=vs6>&nbsp;</div>
+<b>System Requirements</b><br>
+<div class=vs6>&nbsp;</div>
+Before installing, make sure your computer meets these system requirements:<br>
+<div class=vs6>&nbsp;</div>
+  <div class=padl20>
+    <b>Operating System:</b><br>
+    Windows XP<br>
+    Windows 2000<br>
+    Windows 98 SE, ME <br>
+<div class=vs6>&nbsp;</div>
+    <b>Hardware Requirements:</b><br>
+    233 MHz processor<br>
+    64 MB RAM<br>
+    35 MB hard drive space<br>  
+<div class=vs6>&nbsp;</div>
+    <b>Other:</b><br>
+    Internet Explorer 6.0 (If using the Trident rendering engine)<br>
+<div class=vs6>&nbsp;</div>
+    <b>Recommended Configuration:</b><br>
+    1 GHz processor<br>
+    256 MB RAM<br>
+                  </div>
+<div class=vs1x>&nbsp;</div>
+<b>Downloading Netscape Browser</b><br>
+<div class=vs6>&nbsp;</div>
+The Netscape Browser, 8.0 Beta is available to the public at http://browser.netscape.com.
+<div class=vs1x>&nbsp;</div>
+<b>Installing Netscape Browser</b><br>
+<div class=vs6>&nbsp;</div>
+Once you have downloaded the Netscape Browser installer, follow these instructions to install:<br>
+<div class=vs6>&nbsp;</div>
+<div class=padl20>
+  <b>Windows</b><br>
+  Double click NSB-Install-BETA.exe to start the install.
+</div>
+<div class=vs1x>&nbsp;</div>
+<b>Uninstalling Netscape Browser</b><br>
+<div class=vs6>&nbsp;</div>
+<div class=vs6>&nbsp;</div>
+To uninstall Netscape Browser, follow these instructions:<br>
+<div class=vs6>&nbsp;</div>
+<div class=padl20>
+  <b>Windows</b><br>
+  Use the uninstaller provided by going to Start->Programs->Netscape Browser. 
+</div>
+<div class=vs1x>&nbsp;</div>
+<b>Profile Folder</b><br>
+<div class=vs6>&nbsp;</div>
+Netscape Browser stores your user data in one of the following locations:
+<div class=vs6>&nbsp;</div>
+<table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+  <td valign=top width=160><div class=text12>Windows 2000, XP</div></td>
+  <td valign=top><tt>Documents and Settings\&#60;UserName&#62;\Application Data\Netscape\NSAE</tt></td>
+  </tr>
+  <tr>
+  <td valign=top><div class=text12>Windows 98, ME</div></td>
+  <td valign=top><tt>Windows\Application Data\Netscape\NSAE</tt></td>
+  </tr>
+                    </table>
+&copy;&nbsp;2005&nbsp;Netscape Communications Corp. All rights reserved.<br>
+<br>

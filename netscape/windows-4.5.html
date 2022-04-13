@@ -1,0 +1,819 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.03 (Macintosh; U; PPC) [Netscape]">
+   <TITLE>Communicator 4.5 Release Notes</TITLE>
+</HEAD>
+<BODY TEXT="#000080" BGCOLOR="#FFFFFF" LINK="#000099" VLINK="#660000" ALINK="#000099">
+
+<CENTER><A HREF="http://home.netscape.com/index.html"><IMG SRC="http://home.netscape.com/assist/images/release_notes.gif" NOSAVE BORDER=0 HEIGHT=32 WIDTH=468></A></CENTER>
+
+<UL>
+<CENTER><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+3>Communicator
+4.5 Release Notes</FONT></FONT></FONT></B></CENTER>
+</UL>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">These release notes,
+last updated December 18th, describe installation issues and known problems
+in Communicator 4.5. For an overview of the new features provided by Communicator
+4.5, see the <A HREF="http://home.netscape.com/communicator/v4.5/tour/index.html">Tour
+of New Features</A>. For release notes on Mission Control Desktop tools
+and technology, see</FONT></FONT> <A HREF="http://home.netscape.com/eng/mozilla/4.5/relnotes/mcd.html">Mission
+Control Desktop 4.5</A><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">These notes are updated
+as we receive feedback, so please check back for new information.</FONT></FONT>
+<H1>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Before
+You Install</FONT></FONT></FONT></H1>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Note that Communicator
+4.5 does not run on Windows 3.1 or on Macintosh 68K systems. Communicator
+4.07 does run on both of these operating systems, and systems running Communicator
+4.5 are fully compatible with those running the 4.07 and earlier versions.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS and Windows
+systems with an existing version of Communicator: If you use SmartUpdate
+to upgrade to 4.5, be sure to click the Grant button when the Permissions
+dialog box appears during the installation. Clicking Grant enables the
+installer to continue, and you can still cancel the installation later
+in the process. If you click Deny, a series of Permissions dialog boxes
+appear, and the system sometimes quits with an error -1.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Windows and Mac OS
+systems: If you used Communicator 4.5 PR2 to set passwords for your profiles,
+be sure to clear those passwords before you install this final version
+of Communicator 4.5, otherwise you won't be able to change or remove the
+passwords in these profiles. To clear your passwords, run the User Profile
+Manager, which appears in the Windows Start menu (Communicator, Utilities)
+and in the Mac OS Communicator folder. Select the appropriate profile,
+then choose Change Password and leave the new password fields blank. System
+administrators can use Mission Control Desktop to enable the profile password
+feature in the netscape.cfg file.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are upgrading
+from Navigator 2.0 or 3.0, you need to re-install any plug-ins that you
+want to transfer to Communicator 4.5. In order for Communicator to automatically
+transfer plug-ins from 4.0x versions, you must install Communicator 4.5
+in the same folder as the old 4.0x version. If you install 4.5 in a different
+folder, you must re-install any plug-ins.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS systems: If
+you are using a 3.0x version of Navigator and want to transfer your preferences
+automatically to Communicator 4.5, first upgrade to Communicator 4.07,
+then install Communicator 4.5.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS systems: Mac
+OS 7.6.1 or greater is required to run Communicator 4.5. For current Apple
+Mac OS software, see <A HREF="http://support.info.apple.com">http://support.info.apple.com</A>.
+These are the recommended minimum system hardware configurations:</FONT></FONT></LI>
+
+<BR>&nbsp;
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Mac OS 7.6.1: 16MB physical
+RAM</FONT></FONT></LI>
+
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Mac OS 8.0 or greater:
+24MB physical RAM</FONT></FONT></LI>
+</UL>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS systems: Before
+you install Communicator, make sure that your hard disk names do not include
+the slash (/) character. Account Setup won't run if any of your hard disk
+names include the slash (/) character.</FONT></FONT></LI>
+</UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>General
+Issues</FONT></FONT></FONT></B>
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS and Windows
+systems: New profiles created in Communicator 4.5 aren't recognized by
+previous versions of Communicator or Navigator.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you change your user
+name on an IMAP server, you need to restart Communicator for the name change
+to take effect.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">In Calendar on Mac OS
+and Windows systems: If you enter an invalid server name Calendar sometimes
+appears to "hang," in which case you need to restart Communicator.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Exported certificate
+names are appended with either letters or numbers. Communicator doesn't
+check for duplicate names, so make sure to use a unique name for each certificate.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Composer doesn't properly
+handle existing HTML files that contain CSS objects -- they may be removed
+from the file.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To uninstall AOL Instant
+Messenger, see <A HREF="http://help.netscape.com/kb/client/971116-8.html">this
+article</A>.</FONT></FONT></LI>
+</UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Roaming
+Access</FONT></FONT></FONT></B>
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Windows systems:
+Clicking Cancel while uploading or downloading to an HTTP Roaming Access
+Server sometimes causes Communicator to quit.</FONT></FONT></LI>
+
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">When using a slow connection,
+be patient with the progress dialog boxes. Sometimes they don't immediately
+respond to your input during file transfers.</FONT></FONT></LI>
+
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you choose not to
+transfer your preferences, Communicator does not transfer your address
+book and IMAP mail filters, which are stored with preferences.</FONT></FONT></LI>
+
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS systems: If
+you enable Roaming Access, Communicator doesn't save subscribed newsgroups.
+To save subscribed newsgroups, go to the Edit menu and choose Preferences.
+Under Roaming Access, select Item, and remove the check from the Mail Filters
+box in the right frame.</FONT></FONT></LI>
+</UL>
+
+<H3>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Mail,
+Address Books, and Pinpoint Addressing</FONT></FONT></FONT></H3>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are upgrading
+from Navigator 3.0x, you need to manually import your 3.0x address book
+into Communicator 4.5 by opening the address book window and choosing Import
+under the File menu. On Mac and Windows, then select Communicator Address
+Book at the prompt. Enter the name of your 3.0x html address book file.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Windows and UNIX
+systems: Removing ns_imap folders causes Communicator to lose the mail
+filters you have set up. If you suspect corrupted mail summary files, be
+sure to just remove the files, not entire folders or directories.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Communicator 4.5 allows
+you to create multiple address books. Pinpoint addressing searches the
+first 15 address books in your address book window. If you have more than
+15 address books, you can select the 15 you want to use by re-ordering
+them in the address book window.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Pinpoint addressing
+in Communicator 4.5 searches for matches against the display name, last
+name, email address and nickname. Communicator 4.0x gave precedence to
+nickname matches. If you want exact matches against a nick name to have
+precedence over matches against the other fields, add this line to your
+javascript preferences file:</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">user_pref("ldap_2.autoComplete.nicknameHasPrecedence",
+true);</FONT></FONT></UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you have an LDIF
+file representing an address book that was generated from Communicator
+4.0x and contains 8-bit data, you can correctly import the 8-bit data into
+Communicator 4.5 by changing the file extension of your LDIF file to .4ld.
+Then, import the LDIF file like you normally would, using this new extension.
+You only need to do this if the file with 8-bit data was generated from
+a previous version of Communicator.</FONT></FONT></LI>
+</UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Navigator</FONT></FONT></FONT></B>
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Some HTTP proxy servers
+don't support Internet Keywords when the user supplies only one keyword,
+instead giving the error Could Not Find Host.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">When Communicator updates
+a page, either through the Reload button or a meta tag, it checks for changes
+in HTML descriptions, but doesn't check check for changes within individual
+elements on the page. Because the HTML description of an image can remain
+the same even after the content of the image is updated, there may be applications,
+such as a webcam, for which you want to "force" an update.</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To force the update
+of individual elements on a page, you can use meta tags:</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;META HTTP-EQUIV="Pragma" CONTENT="no-cache"></FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;META HTTP-EQUIV="Refresh" CONTENT="60"></FONT></FONT>
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">By default, when saving
+from an FTP server in Navigator, Communicator saves binary files as HTML
+files.</FONT></FONT></LI>
+</UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>International</FONT></FONT></FONT></B>
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Windows systems:
+To print the Euro currency symbol, see:</FONT></FONT></LI>
+
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><A HREF="http://www.microsoft.com/windows/euro.asp#printing">http://www.microsoft.com/windows/euro.asp#printing</A></FONT></FONT></UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Previous Windows versions
+of Communicator had a problem sending the Accept-Language HTTP header to
+servers. This problem occurred if you used the Preferences command to add
+choices to the default language selection. This problem is corrected with
+Communicator 4.5. If you create a new profile to use in the 4.5 release,
+you don't need to do anything else to remedy the problem.</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are using
+a profile created in a previous version of Communicator, you need to overwrite
+the old preference settings with the correct ones. To correct the preference
+settings, from the Edit menu, choose Preferences. Under the Navigator category,
+select Languages. Either confirm that all the selections in the right pane
+are correct, or delete and re-enter them. Click OK.</FONT></FONT>
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you have address
+books that you created using Communicator 4.5PR1 or 4.5PR2, you may wish
+to re-import them to ensure that Communicator sorts correctly based on
+your system locale. To re-import your address books, create a new address
+book in the address book window. Select the new address book, then open
+the File menu and choose Import. Enter the file name of your address book,
+which you can look up in your preferences file under the heading ldap_2.servers.pab.filename.</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Another way to re-import
+your address book is to create a new address book and then drag all of
+the entries from your old address book to your new address book in the
+address book window. Then delete your old address book.</FONT></FONT></UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">When using the User
+Profile Manager to create a new profile, some Japanese characters that
+you enter in the Profile Name field of the "Choose a Name and Directory
+for Your Profile" dialog don't appear correctly in the directory. To correct
+the directory entry, delete the directory name and manually type the correct
+Japanese characters.</FONT></FONT></LI>
+</UL>
+
+<H3>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Windows</FONT></FONT></FONT></H3>
+
+<UL><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Windows NT systems,
+to prevent a "system32" Windows Explorer window from appearing when Windows
+starts up:</FONT></FONT></UL>
+
+<UL><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">1) Launch the Windows
+Registry Editor (regedit.exe)</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">2) Open this registry
+key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">3) If the (Default)
+Name variable has a value of "" (an empty string), delete the Name variable.&nbsp;
+After the deletion, the value for (Default) should be "(value not set)".</FONT></FONT>
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you upgrade from
+Navigator 3.0 to Communicator 4.5, follow these steps to preserve your
+existing bookmarks and address book:</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">After you launch
+Communicator 4.5 for the first time, when the Upgrade Navigator Settings
+window appears, select "Copy my existing user files to the new profile
+directory."&nbsp; (If you select the default, "Move my existing user files
+to the new profile directory", your bookmarks and address book sometimes
+don't transfer correctly.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you've already
+upgraded and cannot access your bookmarks and address book from Communicator
+4.5, you can copy the files bookmark.htm and address.htm from your Navigator
+directory, usually c:\Program Files\Netscape\Navigator, to your profile
+directory, usually c:\Program Files\Netscape\Users\default.)</FONT></FONT></UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Messenger sometimes
+quits when new folders are subscribed to with SSL. This problem apparently
+occurs only when you automatically subscribe to all your folders on the
+server. To avoid it, manually choose the folders to which you wish to subscribe.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are downloading
+a large file and you click Cancel, Communicator may quit.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you send an email
+message and attach a web page that contains frames, the recipient will
+receive the message, but with a blank attachment.</FONT></FONT></LI>
+</UL>
+
+<H1>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Palm-Compatible
+Synchronization Tools (Windows Only)</FONT></FONT></FONT></H1>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Back-up your Palm-compatible
+address book before using Address Book synchronization.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">These are issues to
+be aware of when you synchronize the Palm address book with the Netscape
+Address Book:</FONT></FONT></LI>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If there are multiple
+lines in Palm fields (not including address and notes) Communicator converts
+those entries to a single line separated by commas.</FONT></FONT></LI>
+
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Communicator does not
+automatically synchronize Palm custom fields. For more information on how
+to map fields between Palm and the Netscape address book fields, see the
+Palm Synchronization Read Me.</FONT></FONT></LI>
+
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To synchronize with
+a directory that is synchronized offline, set Communicator to Offline.</FONT></FONT></LI>
+
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To work with mail synchronization,
+we recommend that you send mail from Palm.</FONT></FONT></LI>
+</UL>
+</UL>
+
+<H3>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Mac
+OS</FONT></FONT></FONT></B></H3>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To optimize plug-in
+loading time, move any Read Me files that may be installed in the plug-ins
+folder to another folder on your hard disk.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">When uploading a file
+using ftp, Communicator only sends the data fork of the file. If you want
+to upload a Macintosh file that has a resource fork, convert the file to
+BinHex or MacBinary first.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Folders aliases are
+not supported. You can drag a folder to an ftp directory window for upload
+but only aliases to files are resolved before they are uploaded.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">When dragging a folder
+to upload, the directory hierarchy of the folder is not maintained. All
+files contained in the dragged folder, even those in sub-folders, are uploaded
+to the directory you are logged into.</FONT></FONT></LI>
+
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Older versions of Norton
+CrashGuard are incompatible with Communicator 4.5 and may cause your system
+may "hang" or "quit."</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are using Mac
+OS 8.1: You may have problems with some text files if you start Communicator
+using Easy Open. To avoid these problems, when the Easy Open dialog appears,
+do not make a selection, and cancel the dialog box.&nbsp; Open the MacOS
+Easy Open control panel.&nbsp; Uncheck the option "Translate 'TEXT' documents".&nbsp;
+Close the Control Panel. You can then select your signature file.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you see errors or
+problems while running a plug-in, quit Communicator. Then click the Netscape
+Communicator icon on the desktop. From the File menu, choose Get Info,
+then increase the number in the Preferred Size field by 1024.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you use the Real
+Player 5.0 Player and its plug-in software that comes with Communicator
+4.5, be sure to keep the Communicator memory setting at or above the default
+preferred size: 8192K with virtual memory turned on. Reducing this memory
+setting may cause your system to quit when you use Real Player. For more
+information, see the Real Player site and documentation regarding recommended
+memory requirements.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you have Adobe Type
+Manager installed, Communicator sometimes quits after you use the Font
+Preferences panel or pop-up menus on some systems.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Versions of Speed Doubler
+up to and including 1.0.1 are incompatible with Navigator and Communicator.
+Some disk cache operations may cause b-tree corruption on your hard drive.
+To correct this problem, download the latest version of Speed Doubler from
+the Connectix site: <A HREF="http://www.connectix.com">http://www.connectix.com</A></FONT></FONT></LI>
+
+<BR>&nbsp;</UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Java
+and JavaScript</FONT></FONT></FONT></B>
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">JavaScript 1.3 contains
+an ECMA-compliant fix regarding assignments such that if (a=b) is no longer
+interpreted as if (a==b). You can update the code or, if you want the old
+behavior, specify &lt;SCRIPT language="JavaScript1.2">.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you use an applet
+that uses RMI callbacks, you must call netscape.security.PrivilegeManager.enablePrivilege("UniversalConnect")
+before your first call into the RMI runtime.</FONT></FONT></LI>
+</UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Unix</FONT></FONT></FONT></B>
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Netscape has recently
+been alerted to a security vulnerability that affects the Netscape Navigator
+browser software. The MIME Type Buffer Overflow Vulnerability affects the
+Unix versions of Netscape Communicator 4.5 (note: Windows and Macintosh
+are NOT affected). Although Netscape has verified this bug, no customer
+incidents of lost or stolen data have been reported to Netscape. For more
+information and updates, see the <A HREF="http://home.netscape.com/products/security/resources/bugs/mimebufferoverflow.html">MIME
+Type Buffer Overflow Vulnerability</A> page.</FONT></FONT></LI>
+
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you register a mime
+handler for 'application/x-javascript,' errors occur when you attempt to
+display pages that have that mimetype. For example, if you use the Navigator
+Applications preference to add a new mimetype for 'application/x-javascript,'
+then choose Save To Disk, a core dump error occurs when you display pages
+containing that mimetype.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">The Linux 2.0 version
+of Communicator is linked against libc 5.4.22, libm 5.0.8, and XFree86
+3.2.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">The Linux 2.0 glibc
+version of Communicator is linked against glibc 2.0.7 and XFree86 3.3.1</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">The glibc library distributed
+with RedHat SparcLinux has a pagesize bug that prevents Communicator from
+starting. To run Communicator 4.5, you need to upgrade to the glibc-2.0.7-25
+or higher RPM. This upgrade may require that you upgrade other RPMs as
+well.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If this is the very
+first time you've run any version of Communicator on your system, start
+Communicator, then exit, then start Communicator again before you use Messenger
+to access your mail. If you attempt to use Messenger the very first time
+you run Communicator, it may quit with an "Illegal instruction" message.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are using IMAP
+mail and would like your Sent, Templates, or Drafts folders to be located
+on your IMAP server, first create the folder on the server, then use Communicator
+Preferences to specify that you want Sent, Templates, or Drafts folders
+to be kept on the IMAP server.</FONT></FONT></LI>
+
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To copy messages from
+one IMAP server to another, use the File toolbar button. You cannot drag
+and drop of messages from one IMAP server to another.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you delete your only
+IMAP server and then add a POP server, Communicator may quit.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Help content does not
+appear on AIX systems.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">In the Help window:</FONT></FONT></LI>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">The Contents window
+links in the left pane don't work, but those in the right pane do, and
+the scroll bar for the right pane also functions properly.</FONT></FONT></LI>
+
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If the progress bar
+within the Contents window doesn't stop, you can still click the links
+in the right window to display topics. To stop the progress bar activity,
+you can close and then re-open Help.</FONT></FONT></LI>
+
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">The Index "look for:"
+field is small and it might be difficult to read, however when you type
+a word and press Enter, matching topics do appear. You can also scroll
+through the index entries.</FONT></FONT></LI>
+</UL>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you receive Motif
+warnings that appear as dialog boxes, you can send those warnings to the
+command line instead by adding these lines to the file ~/.Xresources:</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Netscape*useStdoutDialog:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+False</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Netscape*useStderrDialog:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+False</FONT></FONT>
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">You should set the CLASSPATH
+environment variable only if you need to install special Java files in
+Communicator. Communicator uses CLASSPATH&nbsp; to find local .class files.
+If CLASSPATH is set in the user's environment, only the .jar files and
+directories specified in the CLASSPATH are searched. If you set your CLASSPATH
+variable, you need to make sure that each .jar file in $MOZILLA_HOME/java/classes
+is listed individually in your CLASSPATH.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">A previous workaround
+for Unix systems, to avoid the freezing on startup of the edit or compose
+window, has been changed. If you previously set editor.disable_spell_checker
+in the preferences.js file, you can now implement the improved fix by deleting
+this line from the preferences.js file:</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">user_pref("editor.disable_spell_checker",
+true);</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Replace it with this
+line:</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">user_pref("editor.dont_lock_spell_files",
+true)</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">This preference setting
+prevents the spell checker from locking files over NFS, thereby preventing
+the window freezing problem.</FONT></FONT>
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">AIX systems: Some pages
+and windows may not display correctly the first time you run Communicator.
+Restarting Communicator corrects this problem.</FONT></FONT></LI>
+</UL>
+
+<UL>
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If Communicator exhibits
+consistent problems on pages containing Javascript, check your ~/.mailcap
+file, and remove this line if it is in that file:</FONT></FONT></LI>
+
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">application/x-javascript;;\</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;
+x-mozilla-flags=save</FONT></FONT>
+<BR>&nbsp;
+<LI>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">HP-UX systems: To export
+security certificates:</FONT></FONT></LI>
+
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">1. Enter the certificate
+password.</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">2. In the Filter
+field that appears in the File dialog box, delete the "*" (asterisk) and
+press Enter. The File Name field at the bottom of the dialog box now shows
+just the directory path, without the file name.</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">3. Enter the File
+Name and press OK to export the certificate.</FONT></FONT></UL>
+<B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><FONT SIZE=+1>Installing
+Digital Unix</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">This section applies
+if you are installing Communicator 4.5 on Digital Unix versions prior to
+4.0D. If you are running Digital Unix versions prior to 4.0D, you need
+to install the shared C++ libraries against which Communicator 4.5 was
+built.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Systems running DIGITAL
+UNIX Version 4.0D and higher already have&nbsp; /usr/shlib/libcxx.so, which
+contains the support needed for DIGITAL C++ Version 6.1, so it's not necessary
+to install any additional C++ libraries on systems running 4.0D and higher.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Communicator 4.5
+was built against C++ shared libraries that you need to install from this
+location:</FONT></FONT>
+<BLOCKQUOTE><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000"><A HREF="ftp://ftp.digital.com/archive/private/netscape/CXXREDIST600V01.tar">ftp://ftp.digital.com/archive/private/netscape/CXXREDIST600V01.tar</A></FONT></FONT></BLOCKQUOTE>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you don't install
+the C++ shared libraries before installing Communicator 4.5, errors of
+this kind will appear during Communicator installation:</FONT></FONT>
+<UL><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;% netscape</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp; netscape:
+/sbin/loader: Error: unresolvable symbol in netscape:</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+__cxx_exception_caught</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp; netscape:
+/sbin/loader: Error: unresolvable symbol in netscape:</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+__cxx_handler_exit__X4need3new8libcxxso</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp; netscape:
+/sbin/loader: Error: unresolvable symbol in netscape:</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+__cxx_v60_dispatch__X4need3new8libcxxso</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp; netscape:
+/sbin/loader: Fatal Error: this executable has unresolvable symbols</FONT></FONT></UL>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">To install the C++ shared
+libraries:</FONT></FONT>
+<BLOCKQUOTE><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">1. Check
+which CXX subsets are installed:</FONT></FONT></BLOCKQUOTE>
+
+<UL><FONT COLOR="#000000"><FONT FACE="Arial,Helvetica">&nbsp;&nbsp; </FONT><TT>setld
+-i | grep CXX | grep installed</TT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If subset CXXLIB601
+or CXXREDIST601 is installed, there is no need to install from CXXREDIST600V01.tar.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">2. Untar the file:</FONT></FONT>
+
+<P><FONT COLOR="#000000"><FONT FACE="Arial,Helvetica">&nbsp;&nbsp; </FONT><TT>tar
+xvf CXXREDIST600V01.tar</TT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">This creates a setld
+kit for installing libcxx.so in directory CXXREDIST600.kit.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">3. Log in as superuser.</FONT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">4. Install by entering
+this command and selecting the subset displayed:</FONT></FONT>
+
+<P><FONT COLOR="#000000"><FONT FACE="Arial,Helvetica">&nbsp;&nbsp; </FONT><TT>/usr/sbin/setld
+-l CXXREDIST600.kit</TT></FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">5. Users running
+DIGITAL UNIX prior to 4.0D need to enter this in their .cshrc file or shells:</FONT></FONT>
+
+<P><TT><FONT COLOR="#000000">&nbsp; setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/usr/lib/cmplrs/cxx</FONT></TT></UL>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">For Digital Unix versions
+prior to V4.0D, the libcxx subset and the redistribution subset both install
+/usr/lib/cmplrs/cxx/libcxx.so to avoid overwriting the version of libcxx.so
+installed by the operating system (/usr/shlib/libcxx.so). When linking,
+the compiler pass -rpath /usr/lib/cmplrs/cxx -L/usr/lib/cmplrs/cxx to ld.
+This causes ld to search /usr/lib/cmplrs/cxx before searching the system
+libraries, and the loader to search for libraries in that directory when
+loading code for execution. If you specify -rpath explicitly, you need
+to make sure to specify /usr/lib/cmplrs/cxx in the path string in addition
+to any other directories that you want searched.</FONT></FONT>
+<BR>&nbsp;
+<H3>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Using the Quality Feedback
+Agent with Automatic Proxy Configuration</FONT></FONT></H3>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">If you are using automatic
+proxy configuration, and you want to use the Full Circle Talkback Quality
+Feedback Agent to send incident reports to Netscape, you need to replace
+the talkback.ini file with one that contains the appropriate proxy configuration
+information:</FONT></FONT>
+<BLOCKQUOTE><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">1.&nbsp;
+If you are using an HTTP proxy, or both an HTTP and SOCKS proxy, create
+a file named talkback.ini, containing&nbsp; these three lines, using your
+proxy host name, domain, and port:</FONT></FONT>
+<BLOCKQUOTE><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">UseUserHTTPProxyInfo=1</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">UserHTTPProxyHost="<I>yourproxy.yourdomain.com</I>"
+UserHTTPProxyPort=<I>xxxx</I></FONT></FONT></BLOCKQUOTE>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">&nbsp;&nbsp; If you
+are using a SOCKS Proxy, create a file with these three lines:</FONT></FONT>
+<BLOCKQUOTE><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">UseUserSOCKSInfo=1</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">UserSOCKSHost="<I>yourproxy.yourdomain.com</I>"</FONT></FONT>
+<BR><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">UserSOCKSPort=<I>xxxx</I></FONT></FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<UL><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">2. Replace the existing
+talkback.ini file with the version you created.</FONT></FONT>
+<UL>&nbsp;</UL>
+<FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Windows 95 and Windows
+NT systems, copy the talkback.ini file to this location, in the directory
+containing Netscape.exe:</FONT></FONT>
+
+<P><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">\Fullsoft\data\talkback.ini</FONT></FONT></B>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Mac OS systems,
+copy the talkback.ini file to this location in the System Folder:</FONT></FONT>
+
+<P><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">Preferences:Full
+Circle:Prefs:Netscape:Communicator4.5:98<I>xxx</I>:Talkback.ini</FONT></FONT></B>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">("98<I>xxx</I>" refers to a folder name that can vary. To find out the name of this folder for the version of Communicator that you are using, choose About Communicator from the Help menu. The actual name of the 98<I>xxx</I> folder appears in the title at the top of the window.)</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">On Unix systems,
+copy the talkback.ini file in to this location:</FONT></FONT>
+
+<P><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">$HOME/.fullcircle/Netscape/Communicator4.5/98<I>xxx</I>/Talkback.ini</FONT></FONT></B>
+
+<P><FONT FACE="Arial,Helvetica"><FONT COLOR="#000000">("98<I>xxx</I>" refers to a directory name that can vary. To find out the name of this directory for the version of Communicator that you are using, choose About Communicator from the Help menu. The actual name of the 98<I>xxx</I> directory appears in the title at the top of the window.)</FONT>
+</UL>
+
+</BODY>
+</HTML>

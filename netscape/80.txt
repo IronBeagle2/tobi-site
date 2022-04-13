@@ -1,0 +1,89 @@
+  <h2>Release Notes</h2>
+</div>
+<h1><b>The Netscape Browser, 8.0</b></h1>
+<i>Version 8.0 - based on Firefox</i><br>
+<div class=vs1x>&nbsp;</div>
+Visit the security center on <a href=http://browser.netscape.com>http://browser.netscape.com</a> for detailed security fixes included beyond what Firefox 1.0 addresses.
+<div class=vs1x>&nbsp;</div>
+
+<div class=text14><b><i>Downloading and Installing</i></b></div>
+<div class=vs6>&nbsp;</div>
+<b>System Requirements</b><br>
+<div class=vs6>&nbsp;</div>
+Before installing, make sure your computer meets these system requirements:<br>
+<div class=vs6>&nbsp;</div>
+    <div class=padl20>
+    <b>Operating System:</b><br>
+    Windows XP<br>
+    Windows 2000<br>
+    Windows 98 SE, ME <br>
+<div class=vs6>&nbsp;</div>
+    <b>Hardware Requirements:</b><br>
+    233 MHz processor<br>
+    64 MB RAM<br>
+    35 MB hard drive space<br>  
+<div class=vs6>&nbsp;</div>
+    <b>Other:</b><br>
+    Internet Explorer 6.0 (If using the Trident rendering engine)<br>
+<div class=vs6>&nbsp;</div>
+    <b>Recommended Configuration:</b><br>
+    1 GHz processor<br>
+    256 MB RAM<br>
+    </div>
+<div class=vs1x>&nbsp;</div>
+
+<b>Downloading Netscape Browser</b><br>
+<div class=vs6>&nbsp;</div>
+The Netscape Browser, 8.0 is available to the public at http://browser.netscape.com.
+<div class=vs1x>&nbsp;</div>
+<b>Installing Netscape Browser</b><br>
+<div class=vs6>&nbsp;</div>
+Once you have downloaded the Netscape Browser installer, follow these instructions to install:<br>
+<div class=vs6>&nbsp;</div>
+<div class=padl20>
+<b>Windows</b><br>
+Double click nsb-setup.exe to start the install.
+</div>
+
+<div class=vs1x>&nbsp;</div>
+<b>Uninstalling Netscape Browser</b><br>
+<div class=vs6>&nbsp;</div>
+<div class=vs6>&nbsp;</div>
+To uninstall Netscape Browser, follow these instructions:<br>
+<div class=vs6>&nbsp;</div>
+<div class=padl20>
+<b>Windows</b><br>
+Use the uninstaller provided by going to Start->Programs->Netscape Browser. 
+</div>
+<div class=vs1x>&nbsp;</div>
+<b>Profile Folder</b><br>
+<div class=vs6>&nbsp;</div>
+Netscape Browser stores your user data in one of the following locations:
+<div class=vs6>&nbsp;</div>
+<table width=400 border="1" cellspacing="0" cellpadding="0">
+<tr>
+<td valign=top width=120><div class=text12>Windows 2000, XP</div></td>
+<td valign=top><div class=text12>Documents and Settings\&#60;UserName&#62;\Application Data\Netscape\NSB</div></td>
+</tr>
+<tr>
+<td valign=top><div class=text12>Windows 98, ME</div></td>
+<td valign=top><div class=text12>Windows\Application Data\Netscape\NSB</div></td>
+</tr>
+</table>
+	
+	
+<div class=vs1x>&nbsp;</div>
+<div class=text14><b><i>Known Issues</i></b></div>
+<div class=vs6>&nbsp;</div>
+1.  There are a few known inconsistencies with browser history when changing between rendering engines.
+<div class=vs6>&nbsp;</div>
+2.  When changes are made to the Trust Preferences tab of Site Control Options ''Always use this setting as default'' is always active even if not selected.
+<div class=vs6>&nbsp;</div>
+3.	The Javascript property navigator.useragent will return an Internet Explorer user agent string and not the Netscape Browser 8.0 string when in Internet Explorer mode.
+<div class=vs6>&nbsp;</div>
+4.	When changing the rendering engine from Firefox to Internet Explorer, ''Netscape/8.0'' is sometimes missing from the user agent string.
+<div class=vs6>&nbsp;</div>
+5.	In Internet Explorer mode, the stop/reload button doesn't always display the appropriate state but it will function properly.
+<br>
+&copy;&nbsp;2005&nbsp;Netscape Communications Corp. All rights reserved.<br>
+<br>
