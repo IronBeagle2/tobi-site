@@ -1,0 +1,11 @@
+1995-02-04 - MS Sans Serif
+2001-10-25 - Trebuchet MS
+2006-03-23 - Eras Demi ITC
+2007-03-27 - Comic Sans
+2009-10-15 - Arial
+2011-03-23 - Arial Bold
+2014-11-04 - Source Sans Bold
+2015-02-23 - Source Sans
+2019-12-11 - Noto Sans CJK
+2019-12-12 - Source Sans
+2020-01-23 - Noto Sans CJK
