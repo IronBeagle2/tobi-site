@@ -1,19 +1,13 @@
 SONIC3D
-04_eps.jpg
+04_eps.jpg (displays correctly but preview broken)
 
 SONICJAM
 jamop.gif (?)
 
 SONICADV
-chao/img/chaoshot1009.jpg - not fixed, but better than it used to be. thanks travis!
 info/img0716/foruma0.gif (?)
-info/img1225/HATSU01.jpg
 info/sndfile/theme0817.mp3 (?)
-snd/graphic/top_lyrc.jpg
-snd/graphic/top_snd.jpg
-
-SONICADV2
-mov/adv2_trailer_sample.mpg
+snd/graphic/top_lyrc.jpg (preview displays correctly, actual image about 78% broken)
 
 MINITOY
 swf/04clock_win.zip
