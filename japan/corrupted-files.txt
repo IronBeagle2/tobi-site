@@ -6,8 +6,8 @@ jamop.gif (?)
 
 SONICADV
 info/img0716/foruma0.gif (?)
-info/sndfile/theme0817.mp3 (?)
-snd/graphic/top_lyrc.jpg (preview displays correctly, actual image about 78% broken)
+info/sndfile/theme0817.mp3 (has data, but clips)
+snd/graphic/top_lyrc.jpg (update as of december 7th, 2022: image is almost fully restored, thanks Travis and Filter!)
 
 MINITOY
 swf/04clock_win.zip
