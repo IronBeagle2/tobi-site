@@ -1,0 +1,45 @@
+act1.gif - New Action: Boost
+act2.gif - New Action: Trick Action
+bst1.gif - Dash
+bst2.gif - Boost
+bst3.gif - Boost Action!
+btn00.gif - New!
+btn00a.gif - What's Sonic Advance 2?
+btn00b.gif - What's Sonic Advance 2?
+btn01a.gif - New Characters: Cream & Cheese
+btn01b.gif - New Characters: Cream & Cheese
+btn02a.gif - Actions
+btn02b.gif - Actions
+btn03a.gif - Special Stage Opening
+btn03b.gif - Special Stage Opening
+btn04a.gif - Hidden Features
+btn04b.gif - Hidden Features
+btn05a.gif - Downloads
+btn05b.gif - Downloads
+cleam_act.gif - Introducing Cream's Actions
+logo_s2.gif
+s_megacolle_banner.gif
+s_sonicgba_banner.gif
+s_sonicgba2_banner.gif
+s_sonicgc_banner.gif
+sec0.gif - Tiny Chao Garden
+sec2_0.gif - Sound Test
+sec3_0.gif - Extra Zone: True Area 53
+sec4.gif - Boss Battles in Time Attack
+sec5.gif - Play as Amy
+secbtn01.gif - 1
+secbtn02.gif - 2
+secbtn03.gif - 3
+secbtn04.gif - 4
+secbtn05.gif - 5
+sonicadvance3_banner.gif
+text.gif - New Character: Cream
+title1.gif
+title2.gif
+title3.gif
+title4.gif
+ttl_action.gif - Actions
+ttl_cream.gif - Cream & Cheese
+ttl_dl.gif - Downloads
+ttl_sclt.gif - Secret Features
+ttl_special.gif - Special Stage Opening
