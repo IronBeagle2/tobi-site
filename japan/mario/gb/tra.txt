@@ -1,0 +1,48 @@
+TETRIS
+September 28th, 1990
+ACTION PUZZLE
+
+
+What's Tetris?
+
+Everyone knows this game. So, do you know the origin of the name? Actually, it comes from the number 4, tetra. The name comes from the fact that the game's pieces are blocks made up of "four" squares. The charm of Game Boy Tetris lies in the battle aspect of the game. You can attack your opponent at your own peril, or you can steadily erase your own line of blocks. You can play while reading the types of blocks and the character of your opponents. You can set up a handicap to enjoy the game even with opponents who have different techniques.
+
+
+1-Player Game
+
+A-TYPE GAME
+
+This is an endurance type Tetris game. The game is played by erasing as many lines as possible and competing for the points obtained by erasing as many lines as possible.
+
+B-TYPE GAME
+
+The goal is to erase 25 lines, and the score is settled when all 25 lines have been erased.
+
+When you clear LEVEL 9 of a B-TYPE game, you will see fun music and a screen. This changes depending on the HIGH value.
+In addition, if you clear LEVEL 9 and HIGH 5, you will receive a .........
+Enjoy!
+
+BLOCK TYPES
+
+Tetris is composed of seven types of blocks.
+
+If you fit a block horizontally without gaps, the block on that horizontal line will disappear and you will score points. As you progress, you will be able to erase two (double), three (triple), and four (Tetris) tiers. Blocks can slide sideways until you hear them land. Turn a pinch into an opportunity by connecting the blocks well.
+
+
+Competitive 2-Player Game
+
+ABOUT THE ATTACK
+
+Originally, Tetris was a game of seeing how long you could withstand the blocks sent by the computer, but this competitive version adds the thrill of being able to attack your opponent. Simultaneous erasing of lines will push up the opponent's blocks.
+
+2 rows erased = 1 row pushed up
+3 rows erased = 2 rows pushed up
+4 rows erased = 4 rows pushed up
+
+ABOUT VICTORY AND DEFEAT
+
+The winner is the first to eliminate 30 lines or the first to push the opponent's block up the field wins one game. The winner is the one who takes four games first.
+
+ABOUT HANDICAPS
+
+Handicaps can be set up to allow for heated play even with opponents who have differences in technique. Handicapping reduces the difference in technique between you and your opponent by setting several obstacles (HIGH) on the field before the game begins.

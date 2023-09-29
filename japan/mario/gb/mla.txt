@@ -1,0 +1,81 @@
+SUPER MARIO LAND
+September 28th, 1990
+ACTION
+
+The peaceful Sarasaland has been conquered by the alien Tatanga. Princess Daisy is in danger! Mario's adventure has begun to save the princess and restore peace. Strong enemies await on the way. Hang in there, Mario! Go Mario!
+
+
+Story
+
+Once upon a time, there was a peaceful world called Sarasaland, consisting of four kingdoms: the Kingdom of Birabuto, the Kingdom of Muda, the Kingdom of Easton, and the Kingdom of Chai. One day, the sky over Sarasaland was covered with black clouds. Then, out of the clouds, Tatanga, an unidentified space monster, appeared out of nowhere with a plan to conquer Sarasaland. Tatanga put the inhabitants of the kingdoms under cosmic hypnosis, manipulated them to do his bidding, and took over Sarasaland. He also said that the Pac-N-Flower would soon steal Princess Daisy of Sarasaland and make her his consort. Upon learning this, Mario sets off for the Kingdom of Chai, where Princess Daisy is being held captive, in order to restore peace to Sarasaland. Will Mario be able to defeat Tatanga, free everyone from the cosmic hypnosis, and rescue Princess Daisy? Everything depends on Mario and your skill. Hang in there, Mario! Go Mario!
+
+
+How to play the game
+
+This game is a right direction scrolling action game. Mario adventures through the Sarasaland, which consists of four kingdoms: the Kingdom of Birabuto, the Kingdom of Muda, the Kingdom of Easton, and the Kingdom of Chai. Each world is divided into three areas, with the third area containing the world boss. Each area must be passed within a set time. Mario must run and jump as fast as he can through the worlds where various powerful enemies await him, and he must ride submarines and airplanes to reach the Chai Kingdom, where Princess Daisy is being held captive.
+
+World 1 - The Kingdom of Birabuto / World 2 - The Kingdom of Muda
+World 3 - Kingdom of Easton / World 4 - Kingdom of Chai
+Area 3 in World 2 and Area 3 in World 4 are auto-scrolling shooters.
+Step on the switch in front of the gate behind the boss in each world to open the gate and advance to the next world.
+
+
+Characters
+
+Princess Daisy - A bit of a tomboy, a princess full of energy.
+Marine Pop (submarine) - A torpedo-equipped submarine that runs freely in the water with Mario on board.
+Reversed Piranha Plant / 400PTS - Piranha Plant coming out of the top. Be careful not to get bitten on the head.
+Bombshell Koopa / 100PTS - A turtle carrying a bomb on its back. It explodes after it swings, so be careful to avoid it.
+Pompon Flower / 800PTS - While walking, pompon poison pollen is released.
+Sky Pop (airplane) - In the sky, there is no place to go but up. Mario's pride and joy: his airplane.
+Tokotoko / 400PTS - A stone statue running toward you, waving cheerfully.
+Piranha Plant / 400PTS - Piranha Plant coming out of the top. Be careful not to get bitten on the head.
+Kumo / 400PTS - Spider-like creatures that attacks you while jumping around.
+Goombo / 100PTS - A timid mushroom that walks a bit on the ground.
+Batadon / 800PTS - A winged stone statue flies and tries to crush Mario.
+Nyororin / 800PTS - He is timid and refuses to move, but when he finds Mario, he blows a ball of poison at him.
+Mekapon / 800PTS - A robot that attacks Mario by flying its head. You can't kill it by stepping on its flying head.
+Suu / 400PTS - Already in the cave, Mario approaches and noiselessly descends from above.
+Torion / 100PTS - Man-eating fish that always swim in groups of three. Can be killed with a single torpedo shot.
+Gao / 800 PTS - He stays still because of his heavy body, but he spits fireballs at Mario.
+Ganchan - Rocks suddenly fall from the sky. It is a big problem if you are crushed by it, but you can get on top of it and move around. You can't beat them.
+Honen / 100PTS - Torion after being eaten by Tatanga? He pops right up out of the water. Superballs don't work.
+King Totomesu / 5000 PTS - The boss of the Birabuto Kingdom. He jumps up and down and spits fire. It cannot be defeated by stepping on it, but it can be defeated with 5 Super Balls.
+Hiyoihoi / 5000 PTS - The boss of Easton Kingdom. An evolved version of Tokotoko. He throws Ganchan, so don't get crushed. You can't defeat it by stepping on it, but you can with 10 Super Balls.
+Yurarin / 400PTS - It is a servant of Dragonzamasu and swims around in the water. It can be defeated with two torpedoes.
+Gunion / 800PTS - It just bobs up and down in the water, but be careful, because if you fire two torpedoes at it, it will split in two and attack you.
+Yurarin Boo / 400 PTS - He is Yurarin's brother and spits fireballs while moving up and down. He does not play the spar ball.
+Tamao - An immortal life form that is in the room of Dragonzamasu and protects the boss.
+Fly / 400PTS - A blood-sucking fly bites Mario while flapping around. You can kill it by stepping on it.
+Boom Boom / 800 PTS - They drop arrows while flying through the air.
+Dragonzamasu / 5000 PTS - The boss of the Muda Kingdom. Protected by a Tamao, he breathes fire while going up and down. He can be defeated with 20 torpedoes.
+Bullet Biff / 400PTS - A missile shot straight out from the launch pad. Can be stepped off from above.
+Pionpi / 800PTS - It persistently comes at Mario while jumping. He will come back to life even if you step on him or not. You can defeat it with a spar ball.
+Roketon / 400PTS - Attack aircraft with Tatanga's guards on board. It shoots bullets toward the Sky Pop. It can be defeated with a single missile.
+Chicken / 400PTS - Tatanga's fighting tori. It comes flying in a serpentine motion. It can be defeated with a single missile.
+Chikako / 800PTS - An object floating in the air with a flickering light. It has a barrier around its body, so you have to fire 10 missiles to defeat it.
+Space Monster Tatanga / 5000 PTS - An unidentified space monster suddenly appears from beyond the universe. It rides a battle robot, Pagosu, and attacks with a diffusion wave motion gun.
+Blokinton / 5000 PTS - The boss of the Chai Kingdom. He is shy and always hides in the clouds, so no one has ever seen him. Now, it has been taken over as a nest of ticking. He can be defeated with 20 missiles.
+
+
+Super Mario Land Maruhi Information
+
+When you are one block away from the game button, hold down the (B) button while running to avoid falling.
+
+There are treasure rooms hidden under the clay pipes in various places. Get on top of the clay pipe and put the cross button down to see.
+
+Try an empty space. Coins come out from unexpected places, blocks appear, and secrets abound.
+
+Defeating enemies in succession will result in a high score.
+
+Each coin is worth 100 points. When you collect 100 of these coins, you not only score points, but also one more Mario.
+
+Each block is worth 50 points when broken. Let's try various places.
+
+In one world, secret tricks await Mario, such as a floor that falls when he rides on it and a floor of poisonous needles that kill him when he touches it.
+
+When you score 100,000 points or more, a continue indicator will appear on the title screen. To start from the beginning, move the cursor to the Continue display and press the Start button.
+
+After defeating Tatanga and successfully rescuing Princess Daisy, and pressing the button after the ending, the mushroom cursor on the title screen changes to a Mario cursor and a back world full of enemies begins.
+
+Press A, B, Start and Select buttons simultaneously to reset.

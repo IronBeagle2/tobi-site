@@ -1,0 +1,40 @@
+ALLEYWAY
+September 28th, 1990
+ACTION
+
+Simple but exciting!
+
+You know the block breaker. Control the paddle to hit the ball back and break the blocks. The controls are very simple. But it's fun! Can you clear the 32 stages and reach the ending?
+
+
+Strategy Techniques
+
+1. Make the paddle movement your own
++ Get a quick feel for how fast the paddle moves when you press the button.
+
+2. There is a pattern to the ball's movement
+When the ball hits a block or wall and bounces back, the angle is the same as when it hits. It is easier to operate the paddle if you anticipate this movement.
+
+3. Use the A and B buttons effectively
+The trick is to use the A and B buttons well once you are comfortable with the game. If you match the ball's movement with the speed of the paddle, you can bounce the ball back in the direction you aim.
+
+4. Operate buttons calmly
+The key is concentration and reflexes. Do not panic and operate the buttons calmly.
+
+
+Ultra Small Tip
+
+1. Snap the snaps.
+Move the paddle and twist at the moment it hits.
+
+2. Strike at the end of the paddle.
+Delay the timing of hitting the paddle slightly and hit at the edge of the paddle to change the angle.
+
+3. Paddle operation to change the direction of the ball.
+Manipulate the paddle in the opposite direction of the ball's movement to change the direction in which the ball is going.
+
+
+Game Screens
+After clearing each stage, the player advances to a different stage one after another, such as stage 2, where the blocks scroll, and stage 3, where the blocks move forward.
+
+In the bonus screen, the blocks are familiar characters. If all the blocks are broken in time, a special bonus is added.
