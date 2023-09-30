@@ -1,0 +1,90 @@
+DR. MARIO
+April 30th, 1991
+ACTION PUZZLE
+
+Fun that has taken the high road to the extreme! It is very addictive!
+
+In this busy world, new games are being released one after another, but when it comes to action puzzle games, it is very rare to find a new one that is just like this one!
+The most popular action puzzle game on the market is Dr. Mario.
+The controls are very easy, the rules are very easy, but the game is very deep and requires a lot of time and effort to master.
+You can play the puzzle game anywhere you feel like it, so why don't you give it a try?
+
+
+Rule Explanation
+
+The rules are simple. All you have to do is to eliminate all the viruses in the bottle! Drop a capsule while rotating it, and if four or more capsules of the same color as the virus are lined up vertically or horizontally, the capsule will disappear! The game is over when the capsule fills up to the top entrance of the bin.
+
+Example 1
+
+When four capsules of the same color are lined up vertically, those four capsules disappear. The capsules that are left over will fall to the bottom.
+
+Example 2
+
+When four capsules of the same color are placed next to each other, those four capsules will disappear. The capsules that are left over will fall to the bottom.
+
+Remember the capsule and the type of virus!
+
+6 types of capsules
+
+3 types of viruses
+
+
+2P Match
+
+Using a communication cable, you can enjoy a heated 2-player game! The first player to eliminate all the viruses as quickly as possible wins, and the first player to eliminate a chain of viruses can attack the opponent! It's very exciting!
+
+What you need:
+
+Game Boy units: 2 units
+
+Dr. Mario cartridges: 2
+
+Dedicated communication cable: 1 piece
+
+To win!
+
+Focus on attacking your opponent with chain elimination rather than trying to eliminate viruses as quickly as possible! Attack in succession to disrupt the pace of your opponent and play at your own pace, and victory will surely be yours!
+
+
+Hidden Chain Obliteration
+
+
+If you master Chain Erase, Dr. Mario will become even more fun! There are many ways to use Chain Erase, so be sure to master it!
+
+2 Chain
+
+A black and white capsule is dropped and a vertical line of black capsules is erased. The remaining white capsule is dropped, and a vertical line of white capsules disappear.
+
+3 Chain
+
+A black/gray capsule is dropped and a vertical row of gray capsules is erased. The remaining black capsule is dropped, and a vertical row of black capsules disappear. The remaining white capsule is dropped, and a white capsule disappears.
+
+4 Chain
+
+A white capsule is dropped and a horizontal row of white capsules disappear. The gray capsule on top is dropped, and a vertical row of gray capsules disappear. The remaining black capsule is dropped, and a vertical row of black capsules disappear. The last remaining white capsule is dropped, and a horizontal row of white capsules disappear.
+
+Let's master chain erasing!
+
+In addition to the above chain erase, there are many other ways to erase chains! If you make good use of vertical and horizontal erasing, it is possible to erase 5 or 6 chains! Let's try your hand at chain erasing!
+
+
+Bonus!
+
+This page is a bonus page. You don't have to know anything about it, but if you do, you may benefit a little! Read it if you have time!
+
+Questions:
+
+Q: I want to drop a capsule, but I can't find the same color! What do you do in such a case?
+
+A: There is no place to drop the black/gray capsule. Therefore, the capsule is shifted to the left and dropped as shown in the figure, and then slid to the right.
+
+Q: The upper left corner is stuck! Now what do I do?
+A: Since it is impossible to erase at the top, look for a place where it can be erased at the bottom. Rotate the white capsule to face vertically and insert it between the white viruses as shown in the figure. The vertical row of white capsules will disappear, and the black capsule on top will fall.
+
+Advice
+
+As the level goes up, there are viruses all the way to the top, so use a lot of horizontal erasing to capture them!
+
+Viruses tend to remain at both ends of the screen, so try to eliminate them in a balanced manner throughout!
+
+The A and B buttons turn in different directions, so be sure to use the A and B buttons depending on the situation!
